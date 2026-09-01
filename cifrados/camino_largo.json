@@ -1,0 +1,20 @@
+{
+  "id": "song_camino_largo_sample",
+  "title": "Camino Largo — Demo Integral",
+  "artist": "CifraViva Ensemble",
+  "content": "Camino Largo — Demo Integral\nCifraViva Ensemble\n\n*Intro*\nC - G/B . Am - F | C / G | Am . F\nC/E   D/F#   G - G/B\n\n*Verso 1*\nC               G/B\nCaminé sin rumbo bajo el sol\nAm              F\nBuscando sombras en mi voz\nC               G\nEl viento escribe mi canción\nAm              F          G\nY el tiempo cura con su perdón\n\n*Verso 2*\nC               G/B\nDesperté en calles sin final\nAm              Fmaj7\nCon acordes de un viejo bar\nC               G\nLa luna guarda mi secreto\nAm              F          Gsus4  G\nY el eco vuelve en tu recuerdo\n\n*Puente*\nAm7             D7\nPuente de sueños por cruzar\nF               G\nDejar el miedo atrás sin dudar\nEm              Am\nSusurros que me hacen despertar\n\n*Coro*\nC - G - Am - F | C - G - F - G\nC               G\nQuiero quedarme aquí a tu lado\nAm              F\nAunque el mundo gire equivocado\nC               G\nCantar las horas que han pasado\nAm              F          G\nY no soltar lo que hemos soñado\n\n*Outro*\nC  G/B  Am  F  |  C - G - C\nC   Fm   C\n*Salida*\nC  G  C",
+  "settings": {
+    "keyIdx": 7,
+    "transposeSemitones": 0,
+    "capoFret": 0,
+    "speed": 3,
+    "chordSize": 15,
+    "lyricSize": 15,
+    "twoColumns": false,
+    "colLeft": 50,
+    "colGap": 24,
+    "showDiagrams": true,
+    "showSections": true
+  },
+  "updatedAt": 1788215000000
+}

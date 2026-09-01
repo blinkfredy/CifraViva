@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CifraViva — Visor de Cifrados</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';</script>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand-wrapper" style="position:relative">
+    <div class="brand" id="btnLogoBrand" style="cursor:pointer" title="Abrir gestor de Setlists y Biblioteca">
+      <span class="logo">♯</span>
+      <span class="brand-name">CifraViva</span>
+      <span class="brand-sub">visor para vivo</span>
+      <span class="dropdown-arrow">▾</span>
+    </div>
+
+    <!-- Menú Desplegable Logo (Gestor de Setlists) -->
+    <div id="logoDropdownMenu" class="logo-dropdown hidden">
+      <div class="dropdown-head">
+        <div>
+          <h4 style="margin:0;font-size:.95rem">Biblioteca & Setlists</h4>
+          <span id="repoCountBadge" class="hint" style="font-size:.75rem">0 cifrados guardados</span>
+        </div>
+        <button id="btnNewSetlist" class="btn btn-mini btn-primary" style="font-size:.75rem">+ Nueva Setlist</button>
+      </div>
+
+      <div class="dropdown-section">
+        <label class="tool-label" style="margin:8px 0 4px">Setlist Activa</label>
+        <div style="display:flex;gap:6px;align-items:center">
+          <select id="setlistSelect" class="select" style="flex:1;font-size:.82rem;padding:4px 6px">
+            <option value="all">📚 Todos los Cifrados</option>
+          </select>
+          <button id="btnRenameSetlist" class="btn btn-mini btn-ghost hidden" title="Renombrar setlist">✏️</button>
+          <button id="btnDeleteSetlist" class="btn btn-mini btn-ghost hidden" style="color:#ff6b6b" title="Eliminar setlist">🗑️</button>
+        </div>
+      </div>
+
+      <div class="dropdown-section" style="margin-top:8px">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+          <span class="tool-label" style="margin:0">Canciones (<span id="setlistSongsCount">0</span>)</span>
+          <button id="btnManageSetlistSongs" class="btn btn-mini btn-ghost hidden" style="font-size:.72rem">➕ Gestionar canciones</button>
+        </div>
+        <div id="dropdownSongsList" class="dropdown-songs-list">
+          <p class="hint" style="text-align:center;padding:12px">No hay cifrados guardados</p>
+        </div>
+      </div>
+
+      <div class="dropdown-footer" style="margin-top:10px;display:flex;flex-direction:column;gap:4px">
+        <button id="btnQuickSaveSong" class="btn btn-mini btn-primary" style="width:100%;justify-content:center;background:#28a745;border-color:#28a745">💾 Guardar canción actual</button>
+        <button id="btnExportJSON" class="btn btn-mini btn-ghost" style="width:100%;justify-content:center" title="Descargar copia JSON de los cifrados">📤 Exportar Backup JSON</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="top-actions">
+    <div id="collapsibleActions" class="top-collapsible-actions">
+      <button id="btnNewSong" class="btn btn-primary" style="background:#007aff;border-color:#007aff" title="Crear o pegar un nuevo cifrado desde cero">➕ Nueva Canción</button>
+      <button id="btnSaveSong" class="btn btn-primary" style="background:#28a745;border-color:#28a745" title="Guardar canción actual en el repositorio local">💾 Guardar</button>
+      <label class="btn btn-ghost" title="Importar archivo JSON de cifrado desde tu equipo">
+        <input type="file" id="jsonInput" accept="application/json" hidden>
+        <span>📥 Importar JSON</span>
+      </label>
+      <label class="btn btn-primary">
+        <input type="file" id="pdfInput" accept="application/pdf" hidden>
+        <span>📄 Importar PDF</span>
+      </label>
+      <button id="btnEdit" class="btn btn-ghost">✏️ Editar</button>
+      <button id="btnSample" class="btn btn-ghost">Cargar ejemplo</button>
+    </div>
+    <button id="btnToggleOptions" class="btn btn-ghost" title="Ocultar/mostrar panel de opciones">🛠 Ocultar opciones</button>
+    <button id="btnFullscreen" class="btn btn-ghost" title="Vista óptima para vivo">⛶ Pantalla completa</button>
+  </div>
+</header>
+
+<!-- Toolbar controles -->
+<section class="toolbar">
+  <div class="tool-group" style="padding:10px 12px">
+    <label class="tool-label" style="margin-bottom:6px">Tonalidad</label>
+    <div class="tool-row" style="gap:6px">
+      <span class="badge" id="originalKey">—</span>
+      <span class="arrow">→</span>
+      <select id="keySelect" class="select" style="padding:4px 8px;font-size:.88rem">
+        <option value="0">C</option><option value="1">C# / Db</option><option value="2">D</option><option value="3">D# / Eb</option>
+        <option value="4">E</option><option value="5">F</option><option value="6">F# / Gb</option><option value="7">G</option>
+        <option value="8">G# / Ab</option><option value="9">A</option><option value="10">A# / Bb</option><option value="11">B</option>
+      </select>
+      <span id="transposeInfo" class="hint" style="font-size:.78rem"></span>
+    </div>
+    <div id="scaleBox" class="scale-box" style="margin-top:8px;padding:7px 8px;background:#0f0f12;border:1px solid var(--border);border-radius:8px">
+      <div style="display:flex;align-items:center;gap:8px">
+        <span style="font-size:13px;line-height:1">🎸</span>
+        <div id="scaleMain" class="scale-main" style="flex:1;font-size:.9rem;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">—</div>
+        <button id="btnToggleScale" class="btn btn-mini" title="Ampliar detalles" style="padding:2px 7px;line-height:1;font-size:13px;min-width:24px">▾</button>
+      </div>
+      <div id="scaleDetails" class="hidden" style="margin-top:8px">
+        <div id="scaleNotes" class="scale-notes"></div>
+        <div id="scalePentatonic" class="scale-pentatonic hint"></div>
+        <div id="scaleCircle" class="scale-circle"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tool-group">
+    <label class="tool-label">Capotraste (independiente)</label>
+    <div class="tool-row">
+      <button id="capoMinus" class="btn btn-mini">−</button>
+      <span class="capo-display">Traste <strong id="capoVal">0</strong></span>
+      <button id="capoPlus" class="btn btn-mini">+</button>
+      <input type="range" id="capoRange" min="0" max="12" value="0" class="range-mini">
+      <span id="capoBadge" class="capo-badge hidden">CAPO 0</span>
+    </div>
+    <p class="hint">No altera los cifrados mostrados</p>
+  </div>
+
+  <div class="tool-group autoscroll-group">
+    <label class="tool-label">Autoscroll</label>
+    <div class="tool-row">
+      <button id="btnPlay" class="btn btn-play">▶ Iniciar</button>
+      <button id="btnPause" class="btn btn-ghost hidden">⏸ Pausar</button>
+      <button id="btnTop" class="btn btn-ghost" title="Volver al inicio">⤒ Inicio</button>
+      <div class="speed-ctrl">
+        <span class="speed-icon" title="Lento">🐢</span>
+        <input type="range" id="speedRange" min="1" max="10" value="3" class="range">
+        <span class="speed-icon" title="Rápido">🐰</span>
+        <span id="speedVal" class="speed-num">3</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="tool-group">
+    <label class="tool-label">Visualización</label>
+    <div class="tool-row" style="gap:12px;flex-wrap:wrap">
+      <div style="display:flex;align-items:center;gap:6px"><span class="hint">Acordes</span><label class="switch"><input type="checkbox" id="toggleDiagrams" checked><span class="slider"></span></label></div>
+      <div style="display:flex;align-items:center;gap:6px"><span class="hint">Secciones</span><label class="switch"><input type="checkbox" id="toggleSections" checked><span class="slider"></span></label></div>
+      <div style="display:flex;align-items:center;gap:6px"><label class="switch"><input type="checkbox" id="toggleColumns"><span class="slider"></span></label><span class="hint">2 cols</span></div>
+    </div>
+    <div class="tool-row" style="gap:8px;margin-top:4px;flex-wrap:wrap">
+      <span class="hint" id="diagramCount">0 acordes</span><span class="hint">·</span><span class="hint" id="sectionsCount">0 secciones</span>
+    </div>
+    <div class="tool-row hidden" id="columnsSliders" style="margin-top:6px">
+      <span class="hint">Izq</span><input type="range" id="colLeftRange" min="30" max="70" value="50" class="range-mini" title="Ancho columna izquierda"><span id="colLeftVal" class="hint">50%</span>
+      <span class="hint">Gap</span><input type="range" id="colGapRange" min="12" max="48" value="24" class="range-mini" title="Espacio entre columnas"><span id="colGapVal" class="hint">24px</span>
+    </div>
+    <div class="tool-row" style="margin-top:8px;gap:8px;flex-wrap:wrap;border-top:1px dashed var(--border);padding-top:8px">
+      <span class="hint">Acordes</span><input type="range" id="chordSizeRange" min="12" max="28" value="15" class="range-mini" title="Tamaño acordes"><span id="chordSizeVal" class="hint">15px</span>
+      <span class="hint">Letra</span><input type="range" id="lyricSizeRange" min="12" max="28" value="15" class="range-mini" title="Tamaño letra"><span id="lyricSizeVal" class="hint">15px</span>
+    </div>
+  </div>
+
+  <div class="tool-group setlist-nav-group" id="setlistNavGroup">
+    <label class="tool-label">Navegación Setlist</label>
+    <div class="tool-row" style="gap:4px;justify-content:space-between">
+      <button id="btnSetlistPrev" class="btn btn-ghost btn-mini" title="Canción anterior">⏮ Ant</button>
+      <span id="setlistNavInfo" class="badge" style="font-size:.75rem;padding:4px 6px;max-width:110px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="Setlist activa">Sin Setlist</span>
+      <button id="btnSetlistNext" class="btn btn-ghost btn-mini" title="Canción siguiente">Sig ⏭</button>
+    </div>
+    <p class="hint" id="setlistNavCount" style="margin:4px 0 0;font-size:.74rem">0 / 0 canciones</p>
+  </div>
+</section>
+
+<main class="layout">
+  <!-- Área principal cifrado -->
+   <section class="sheet-area">
+     <div id="viewer" class="viewer">
+       <button id="btnExitFullscreen" class="btn btn-ghost hidden" style="position:absolute;top:10px;right:10px;z-index:5;background:rgba(0,0,0,.6);backdrop-filter:blur(6px)">✕ Salir</button>
+       <div id="emptyState" class="empty">
+         <div class="empty-icon">🎸</div>
+         <h2>Importa tu cifrado en PDF</h2>
+         <p>PDF con texto seleccionable. Los acordes se detectan automáticamente cuando están sobre la letra.</p>
+         <p class="hint">O prueba con el <button class="link" id="linkSample">cifrado de ejemplo</button></p>
+         <div class="future-note">
+           <strong>Arquitectura preparada para Google Drive API</strong><br>
+           Módulo <code>DriveAdapter</code> desacoplado (ver <code>app.js:DriveAdapter</code>). Solo conectar OAuth + picker.
+         </div>
+       </div>
+       <div id="songHeader" class="song-header hidden">
+         <h1 id="songTitle" class="song-title"></h1>
+         <p id="songArtist" class="song-artist"></p>
+       </div>
+       <div id="capoBanner" class="capo-banner hidden">
+         <span class="capo-banner-icon">📌</span>
+         <span class="capo-banner-text">CAPO TRASTE <strong id="capoBannerVal">0</strong></span>
+         <span class="capo-banner-hint">Coloca el capo antes de tocar</span>
+       </div>
+       <pre id="sheet" class="sheet hidden"></pre>
+       <div id="fullscreenControls" class="fullscreen-controls hidden">
+         <button id="fsPlay" class="btn btn-play">▶</button>
+         <button id="fsPause" class="btn btn-ghost hidden">⏸</button>
+         <button id="fsTop" class="btn btn-ghost">⤒</button>
+         <span class="hint" style="margin-right:6px">Autoscroll</span>
+         <span style="opacity:.3;font-size:14px;margin:0 2px">|</span>
+         <button id="fsSetlistPrev" class="btn btn-ghost" title="Canción anterior en setlist">⏮</button>
+         <button id="fsSetlistNext" class="btn btn-ghost" title="Canción siguiente en setlist">⏭</button>
+         <span class="hint">Setlist</span>
+       </div>
+     </div>
+   </section>
+
+   <!-- Panel vertical diagramas -->
+   <aside id="diagramPanel" class="diagram-panel">
+     <div class="panel-head">
+       <h3>Acordes</h3>
+       <button id="btnClosePanel" class="btn btn-mini">✕</button>
+     </div>
+     <div id="diagramList" class="diagram-list"></div>
+     <div id="diagramErrors" class="diagram-errors hidden"></div>
+   </aside>
+
+   <!-- Panel navegación por secciones -->
+   <aside id="sectionsPanel" class="sections-panel">
+     <div class="panel-head">
+       <h3>Secciones</h3>
+       <button id="btnCloseSections" class="btn btn-mini">✕</button>
+     </div>
+     <div id="sectionsList" class="sections-list"></div>
+     <p class="hint" style="padding:8px 12px;border-top:1px solid var(--border)">Escribe secciones como <code>*Coro*</code>, <code>*Verso 1*</code>, <code>*Puente*</code></p>
+   </aside>
+ </main>
+
+<!-- Modal edición -->
+<div id="editModal" class="modal hidden">
+  <div class="modal-box">
+    <div class="modal-head">
+      <h3>Editar cifrado</h3>
+      <button id="btnCloseEdit" class="btn btn-mini">✕</button>
+    </div>
+    <p class="hint">Las dos primeras líneas del documento son título y artista — se guardan como campos independientes y se muestran con estilo destacado. El resto es el cifrado.</p>
+    <div class="edit-fields">
+      <label class="edit-label">Título de la canción — línea 1
+        <input id="editTitle" class="edit-input" type="text" placeholder="Ej: Tempo Perdido">
+      </label>
+      <label class="edit-label">Artista — línea 2
+        <input id="editArtist" class="edit-input" type="text" placeholder="Ej: Legião Urbana">
+      </label>
+      <label class="edit-label">Cifrado (desde línea 3)
+        <textarea id="editArea" class="edit-area" placeholder="Ej:
+      G           D
+    Hoje o tempo voa amor
+      Em          C
+    Escorre pelas mãos..."></textarea>
+      </label>
+    </div>
+    <div class="tool-row" style="margin-top:4px;padding:10px;background:rgba(255,59,48,.06);border:1px solid var(--border);border-radius:8px">
+      <label class="switch"><input type="checkbox" id="editIncludeHeader"><span class="slider"></span></label>
+      <span class="hint" style="margin-left:8px"><strong>El texto pegado trae encabezado</strong> (título línea 1 y artista línea 2)</span>
+    </div>
+    <p class="hint" style="font-size:.74rem;margin:4px 2px 0">Desactivado: se usan los campos Título/Artista de arriba + el área de cifrado. Activado: se ignora esos campos y se toma todo lo pegado (incluidas las 2 primeras líneas) como documento completo.</p>
+    <div class="modal-actions">
+      <button id="btnCancelEdit" class="btn btn-ghost">Cancelar</button>
+      <button id="btnSaveEdit" class="btn btn-primary">Guardar cambios</button>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Selección Múltiple para Setlist -->
+<div id="setlistSongsModal" class="modal hidden">
+  <div class="modal-box" style="max-width:520px">
+    <div class="modal-head">
+      <h3 id="setlistSongsTitle">Gestionar Cifrados de la Setlist</h3>
+      <button id="btnCloseSetlistSongs" class="btn btn-mini">✕</button>
+    </div>
+    <p class="hint">Marca los cifrados del repositorio que pertenecerán a esta setlist:</p>
+    <div id="setlistSongsChecklist" class="checklist-box" style="max-height:280px;overflow-y:auto;border:1px solid var(--border);border-radius:10px;padding:8px;display:flex;flex-direction:column;gap:6px;background:#0f0f12"></div>
+    <div class="modal-actions" style="margin-top:10px">
+      <button id="btnCancelSetlistSongs" class="btn btn-ghost">Cancelar</button>
+      <button id="btnSaveSetlistSongs" class="btn btn-primary">Guardar Cambios</button>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Conflicto de Duplicados al Guardar -->
+<div id="duplicateModal" class="modal hidden">
+  <div class="modal-box" style="max-width:460px">
+    <div class="modal-head">
+      <h3>⚠️ El cifrado ya existe</h3>
+      <button id="btnCloseDuplicate" class="btn btn-mini">✕</button>
+    </div>
+    <p id="duplicateText" style="margin:8px 0;font-size:.9rem;line-height:1.4;color:var(--text)">Ya existe un cifrado guardado en el repositorio con el mismo título y artista.</p>
+    <div class="modal-actions" style="flex-direction:column;gap:8px;margin-top:8px">
+      <button id="btnOverwriteSong" class="btn btn-primary" style="width:100%;justify-content:center;background:#28a745;border-color:#28a745">🔄 Sobreescribir el cifrado existente</button>
+      <button id="btnSaveAsNewSong" class="btn btn-ghost" style="width:100%;justify-content:center;border:1px solid var(--border)">➕ Guardar con un nuevo título / copia</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast" class="toast hidden"></div>
+
+<script src="app.js"></script>
+</body>
+</html>

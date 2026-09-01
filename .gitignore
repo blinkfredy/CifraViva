@@ -1,0 +1,15 @@
+# OS y archivos del sistema
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Archivos de desarrollo local y logs privados
+memory/
+backup_v1/
+scratch/
+*.log
+
+# Entornos y claves secretas
+.env
+.env.local
+*.pem

@@ -6,6 +6,24 @@ El formato está basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1
 
 ---
 
+## [1.1.2] - 2026-09-01
+
+### 🛠️ Corregido
+- **Detección de Secciones sin Palabras Reservadas:**
+  - Se eliminó el listado de palabras reservadas (`Intro`, `Coro`, `Puente`, etc.) del motor `detectSection()`.
+  - Ahora **cualquier texto encerrado entre asteriscos** es reconocido como sección navegable (ej: `*Precoro*`, `*Solo de Guitarra*`, `*Estribillo 2*`, `*Cierre*`, `*Bridge*`, etc.), independientemente del nombre usado.
+  - Los separadores alternativos siguen siendo compatibles: `[sección]`, `(sección)`, `--- sección ---`.
+
+### ✨ Añadido
+- **Restablecer / Limpiar Todo (`🗑️ Restablecer / Limpiar Todo`):**
+  - Nueva opción en el menú del logo que permite borrar **todos los cifrados y setlists** almacenados en `localStorage` de forma segura.
+  - Incluye **doble confirmación** para evitar borrados accidentales.
+  - La caché del navegador (archivos JS/CSS/HTML) **no requiere ser borrada**: la limpieza opera exclusivamente sobre las claves `cifraviva_songs_v1` y `cifraviva_setlists_v1` en `localStorage`.
+  - Ideal para importar un backup limpio desde cero en cualquier dispositivo.
+  - Nuevo método `StorageManager.clearAll()` encapsula la operación de limpieza.
+
+---
+
 ## [1.0.0] - 2026-08-31
 
 ### ✨ Añadido

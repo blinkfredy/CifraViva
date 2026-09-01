@@ -1390,6 +1390,10 @@ const StorageManager = {
       delete setlists[id];
       localStorage.setItem(STORAGE_KEYS.SETLISTS, JSON.stringify(setlists));
     }
+  },
+  clearAll() {
+    localStorage.removeItem(STORAGE_KEYS.SONGS);
+    localStorage.removeItem(STORAGE_KEYS.SETLISTS);
   }
 };
 
@@ -1822,6 +1826,42 @@ document.getElementById('btnSaveSong')?.addEventListener('click', saveCurrentSon
 document.getElementById('btnQuickSaveSong')?.addEventListener('click', saveCurrentSongAction);
 document.getElementById('btnExportJSON')?.addEventListener('click', exportBackupJSON);
 document.getElementById('jsonInput')?.addEventListener('change', e => handleImportJSON(e.target.files[0]));
+
+// Restablecer / Limpiar Todo
+document.getElementById('btnResetApp')?.addEventListener('click', () => {
+  const confirmed = confirm(
+    '⚠️ RESTABLECER LA APLICACIÓN\n\n' +
+    'Esto eliminará permanentemente:\n' +
+    '  • Todos los cifrados guardados\n' +
+    '  • Todos los Setlists\n\n' +
+    'La caché del navegador (JS, CSS, HTML) NO necesita borrarse, ya que los datos de CifraViva se almacenan en localStorage y se limpian completamente con esta acción.\n\n' +
+    '¿Deseas continuar? Esta acción no se puede deshacer.'
+  );
+  if(!confirmed) return;
+  // Doble confirmación para evitar borrado accidental
+  const reconfirmed = confirm('✅ Confirma de nuevo: ¿Borrar TODOS los cifrados y setlists?');
+  if(!reconfirmed) return;
+
+  StorageManager.clearAll();
+  currentSongId = null;
+  currentSetlistId = 'all';
+  pendingSaveSong = null;
+
+  // Limpiar la vista
+  const sheetEl = document.getElementById('sheet');
+  const songHeader = document.getElementById('songHeader');
+  const emptyState = document.getElementById('emptyState');
+  if(sheetEl) { sheetEl.innerHTML = ''; sheetEl.classList.add('hidden'); }
+  if(songHeader) songHeader.classList.add('hidden');
+  if(emptyState) emptyState.classList.remove('hidden');
+  if(diagramPanel) diagramPanel.innerHTML = '';
+  if(sectionPanel) sectionPanel.innerHTML = '';
+
+  renderLogoDropdown();
+  updateSetlistNavUI();
+  document.getElementById('logoDropdownMenu')?.classList.add('hidden');
+  toast('✅ Aplicación restablecida. Puedes importar un backup limpio.');
+});
 
 // Toggle desplegable del logo
 const btnLogoBrand = document.getElementById('btnLogoBrand');

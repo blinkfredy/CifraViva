@@ -130,22 +130,24 @@ function loadDocument(fullText){
   updateScaleBox();
 }
 
-// --- Secciones: detección de bloques como *Coro*, *Verso 1*, [Puente] etc. ---
+// --- Secciones: detección de bloques como *Coro*, *Precoro*, *Solo de Guitarra*, [Puente] etc. ---
 function normalizeSectionTitle(raw){
-  // Capitaliza primera letra de cada palabra, preserva número de Verso
-  return raw.trim().split(/\s+/).map(w=> w.charAt(0).toUpperCase()+w.slice(1).toLowerCase()).join(' ');
+  const trimmed = raw.trim();
+  if(!trimmed) return '';
+  return trimmed.split(/\s+/).map(w=> w.charAt(0).toUpperCase()+w.slice(1)).join(' ');
 }
 function detectSection(line){
   const t = line.trim();
   if(!t) return null;
-  // Patrón principal recomendado: *Coro* , * Verso 1 * , **Puente** , *Intro* etc.
-  let m = t.match(/^\s*\*+\s*(Intro|Outro|Puente|Coro|Estribillo|Verso(?:\s*\d+)?|Bridge|Salida)\s*\*+\s*$/i);
-  if(m) return normalizeSectionTitle(m[1]);
-  // Alternativos tolerados para no romper importación: [Coro], (Verso 1), ---Coro---, ===Estribillo===
-  m = t.match(/^\s*[\[\(]\s*(Intro|Outro|Puente|Coro|Estribillo|Verso(?:\s*\d+)?|Bridge|Salida)\s*[\]\)]\s*$/i);
-  if(m) return normalizeSectionTitle(m[1]);
-  m = t.match(/^\s*[-=]{2,}\s*(Intro|Outro|Puente|Coro|Estribillo|Verso(?:\s*\d+)?|Bridge|Salida)\s*[-=]{2,}\s*$/i);
-  if(m) return normalizeSectionTitle(m[1]);
+  // 1. Patrón principal: todo lo encerrado entre asteriscos (*Precoro*, **Solo**, * Pre-coro 1 *, etc.)
+  let m = t.match(/^\s*\*+\s*(.+?)\s*\*+\s*$/);
+  if(m && m[1].trim()) return normalizeSectionTitle(m[1]);
+  // 2. Alternativos: encerrado entre corchetes [sección] o paréntesis (sección)
+  m = t.match(/^\s*[\[\(]\s*(.+?)\s*[\]\)]\s*$/);
+  if(m && m[1].trim()) return normalizeSectionTitle(m[1]);
+  // 3. Alternativos: encerrado entre guiones o iguales --- sección --- , === sección ===
+  m = t.match(/^\s*[-=]{2,}\s*(.+?)\s*[-=]{2,}\s*$/);
+  if(m && m[1].trim()) return normalizeSectionTitle(m[1]);
   return null;
 }
 

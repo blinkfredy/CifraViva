@@ -704,19 +704,29 @@ function renderSheet(){
     const uniqErr=[...new Set(chordErrors)];
     errEl.innerHTML = `<strong>⚠ Notación no reconocida:</strong> ${uniqErr.map(e=>`<code>${e}</code>`).join(', ')}`;
   } else errEl.classList.add('hidden');
+
+  // Fix: re-sincronizar visibilidad y layout de paneles tras cada render
+  // Dispara change en ambos switches para que el panel ajuste display y el grid se recalcule
+  requestAnimationFrame(() => {
+    document.getElementById('toggleDiagrams')?.dispatchEvent(new Event('change'));
+    document.getElementById('toggleSections')?.dispatchEvent(new Event('change'));
+  });
 }
 
 function renderSections(){
   const list = document.getElementById('sectionsList');
+  const fsList = document.getElementById('fsSectionsList');
   const countEl = document.getElementById('sectionsCount');
   if(!list) return;
   list.innerHTML='';
+  if(fsList) fsList.innerHTML='';
   if(countEl) countEl.textContent = `${sections.length} ${sections.length===1?'sección':'secciones'}`;
   if(!sections.length){
     list.innerHTML='<p class="hint" style="padding:8px">Sin secciones. Usa <code>*Coro*</code>, <code>*Verso 1*</code>, <code>*Puente*</code> etc. encerradas entre <code>*</code> para crearlas.</p>';
+    if(fsList) fsList.innerHTML='<p class="hint" style="padding:8px;font-size:.78rem">Sin secciones detectadas</p>';
     return;
   }
-  sections.forEach((sec, idx)=>{
+  function makeSectionBtn(sec){
     const btn = document.createElement('button');
     btn.className='section-link';
     btn.textContent = sec.title;
@@ -724,20 +734,22 @@ function renderSections(){
     btn.addEventListener('click', ()=>{
       const target = document.getElementById(sec.id);
       if(target){
-        // usa contenedor de scroll correcto (normal o fullscreen)
         const sc = (typeof getScrollContainer === 'function') ? getScrollContainer() : document.querySelector('.sheet-area');
         const top = target.getBoundingClientRect().top - sc.getBoundingClientRect().top + sc.scrollTop - 12;
         sc.scrollTo({top, behavior:'smooth'});
-        // resalta temporalmente
         target.style.transition='background .3s';
         target.style.background='rgba(255,59,48,.12)';
         setTimeout(()=> target.style.background='', 1200);
-        // marca activo
-        list.querySelectorAll('.section-link').forEach(b=>b.classList.remove('active'));
-        btn.classList.add('active');
+        // marca activo en ambas listas
+        document.querySelectorAll('.section-link').forEach(b=>b.classList.remove('active'));
+        document.querySelectorAll(`.section-link`).forEach(b=>{ if(b.textContent===sec.title) b.classList.add('active'); });
       }
     });
-    list.appendChild(btn);
+    return btn;
+  }
+  sections.forEach(sec => {
+    list.appendChild(makeSectionBtn(sec));
+    if(fsList) fsList.appendChild(makeSectionBtn(sec));
   });
 }
 
@@ -1230,11 +1242,22 @@ const fsControls = document.getElementById('fullscreenControls');
 const fsPlay = document.getElementById('fsPlay');
 const fsPause = document.getElementById('fsPause');
 const fsTop = document.getElementById('fsTop');
+const fsSectionsPanel = document.getElementById('fsSectionsPanel');
+let fsSectionsVisible = false; // estado local del sidebar de secciones en fullscreen
+
 function syncFullscreenUI(){
   const isFs = !!document.fullscreenElement || viewerEl.classList.contains('is-fullscreen');
   if(btnFullscreen) btnFullscreen.textContent = isFs ? '⛶ Salir' : '⛶ Pantalla completa';
   if(fsControls) fsControls.classList.toggle('hidden', !isFs);
   if(btnExitFullscreen) btnExitFullscreen.classList.toggle('hidden', !isFs);
+  // Ocultar/mostrar sidebar de secciones en fullscreen
+  if(fsSectionsPanel){
+    if(!isFs){
+      fsSectionsPanel.classList.add('hidden');
+    } else {
+      fsSectionsPanel.classList.toggle('hidden', !fsSectionsVisible);
+    }
+  }
   // sincroniza controles flotantes con estado real de autoscroll
   if(fsPlay && fsPause){
     const playing = typeof scrollRunning !== 'undefined' ? scrollRunning : false;
@@ -1266,6 +1289,23 @@ if(btnFullscreen){
 }
 if(btnExitFullscreen) btnExitFullscreen.addEventListener('click', exitFullscreen);
 document.addEventListener('fullscreenchange', syncFullscreenUI);
+
+// Toggle sidebar secciones en pantalla completa
+document.getElementById('fsSectionsToggle')?.addEventListener('click', ()=>{
+  fsSectionsVisible = !fsSectionsVisible;
+  if(fsSectionsPanel) fsSectionsPanel.classList.toggle('hidden', !fsSectionsVisible);
+});
+document.getElementById('btnFsHideSections')?.addEventListener('click', ()=>{
+  fsSectionsVisible = false;
+  if(fsSectionsPanel) fsSectionsPanel.classList.add('hidden');
+});
+
+// Importar Backup JSON desde el menú del logo
+document.getElementById('jsonImportLogo')?.addEventListener('change', e => {
+  const file = e.target.files[0];
+  if(file) handleImportJSON(file);
+  e.target.value = ''; // reset para poder reimportar el mismo archivo
+});
 document.addEventListener('webkitfullscreenchange', syncFullscreenUI);
 // Controles flotantes en vivo — llaman directamente a lógica de autoscroll (corrige que antes delegaba a toolbar oculto y no scrolleaba viewer en fullscreen)
 if(fsPlay) fsPlay.addEventListener('click', ()=>{ startScroll(); syncFullscreenUI(); });

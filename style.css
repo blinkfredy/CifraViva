@@ -172,3 +172,10 @@ a{color:var(--accent)}
 .checklist-item{display:flex;align-items:center;gap:8px;padding:8px 10px;border-radius:6px;background:var(--card);cursor:pointer;user-select:none;font-size:.85rem}
 .checklist-item:hover{background:rgba(255,255,255,.05)}
 
+/* Panel de secciones en pantalla completa (sidebar derecha) */
+.fs-sections-panel{position:absolute;top:0;right:0;bottom:60px;width:220px;background:rgba(12,12,16,.94);border-left:1px solid var(--border);display:flex;flex-direction:column;z-index:4;backdrop-filter:blur(10px);transition:transform .25s}
+.fs-sections-panel.hidden{transform:translateX(100%);pointer-events:none}
+.fs-sections-head{display:flex;align-items:center;justify-content:space-between;padding:12px 14px;border-bottom:1px solid var(--border);flex-shrink:0}
+.fs-sections-head span{font-size:.88rem;font-weight:700;color:var(--text)}
+.fs-sections-list{overflow-y:auto;padding:8px;display:flex;flex-direction:column;gap:6px;flex:1;scroll-behavior:smooth}
+.fs-sections-list .section-link{font-size:.82rem;padding:6px 8px}

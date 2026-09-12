@@ -6,6 +6,19 @@ El formato está basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1
 
 ---
 
+## [1.1.3] - 2026-09-11
+
+### ✨ Añadido
+- **Reorden de controles en pantalla completa:** Botón Secciones → Autoscroll → Setlist para flujo de lectura más natural en vivo.
+- **Indicador visual activo en botón Secciones:** El botón § Sec ahora muestra estado visual activo/inactivo (color de acento cuando las secciones están visibles).
+- **Logo y Favicon:** Nuevo `logo.svg` como icono de pestaña y acceso directo de la aplicación.
+- **Backups JSON con datetime:** Los archivos de respaldo ahora usan formato `cifraviva_backup_YYYY-MM-DD_HH-MM-SS.json` para fácil organización cronológica.
+
+### 🐛 Corregido
+- **Panel Secciones en pantalla completa:** El panel de secciones ahora permanece visible (`position: fixed`) cuando está activo, incluso durante autoscroll. Antes se ocultaba con el scroll.
+
+---
+
 ## [1.1.2] - 2026-09-01
 
 ### 🛠️ Corregido

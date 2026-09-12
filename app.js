@@ -1118,6 +1118,10 @@ document.getElementById('btnTop').addEventListener('click', ()=>{ const sc=getSc
 document.getElementById('speedRange').addEventListener('input', e=>{
   document.getElementById('speedVal').textContent=e.target.value;
 });
+// Asegurar estado inicial del botón Secciones en fullscreen
+const fsSectionsToggle = document.getElementById('fsSectionsToggle');
+if(fsSectionsToggle) fsSectionsToggle.classList.toggle('active', fsSectionsVisible);
+
 function syncLayout(){
   const layout=document.querySelector('.layout');
   const diagOn=document.getElementById('toggleDiagrams')?.checked;
@@ -1162,6 +1166,7 @@ if(toggleSecEl && sectionsPanel){
     } else {
       sectionsPanel.style.display = on ? 'flex' : 'none';
     }
+    if(fsSectionsToggle) fsSectionsToggle.classList.toggle('active', on);
     syncLayout();
   });
   document.getElementById('btnCloseSections')?.addEventListener('click', ()=>{
@@ -1294,6 +1299,8 @@ document.addEventListener('fullscreenchange', syncFullscreenUI);
 document.getElementById('fsSectionsToggle')?.addEventListener('click', ()=>{
   fsSectionsVisible = !fsSectionsVisible;
   if(fsSectionsPanel) fsSectionsPanel.classList.toggle('hidden', !fsSectionsVisible);
+  const sectionsBtn = document.getElementById('fsSectionsToggle');
+  if(sectionsBtn) sectionsBtn.classList.toggle('active', fsSectionsVisible);
 });
 document.getElementById('btnFsHideSections')?.addEventListener('click', ()=>{
   fsSectionsVisible = false;
@@ -1804,10 +1811,12 @@ function openNewSong() {
 function exportBackupJSON() {
   const songs = StorageManager.getSongs();
   const setlists = StorageManager.getSetlists();
+  const now = new Date();
+  const dt = `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}_${String(now.getHours()).padStart(2,'0')}-${String(now.getMinutes()).padStart(2,'0')}-${String(now.getSeconds()).padStart(2,'0')}`;
   const data = {
     app: 'CifraViva',
     version: '1.0',
-    exportedAt: new Date().toISOString(),
+    exportedAt: now.toISOString(),
     songs,
     setlists
   };
@@ -1816,7 +1825,7 @@ function exportBackupJSON() {
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
-  a.download = `cifraviva_backup_${Date.now()}.json`;
+  a.download = `cifraviva_backup_${dt}.json`;
   a.click();
   URL.revokeObjectURL(url);
   toast('Copia JSON descargada (guardable en tu carpeta cifrados/)');

@@ -108,3 +108,29 @@ Al implementar nuevas funcionalidades en este proyecto, cualquier agente de IA d
 2. **Sincronización de UI:** Cuando se modifique un cifrado o su tono/capo/fuente, invocar siempre `updateSetlistNavUI()` y `renderLogoDropdown()`.
 3. **Protección de Edición:** Mantener la confirmación obligatoria al intentar guardar cambios en una canción existente (preguntar si sobreescribir o crear nuevo ID).
 4. **Prueba de Sintaxis Obligatoria:** Ejecutar siempre `node -c app.js` después de cualquier modificación en el código JavaScript.
+
+---
+
+## 5. Características v1.1.3
+
+### A. Logo y Favicon
+- `logo.svg` en raíz del proyecto. SVG simple con degradado rojo/naranja (`#ff3b30` → `#ff6b35`) sobre fondo oscuro.
+- Referenciado en `index.html` como `<link rel="icon">` y `<link rel="apple-touch-icon">`.
+
+### B. Reorden de Controles en Pantalla Completa
+- Orden: **Secciones (§ Sec)** → **Autoscroll (▶⏸⤒)** → **Setlist (⏮⏭)**.
+- El botón Secciones tiene clase CSS `fs-sections-btn` que recibe la clase `active` cuando las secciones están visibles en fullscreen.
+
+### C. Fix: Panel Secciones Siempre Visible en Fullscreen
+- `.fs-sections-panel` usa `position: fixed` cuando `#viewer` está en `:fullscreen` o `.is-fullscreen`.
+- Esto evita que el panel se oculte con el autoscroll — siempre permanece anclado en la esquina superior derecha.
+- La clase `.hidden` controla la visibilidad via `transform: translateX(100%)` sin afectar el `position`.
+
+### D. Backups JSON con Datetime
+- `exportBackupJSON()` genera nombres como `cifraviva_backup_2026-09-11_14-30-45.json`.
+- El timestamp se construye con `Date` local y formato `YYYY-MM-DD_HH-MM-SS`.
+
+### E. Indicador Visual Activo/Inactivo
+- Botón `#fsSectionsToggle` con clase `active` cuando `fsSectionsVisible === true`.
+- Estilo `.fs-sections-btn.active` aplica fondo `var(--accent)` y texto blanco.
+- También se sincroniza desde el switch `#toggleSections` del toolbar.

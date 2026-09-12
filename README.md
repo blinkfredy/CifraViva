@@ -1,6 +1,6 @@
 # 🎸 CifraViva — Visor para Vivo & Gestor de Setlists
 
-![Version](https://img.shields.io/badge/version-1.1.3-ff3b30.svg)
+![Version](https://img.shields.io/badge/version-1.0.0-ff3b30.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Web%20%7C%20Mobile%20%7C%20Desktop-black.svg)
 
@@ -25,26 +25,14 @@
 
 * 🎸 **Transposición, Escala & Capotraste:**
   * Detección de tonalidad original y transposición lineal en semitonos (12 notas).
-  * **Asistente de Improvisación (Círculo de Quintas):** Muestra la tonalidad activa, escala relativa recomendada para improvisar (ej: *D mayor $
-ightarrow$ Bm pentatónica menor*), notas tónicas y tonos vecinos.
+  * **Asistente de Improvisación (Círculo de Quintas):** Muestra la tonalidad activa, escala relativa recomendada para improvisar (ej: *D mayor $ightarrow$ Bm pentatónica menor*), notas tónicas y tonos vecinos.
   * **Capotraste Independiente (0 a 12):** Indicador visual de alerta (`CAPO TRASTE X`) al inicio del cifrado sin alterar la lectura armónica.
 
 * 📊 **Diagramas de Acordes SVG & Navegación:**
   * Gráficos SVG dinámicos para cada acorde único de la canción, incluyendo acordes abiertos, menores, séptimas y generador automático de cejillas (*barre shapes*).
   * Navegación por secciones detectadas (`*Intro*`, `*Verso 1*`, `*Coro*`, `*Puente*`, `*Outro*`, etc.).
 
-* 🎸 **Logo, Favicon & Backups con Timestamp:**
-  * Nuevo `logo.svg` como icono de pestaña y acceso directo.
-  * Backups JSON nombrados con datetime: `cifraviva_backup_2026-09-11_14-30-45.json`.
-
-* ⏱️ **Modo Vivo & Pantalla Completa Mejorado:**
-  * Botones reordenados: Secciones → Autoscroll → Setlist para flujo natural en vivo.
-  * Indicador visual activo/inactivo en botón Secciones (§ Sec con acento rojo cuando visible).
-  * Panel Secciones siempre visible con `position: fixed` durante autoscroll en fullscreen.
-
-* 📊 **Diagramas de Acordes SVG & Navegación:**
-  * Gráficos SVG dinámicos para cada acorde único de la canción, incluyendo acordes abiertos, menores, séptimas y generador automático de cejillas (*barre shapes*).
-  * Navegación por secciones detectadas (`*Intro*`, `*Verso 1*`, `*Coro*`, `*Puente*`, `*Outro*`, etc.).
+* ⏱️ **Modo Vivo & Pantalla Completa:**
   * Autoscroll ultrasuave calibrado de nivel 1 (lento 🐢) a 10 (rápido 🐰).
   * **Vista Óptima para Vivo:** Modo Pantalla Completa con controles flotantes On-Screen de autoscroll y **navegación rápida por Setlist (`⏮` `⏭`)**.
   * Botón **"🛠 Ocultar Opciones"** que colapsa la barra superior y herramientas para maximizar la lectura del cifrado.
@@ -63,7 +51,6 @@ ightarrow$ Bm pentatónica menor*), notas tónicas y tonos vecinos.
 CifraViva/
 ├── index.html        # Estructura principal y modales
 ├── style.css         # Estilos, temas oscuros y componentes responsivos
-├── logo.svg        # Icono de favicon y acceso directo de la aplicación
 ├── app.js            # Lógica principal, parser de cifrados, render de SVG y StorageManager
 ├── cifrados/         # Carpeta local para almacenar archivos de cifrado en formato JSON
 │   └── camino_largo.json

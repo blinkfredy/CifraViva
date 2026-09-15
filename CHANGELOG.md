@@ -6,6 +6,29 @@ El formato está basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1
 
 ---
 
+## [1.2.0] - 2026-09-14
+
+### 🛠️ Corregido
+- **Fijación del Panel de Secciones en Pantalla Completa:**
+  - El visor de secciones en modo pantalla completa ahora utiliza posicionamiento fijo (`position: fixed`) con capa superior (`z-index: 98`), asegurando que permanezca visible y accesible en todo momento durante el scroll manual o autoscroll sin desplazarse fuera de la pantalla.
+- **Sincronización Automática de Layout al Cargar Canción:**
+  - Se re-sincronizan las columnas del layout y paneles de diagramas/secciones automáticamente tras renderizar cualquier cifrado, evitando desalineaciones iniciales.
+
+### ✨ Añadido & Mejorado
+- **Reordenamiento Intuitivo en Pantalla Completa:**
+  - Barra de controles flotantes reorganizada en orden de prioridad de uso en vivo: **1. § Secciones**, **2. Autoscroll** (Play, Pause, Top), **3. Setlist** (Anterior, Siguiente).
+- **Indicador Visual de Estado para Secciones en Pantalla Completa:**
+  - El botón `§ Secciones` ahora incluye retroalimentación visual clara (`#fsSectionsToggle.active`) con fondo de acento y brillo cuando el panel lateral está desplegado.
+- **Nombres con Fecha y Hora Legible en Respaldos JSON:**
+  - Las descargas de backups ahora generan archivos nombrados con formato estándar `cifraviva_backup_YYYY-MM-DD_HH-mm-ss.json` (ej: `cifraviva_backup_2026-09-14_21-30-00.json`) facilitando su ordenamiento y archivo en la carpeta de repertorio.
+- **Identidad Gráfica, Favicon SVG y Logotipo:**
+  - Creación de `favicon.svg` con el símbolo musical estilizado en gradiente cálido.
+  - Integración de icono SVG de alta resolución en la cabecera principal (`.brand-logo-svg`).
+- **Importación Rápida desde Menú del Logo:**
+  - Se agregó el botón `📥 Importar Backup JSON` directamente en el desplegable de biblioteca y setlists.
+
+---
+
 ## [1.1.2] - 2026-09-01
 
 ### 🛠️ Corregido

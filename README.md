@@ -1,6 +1,6 @@
 # 🎸 CifraViva — Visor para Vivo & Gestor de Setlists
 
-![Version](https://img.shields.io/badge/version-1.0.0-ff3b30.svg)
+![Version](https://img.shields.io/badge/version-1.2.0-ff3b30.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Web%20%7C%20Mobile%20%7C%20Desktop-black.svg)
 
@@ -25,7 +25,8 @@
 
 * 🎸 **Transposición, Escala & Capotraste:**
   * Detección de tonalidad original y transposición lineal en semitonos (12 notas).
-  * **Asistente de Improvisación (Círculo de Quintas):** Muestra la tonalidad activa, escala relativa recomendada para improvisar (ej: *D mayor $ightarrow$ Bm pentatónica menor*), notas tónicas y tonos vecinos.
+  * **Asistente de Improvisación (Círculo de Quintas):** Muestra la tonalidad activa, escala relativa recomendada para improvisar (ej: *D mayor $
+ightarrow$ Bm pentatónica menor*), notas tónicas y tonos vecinos.
   * **Capotraste Independiente (0 a 12):** Indicador visual de alerta (`CAPO TRASTE X`) al inicio del cifrado sin alterar la lectura armónica.
 
 * 📊 **Diagramas de Acordes SVG & Navegación:**
@@ -34,14 +35,15 @@
 
 * ⏱️ **Modo Vivo & Pantalla Completa:**
   * Autoscroll ultrasuave calibrado de nivel 1 (lento 🐢) a 10 (rápido 🐰).
-  * **Vista Óptima para Vivo:** Modo Pantalla Completa con controles flotantes On-Screen de autoscroll y **navegación rápida por Setlist (`⏮` `⏭`)**.
+  * **Vista Óptima para Vivo:** Modo Pantalla Completa con controles flotantes reorganizados prioritariamente: **1. § Secciones** (con indicador visual activo), **2. Autoscroll** (Play, Pause, Top), y **3. Setlist** (`⏮` `⏭`).
+  * **Sidebar de Secciones Fijo en Pantalla Completa:** Permanece visible y anclado a la derecha durante el desplazamiento sin perderse con el scroll.
   * Botón **"🛠 Ocultar Opciones"** que colapsa la barra superior y herramientas para maximizar la lectura del cifrado.
 
 * 📚 **Persistencia Local, Setlists & Respaldos JSON:**
   * Repositorio central de cifrados en `localStorage`.
   * **Gestor de Setlists:** Agrupaciones de canciones con reordenamiento personalizado (`▲` `▼`) y gestión por selección múltiple.
   * **Protección al Editar:** Al guardar cambios, la app pregunta si deseas sobreescribir el cifrado actual o guardarlo como una nueva canción.
-  * **Importación/Exportación JSON:** Permite descargar respaldos `.json` en la carpeta física `cifrados/` o importar cualquier cifrado desde el disco.
+  * **Importación/Exportación JSON:** Descarga copias de respaldo con fecha y hora legible (`cifraviva_backup_YYYY-MM-DD_HH-mm-ss.json`) e importación directa desde el menú principal.
 
 ---
 
@@ -54,7 +56,8 @@ CifraViva/
 ├── app.js            # Lógica principal, parser de cifrados, render de SVG y StorageManager
 ├── cifrados/         # Carpeta local para almacenar archivos de cifrado en formato JSON
 │   └── camino_largo.json
-├── VERSION           # Declaración de versión semántica (1.0.0)
+├── favicon.svg          # Favicon vectorial con identidad de marca
+├── VERSION           # Declaración de versión semántica (1.2.0)
 ├── CHANGELOG.md      # Registro histórico de versiones
 ├── ARCHITECTURE.md   # Documentación técnica y guía de arquitectura para Agentes de IA
 ├── CONTRIBUTING.md   # Guía de contribución para colaboradores

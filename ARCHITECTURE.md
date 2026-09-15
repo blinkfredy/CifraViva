@@ -25,7 +25,8 @@ CifraViva/
 ├── app.js            # Módulos de lógica, transposición, SVG render y StorageManager
 ├── cifrados/         # Directorio físico para guardar/leer respaldos en JSON
 │   └── camino_largo.json
-├── VERSION           # Declaración de versión semántica (1.0.0)
+├── favicon.svg          # Favicon vectorial escalable con identidad gráfica
+├── VERSION           # Declaración de versión semántica (1.2.0)
 ├── CHANGELOG.md      # Registro histórico de versiones y features
 ├── ARCHITECTURE.md   # Este documento (guía técnica para colaboradores y agentes de IA)
 └── CONTRIBUTING.md   # Guía de contribución con Git y estándares de código

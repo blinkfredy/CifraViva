@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="cvGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff3b30"/>
+      <stop offset="100%" stop-color="#ff9500"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22222b"/>
+      <stop offset="100%" stop-color="#0e0e12"/>
+    </linearGradient>
+  </defs>
+  <!-- Background rounded squircle -->
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#bgGrad)" stroke="rgba(255,255,255,0.14)" stroke-width="2"/>
+  <!-- Musical Sharp Symbol stylized with vibrant gradient -->
+  <!-- Slanted vertical bars -->
+  <line x1="25" y1="14" x2="22" y2="50" stroke="url(#cvGrad)" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="42" y1="14" x2="39" y2="50" stroke="url(#cvGrad)" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- Slanted cross bars -->
+  <line x1="13" y1="27" x2="51" y2="22" stroke="url(#cvGrad)" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="13" y1="42" x2="51" y2="37" stroke="url(#cvGrad)" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- Accent dot -->
+  <circle cx="48" cy="15" r="3" fill="#ffb84d"/>
+</svg>

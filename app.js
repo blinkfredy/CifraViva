@@ -1258,6 +1258,10 @@ function syncFullscreenUI(){
       fsSectionsPanel.classList.toggle('hidden', !fsSectionsVisible);
     }
   }
+  const fsSecBtn = document.getElementById('fsSectionsToggle');
+  if(fsSecBtn){
+    fsSecBtn.classList.toggle('active', isFs && fsSectionsVisible);
+  }
   // sincroniza controles flotantes con estado real de autoscroll
   if(fsPlay && fsPause){
     const playing = typeof scrollRunning !== 'undefined' ? scrollRunning : false;
@@ -1294,10 +1298,12 @@ document.addEventListener('fullscreenchange', syncFullscreenUI);
 document.getElementById('fsSectionsToggle')?.addEventListener('click', ()=>{
   fsSectionsVisible = !fsSectionsVisible;
   if(fsSectionsPanel) fsSectionsPanel.classList.toggle('hidden', !fsSectionsVisible);
+  document.getElementById('fsSectionsToggle')?.classList.toggle('active', fsSectionsVisible);
 });
 document.getElementById('btnFsHideSections')?.addEventListener('click', ()=>{
   fsSectionsVisible = false;
   if(fsSectionsPanel) fsSectionsPanel.classList.add('hidden');
+  document.getElementById('fsSectionsToggle')?.classList.remove('active');
 });
 
 // Importar Backup JSON desde el menú del logo

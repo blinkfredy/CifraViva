@@ -1,0 +1,19 @@
+{
+  "name": "CifraViva — Visor para Vivo",
+  "short_name": "CifraViva",
+  "description": "Visor de cifrados, diagramas de acordes y gestor de setlists para músicos en vivo",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0e0e12",
+  "theme_color": "#15151a",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

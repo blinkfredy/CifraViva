@@ -24,6 +24,9 @@ El formato está basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1
 - **Identidad Gráfica, Favicon SVG y Logotipo:**
   - Creación de `favicon.svg` con el símbolo musical estilizado en gradiente cálido.
   - Integración de icono SVG de alta resolución en la cabecera principal (`.brand-logo-svg`).
+- **Soporte PWA para iPadOS e iOS (Modo App Nativa):**
+  - Creación de `manifest.json` y metadatos de Apple (`apple-mobile-web-app-capable`, `apple-mobile-web-app-status-bar-style`, `viewport-fit=cover`).
+  - Permite añadir CifraViva a la pantalla de inicio del iPad/iPhone para usarla como una aplicación autónoma a pantalla completa real (sin barra de direcciones ni pestañas de Safari) y sin interferencia de gestos del navegador.
 - **Importación Rápida desde Menú del Logo:**
   - Se agregó el botón `📥 Importar Backup JSON` directamente en el desplegable de biblioteca y setlists.
 

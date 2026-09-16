@@ -1,7 +1,7 @@
 {
   "app": "CifraViva",
   "version": "1.0",
-  "exportedAt": "2026-09-16T03:12:24.413Z",
+  "exportedAt": "2026-09-16T07:19:31.685Z",
   "songs": {
     "song_1788230309234": {
       "id": "song_1788230309234",
@@ -47,10 +47,10 @@
       "id": "song_1788230761002",
       "title": "Bidi bidi bom bom",
       "artist": "Selena",
-      "content": "Bidi bidi bom bom\nSelena\n\n*Intro*\n\n*Coro*\nHey, yeah, repite ya, hey, hey, hey, yeah\nbiri-biri-bamba\nA biri biri bomba\nA biri biri biri biri biri bomba\nA biri biri biri biri\nCada vez\nCada vez que lo veo pasar\n\nMi corazón se enloquece\t(se enloquece)\n\nY me empieza a palpitar\n\n(biri biri bam bam uuu)\n\nSe emociona (se emociona)\n\nYa no razona\n\nNo lo puedo controlar\n\n(biri biri bam bam uuu)\n\nSe emociona (se emociona)\n\nYa no razona\n\nY me empieza a cantar (Canta)\n\nMe canta así, así\n\nHey yeah\nBrrripichichaman hey hey hey yeah\n\nCuando escucho esta canción, mi corazón quiere cantar así ------ ohooooo\n\nMe canta así, me canta a ti, cada vez que lo veo pasar\noh, oh, oh\n(bidi bidi bom bom)\n\nuho Mi corazón se enloquece ya\nCada vez que lo veo pasar (bidi bidi bom bom)\nY me pasa palpitar así, así\n\nOh yeah, oh yeah, oh yeah, oh yeah, oh yeah\n(bidi bidi bom bom)\n\nNo, no, no, no, no, no, yeah\n\n(bidi bidi bom bom)\n\n(Coro x2)\n\nMe canta así, me canta a ti, cada vez que lo veo pasar\noh, oh, oh\n(bidi bidi bom bom)\n\nuho Mi corazón se enloquece ya\nCada vez que lo veo pasar (bidi bidi bom bom)\nY me pasa palpitar así, así\n\nOh yeah, oh yeah, oh yeah, oh yeah, oh yeah\n(bidi bidi bom bom)\n\nNooo\n\nbidi- bidi-bum-bum!\n",
+      "content": "Bidi bidi bom bom\nSelena\n[Intro]\n    Hey yeah! Pri-ti-ti-tom \n    Hey, Hey, Hey, yeah\nBidi Bidi Bom Bom \nBidi Bidi Bom Bom \nBidi Bidi Bidi Bidi Bidi Bom Bom\nBidi Bidi Bidi Bidi Bidi Bidi Bom\n\n\n[Verse]\ncada vez \nCada vez que lo veo pasar (Uuh)\nMi corazón se enloquece (Se enloquece)\nY Me Empieza a Palpitar (Bidi bidi bam bam)Uuh\nY Se Emociona (Que se emociona)\nYa no razona \nNo Lo Puedo controlar   (Bidi bidi bam bam)Uuh\nY Se Emociona   (Que se emociona)\nYa no razona \nY Me Empieza a Cantar (Cantar)\nMe Canta Así Así Así\n\n[Chorus]\nBidi Bidi Bom Bom (Bidi Bidi Bom Bom)\nBidi Bidi Bom Bom (Bidi Bidi Bom Bom)\nBidi Bidi Bidi Bidi Bidi Bom Bom\nBidi Bidi Bidi Bidi Bidi Bidi Bom\n\n\n[Verse]\ncada vez \nCada vez que lo oigo hablar  (Cada vez, cada vez) Uoh Uoh\nMe tiemblan hasta las piernas  (La piernas)\nY el corazón igual   (Bidi bidi bam bam)Uuh\nY Se Emociona  (Que se emociona)\nYa no razona \nNo Lo Puedo controlar   (Bidi bidi bam bam)Uuh\nY Se Emociona (Que se emociona)\nYa no razona \nY Me Empieza a Cantar (Cantar)\nMe Canta Así Así Así\n\n[Chorus]\nBidi Bidi Bom Bom (Bidi Bidi Bom Bom)\nBidi Bidi Bom Bom (Bidi Bidi Bom Bom)\nBidi Bidi Bidi Bidi Bidi Bom Bom\nBidi Bidi Bidi Bidi Bidi Bidi Bom\n\n    Hey yeah! Pri-ti-ti-tom\n    Hey Hey yeah... Tómalo!\n\n*Guitar Solo*\n\n(Talking)\n\"Cuando escucho esta canción, mi corazón quiere cantar así\"\n\nOoh    (Bidi Bidi Bom Bom)\nMe canta así, me encanta a ti, cada vez que lo veo pasar ohuo\nohhh (Bidi Bidi Bom Bom)\n\nMi corazón se enloquece\nCada vez que lo veo pasar, y me empieza a palpitar así, así.\n\n[Chorus x2]\nBidi Bidi Bom Bom (Bidi Bidi Bom Bom)\nBidi Bidi Bom Bom (Bidi Bidi Bom Bom)\nBidi Bidi Bidi Bidi Bidi Bom Bom\nBidi Bidi Bidi Bidi Bidi Bidi Bom\n\n*outro*\nBidi Bidi Bom Bom",
       "settings": {
-        "keyIdx": 9,
-        "transposeSemitones": -1,
+        "keyIdx": 7,
+        "transposeSemitones": 0,
         "capoFret": 1,
         "speed": 3,
         "chordSize": 15,
@@ -61,15 +61,15 @@
         "showDiagrams": false,
         "showSections": false
       },
-      "updatedAt": 1789527810588
+      "updatedAt": 1789536261643
     },
     "song_1788234653177": {
       "id": "song_1788234653177",
       "title": "Chico de mi Barrio",
       "artist": "Tormenta",
-      "content": "Chico de mi Barrio\nTormenta\n\n*Intro*\n\n*Verso 1*\nAdiós chico de mi barrio\nA dónde de prisa vas así\nPasas en bicicleta\nNo te puedo alcanzar\nSi vas por el parque\nPreguntale a mi canción\nEn qué lugar de la calle\nEl sol se escondió\n\n*[Precoro]*\nSi vienes hacia mi puerta\nDuerme entre mis brazos y descansa ya\nAprisiona mi cintura\nQue por las terrazas vamos a escapar\nVamos a bailar lalalalalalala ayy lalalaLala\n\n*Coro*\nChico de mi barrio flores en el pelo\nY los pies descalzos\nChico de mi barrio con la cara sucia\nY el cabello largo oh oh oh oh\nCuéntame qué al fin vamos a jugar\nA la libertad de poder amar\nEn algún rincón\nDe mi casa estoy esperándote\n\n*Verso 2*\nSi pasas por mi vereda\nY juegas con mi pollera así\nRegálame tu sonrisa\nY siembra en tu vientre estrellas\n\n*[Precoro]*\nSi vienes hacia mi puerta\nDuerme entre mis brazos y descansa ya\nAprisiona mi cintura\nQue por las terrazas vamos a escapar\nVamos a bailar lalalalalalala ayy lalalaLala\n\n*Coro*\nChico de mi barrio flores en el pelo\nY los pies descalzos\nChico de mi barrio con la cara sucia\nY el cabello largo oh oh oh oh\nCuéntame qué al fin vamos a jugar\nA la libertad de poder amar\nEn algún rincón\nDe mi casa estoy esperándote\n\n*Modulación*\nla la la lala\nla la la la la la\n",
+      "content": "Chico de mi Barrio\nTormenta\n\n*Intro*\n\n*Verso 1*\nAdiós chico de mi barrio\nA dónde de prisa vas así\nPasas en bicicleta\nNo te puedo alcanzar\nSi vas por el parque\nPreguntale a mi canción\nEn qué lugar de la calle\nEl sol se escondió\n\n*[Precoro]*\nSi vienes hacia mi puerta\nDuerme entre mis brazos y descansa ya\nAprisiona mi cintura\nQue por las terrazas vamos a escapar\nVamos a bailar lalalalalalala ayy lalalaLala\n\n*Coro*\nChico de mi barrio flores en el pelo\nY los pies descalzos\nChico de mi barrio con la cara sucia\nY el cabello largo oh oh oh oh\nCuéntame qué al fin vamos a jugar\nA la libertad de poder amar\nEn algún rincón\nDe mi casa estoy esperándote\n\n*Verso 2*\nSi pasas por mi vereda\nY juegas con mi pollera así\nRegálame tu sonrisa\nY siembra en tu vientre estrellas\n\n*[Precoro]*\nSi vienes hacia mi puerta\nDuerme entre mis brazos y descansa ya\nAprisiona mi cintura\nQue por las terrazas vamos a escapar\nVamos a bailar lalalalalalala ayy lalalaLala\n\n*Coro*\nChico de mi barrio flores en el pelo\nY los pies descalzos\nChico de mi barrio con la cara sucia\nY el cabello largo oh oh oh oh\nCuéntame qué al fin vamos a jugar\nA la libertad de poder amar\nEn algún rincón\nDe mi casa estoy esperándote\n\nEn algún rincón\nDe mi casa estoy esperándote\n\nEn algún rincón\nDe mi casa estoy esperándote\n\n",
       "settings": {
-        "keyIdx": 9,
+        "keyIdx": 7,
         "transposeSemitones": 0,
         "capoFret": 1,
         "speed": 3,
@@ -81,17 +81,17 @@
         "showDiagrams": false,
         "showSections": false
       },
-      "updatedAt": 1789527810589
+      "updatedAt": 1789534517886
     },
     "song_1788235394358": {
       "id": "song_1788235394358",
       "title": "Como la Flor",
       "artist": "Selena",
-      "content": "Como la Flor\nSelena\n\n*intro: *\n\n*Estrofa 1*\nyo se tienes\nun nuevo amor\nsin embargo\nte deseo lo mejor\n\nsi en mi no encontraste\nfelicidad\ntalvez alguien mas\nte la dará\n\n*Coro:*\ncomo la flor(como la flor)\ntanto amor(tanto amor)\nme diste tu\nse marchito\nme marcho hoy\nyo se perder\n\npero a-a-ay como me duele\na,a,ay como me duele\n\n*intro:*\n\n*Estrofa 2*\nsi vieras como duele\nperder tu amor\ncon tu adios te llevas\nmi corazón\n\nno se si pueda\nvolver a amar\nporque te di\ntodo el amor que puede dar\n\n*coro:*\n\n*solo:*\n\n*coro:*\n",
+      "content": "Como la Flor\nSelena\n*intro: *\n\n*Estrofa 1*\nyo se que tienes\nun nuevo amor\nsin embargo\nte deseo lo mejor\n\nsi en mi no encontraste\nfelicidad\ntal vez alguien mas\nte la dará\n\n*Coro:*\ncomo la flor(como la flor)\ntanto amor(tanto amor)\nme diste tu\nse marchito\nme marcho hoy\nyo se perder\n\npero a-a-ay como me duele\na,a,ay como me duele\n\n*intro:*\n\n*Estrofa 2*\nsi vieras como duele\nperder tu amor\ncon tu adios te llevas\nmi corazón\n\nno se si pueda\nvolver a amar\nporque te di\ntodo el amor que puede dar\n\n*Coro:*\ncomo la flor(como la flor)\ntanto amor(tanto amor)\nme diste tu\nse marchito\nme marcho hoy\nyo se perder\n\npero a-a-ay como me duele\na,a,ay como me duele\n\n*solo:*\n\n*Coro:*\ncomo la flor(como la flor)\ntanto amor(tanto amor)\nme diste tu\nse marchito\nme marcho hoy\nyo se perder\n\npero a-a-ay como me duele\na,a,ay como me duele\na,a,ay como me duele\n\n*outro*",
       "settings": {
-        "keyIdx": 9,
+        "keyIdx": 7,
         "transposeSemitones": 0,
-        "capoFret": 1,
+        "capoFret": 0,
         "speed": 3,
         "chordSize": 15,
         "lyricSize": 18,
@@ -101,7 +101,7 @@
         "showDiagrams": false,
         "showSections": false
       },
-      "updatedAt": 1789527810590
+      "updatedAt": 1789534389199
     },
     "song_1788235748068": {
       "id": "song_1788235748068",
@@ -227,9 +227,9 @@
       "id": "song_1788237973395",
       "title": "Olvídame y pega la vuelta",
       "artist": "Pimpinela",
-      "content": "Olvídame y pega la vuelta\nPimpinela\n\n*Intro*\n\n*Estrofa 1*\nHace dos años y un día que vivo sin él\nHace dos años y un día que no lo he vuelto a ver\nY aunque no he sido feliz aprendí a vivir sin su amor\nPero al ir olvidando de pronto una noche volvió.\n\n*PreCoro 1*\nQuién es ('Soy yo')\nQué vienes a buscar ('A ti')\nYa es tarde  ('Por qué')\nPorque ahora soy yo la que quiere estar sin ti.\n\n*[Coro]:*\nPor eso vete, olvida mi nombre mi cara mi casa y pega la vuelta ('Jamás te pude comprender')\nVete, olvida mis ojos, mis manos, mis labios, que no te desean ('Estás mintiendo ya lo sé')\nVete, olvida que existo, que me conociste, y no te sorprendas\nOlvida de todo que tu para eso, tienes experiencia.\n\n*[Puente]:*\n\n*Estrofa 2*\n('En busca de emociones un día marché,\nDe un mundo de sensaciones que no encontré\nY al descubrir que era todo una gran fantasía volví\nPorque entendí que quería las cosas que viven en ti')\n\n*Precoro 2*\nAdiós ('Ayúdame')\nNo hay nada más que hablar ('Piensa en mi')\nAdiós ('Por qué')\nPorque ahora soy yo la que quiere estar sin ti.\n\n*Coro*\n",
+      "content": "Olvídame y pega la vuelta\nPimpinela\n\n*Intro*\n\n*Estrofa 1*\nHace dos años y un día que vivo sin él\nHace dos años y un día que no lo he vuelto a ver\nY aunque no he sido feliz aprendí a vivir sin su amor\nPero al ir olvidando de pronto una noche volvió.\n\n*PreCoro 1*\nQuién es ('Soy yo')\nQué vienes a buscar ('A ti')\nYa es tarde  ('Por qué')\nPorque ahora soy yo la que quiere estar sin ti.\n\n*[Coro]:*\nPor eso vete, olvida mi nombre mi cara mi casa y pega la vuelta ('Jamás te pude comprender')\nVete, olvida mis ojos, mis manos, mis labios, que no te desean ('Estás mintiendo ya lo sé')\nVete, olvida que existo, que me conociste, y no te sorprendas\nOlvida de todo que tu para eso, tienes experiencia.\n\n*[Puente]:*\n\n*Estrofa 2*\n('En busca de emociones un día marché,\nDe un mundo de sensaciones que no encontré\nY al descubrir que era todo una gran fantasía volví\nPorque entendí que quería las cosas que viven en ti')\n\n*Precoro 2*\nAdiós ('Ayúdame')\nNo hay nada más que hablar ('Piensa en mi')\nAdiós ('Por qué')\nPorque ahora soy yo la que quiere estar sin ti.\n\n*Coro*\n\n*Coro modulado x2*",
       "settings": {
-        "keyIdx": 2,
+        "keyIdx": 7,
         "transposeSemitones": 0,
         "capoFret": 0,
         "speed": 3,
@@ -241,7 +241,7 @@
         "showDiagrams": false,
         "showSections": false
       },
-      "updatedAt": 1789527810639
+      "updatedAt": 1789539351059
     },
     "song_1788238167209": {
       "id": "song_1788238167209",
@@ -327,29 +327,9 @@
       "id": "song_1788239729787",
       "title": "Simplemente Amigos",
       "artist": "Ana Gabriel",
-      "content": "Simplemente Amigos\nAna Gabriel\n\n*Intro:*\n\n*Estrofa 1*\nSiempre como ya es costumbre día a día es igual\nno hay nada que decir, ante la gente es así\namigos, simplemente amigos y nada más\n\n*Precoro*\nPero quién sabe en realidad lo que sucede entre los dos\nSi cada quién llegando la noche finge un adiós\n\n*[Estribillo]:*\nCuánto daría por gritarles nuestro amor\nDecirles que al cerrar la puerta nos amamos sin control\nQue despertamos abrazados con ganas de seguir amándonos\nPero es que en realidad no aceptan nuestro amor\n\n*Intro:*\n\n*Estrofa 2*\nSiempre con miradas siempre nos damos todo el amor\nhablamos sin hablar, todo es silencio en nuestro andar\namigos, simplemente amigos y nada más\n\n*Precoro*\nPero quién sabe en realidad lo que sucede entre los dos\nSi cada quién llegando la noche finge un adiós\n\n*[Estribillo x2]:*\nCuánto daría por gritarles nuestro amor\nDecirles que al cerrar la puerta nos amamos sin control\nQue despertamos abrazados con ganas de seguir amándonos\nPero es que en realidad no aceptan nuestro amor\n\n*Outro x7*\n",
+      "content": "Simplemente Amigos\nAna Gabriel\n*Intro:*\n\n*Estrofa 1*\nSiempre como ya es costumbre día a día es igual\nno hay nada que decir, ante la gente es así\namigos, simplemente amigos y nada más\n\n*Precoro*\nPero quién sabe en realidad lo que sucede entre los dos\nSi cada quién llegando la noche finge un adiós\n\n*[Estribillo]:*\nCuánto daría por gritarles nuestro amor\nDecirles que al cerrar la puerta nos amamos sin control\nQue despertamos abrazados con ganas de seguir amándonos\nPero es que en realidad no aceptan nuestro amor\n\n*Intro:*\n\n*Estrofa 2*\nSiempre con miradas siempre nos damos todo el amor\nhablamos sin hablar, todo es silencio en nuestro andar\namigos, simplemente amigos y nada más\n\n*Precoro*\nPero quién sabe en realidad lo que sucede entre los dos\nSi cada quién llegando la noche finge un adiós\n\n*[Estribillo x2]:*\nCuánto daría por gritarles nuestro amor\nDecirles que al cerrar la puerta nos amamos sin control\nQue despertamos abrazados con ganas de seguir amándonos\nPero es que en realidad no aceptan nuestro amor\n\n*Outro x7*\nohuo ohh no aceptan nuestro amor\nohu ohh no aceptan nuestro amooooor\n,,,,(pero es que en realidad no aceptan nuestro amor)\n,,,,(pero es que en realidad no aceptan nuestro amor)\n",
       "settings": {
-        "keyIdx": 5,
-        "transposeSemitones": 0,
-        "capoFret": 1,
-        "speed": 3,
-        "chordSize": 15,
-        "lyricSize": 18,
-        "twoColumns": false,
-        "colLeft": 50,
-        "colGap": 24,
-        "showDiagrams": false,
-        "showSections": false
-      },
-      "updatedAt": 1789527810645
-    },
-    "song_1788240145487": {
-      "id": "song_1788240145487",
-      "title": "Tu, Ana María",
-      "artist": "Rudy Márquez",
-      "content": "Tu, Ana María\nRudy Márquez\n\n*Estrofa 1:*\nSiempre pensé que eras conmigo feliz\nQue había sinceridad en tu forma de reír\nQue te gustaba el amor que yo sentía por ti\nY que tu mundo era yo porque mi mundo eras tú\n¿cómo podía pensar que te pudieras marchar\nCon ese estúpido que siempre me juraba su amistad?\n\n*Coro*\nMaldita tú, Ana María\nTú solamente te has burlado del amor que yo te di, maldita tú, Ana María\nSí, Ana María\nY te reías y fingías y decías ser feliz conmigo\n\n*Estrofa 2*\nQué tonto fui, no entiendo cómo no vi\nQue tú pudieras jugar con mi manera de amar\nY que tus besos de miel estaban llenos de hiel\nY que pudieras mentir de esa manera tan cruel\nY que estrujaras mi amor como si fuera un papel\nAl que has botado de costado\nPara irte así con el, maldita tú (Ana María)\n*Coro*\nSí, Ana María\nTú solamente te has burlado del amor que yo te di, maldita tú (Ana María)\nSi Ana María y te reías y fingías y decías ser feliz conmigo\n\n*Solo synth*\n\n*Estrofa 3*\nSiento rabia tan solo de recordar\nQue si me hablaban de ti era capaz de matar\nMi mujer si te era fiel, mi gran amigo era él\nY es que no hay ciego peor que aquel que no quiere ver\nYo estaba loco por ti cuando te fuiste de mí\nY aún corroe mis entrañas el dolor que yo sentí\n\n*Coro +1ST*\nMaldita tú (Anna María)\nY siempre tú (Anna María)\nTú solamente te has burlado del amor que yo te di\nMaldita tú, Ana María\nMaldita seas, Ana María\nY te reías y fingías y decías\nSer feliz conmigo tú, Ana María\n*Coro +2ST*\nY solo tú, Ana María, maldita seas Ana María\nTú solamente te has burlado del amor que yo te di, maldita tú Ana María\nY solo tú, Ana María, y siempre tú Ana María\nY te reías, y fingías, y decías ser feliz conmigo tú, Ana María\nSí, Ana María, solo tú, Ana María",
-      "settings": {
-        "keyIdx": 2,
+        "keyIdx": 7,
         "transposeSemitones": 0,
         "capoFret": 0,
         "speed": 3,
@@ -361,7 +341,27 @@
         "showDiagrams": false,
         "showSections": false
       },
-      "updatedAt": 1789527810648
+      "updatedAt": 1789539844493
+    },
+    "song_1788240145487": {
+      "id": "song_1788240145487",
+      "title": "Tu, Ana María",
+      "artist": "Rudy Márquez",
+      "content": "Tu, Ana María\nRudy Márquez\n*Estrofa 1:*\nSiempre pensé que eras conmigo feliz\nQue había sinceridad en tu forma de reír\nQue te gustaba el amor que yo sentía por ti\nY que tu mundo era yo porque mi mundo eras tú\n¿cómo podía pensar que te pudieras marchar\nCon ese estúpido que siempre me juraba su amistad?\n\n*Coro*\nMaldita tú, Ana María\nTú solamente te has burlado del amor que yo te di, maldita tú, Ana María\nSí, Ana María\nY te reías y fingías y decías ser feliz conmigo\n\n*Estrofa 2*\nQué tonto fui, no entiendo cómo no vi\nQue tú pudieras jugar con mi manera de amar\nY que tus besos de miel estaban llenos de hiel\nY que pudieras mentir de esa manera tan cruel\nY que estrujaras mi amor como si fuera un papel\nAl que has botado de costado\nPara irte así con el, maldita tú (Ana María)\n*Coro*\nSí, Ana María\nTú solamente te has burlado del amor que yo te di, maldita tú (Ana María)\nSi Ana María y te reías y fingías y decías ser feliz conmigo\n\n*Solo synth*\n\n*Estrofa 3*\nSiento rabia tan solo de recordar\nQue si me hablaban de ti era capaz de matar\nMi mujercita era fiel, mi gran amigo era él\nY es que no hay ciego peor que aquel que no quiere ver\nYo estaba loco por ti cuando te fuiste de mí\nY aún corroe mis entrañas el dolor que yo sentí\n\n*Coro +1ST*\nMaldita tú (Anna María)\nY siempre tú (Anna María)\nTú solamente te has burlado del amor que yo te di\nMaldita tú, Ana María\nMaldita seas, Ana María\nY te reías y fingías y decías\nSer feliz conmigo tú, Ana María\n*Coro +2ST*\nY solo tú, Ana María, maldita seas Ana María\nTú solamente te has burlado del amor que yo te di, maldita tú Ana María\nY solo tú, Ana María, y siempre tú Ana María\nY te reías, y fingías, y decías ser feliz conmigo\n*Final*",
+      "settings": {
+        "keyIdx": 7,
+        "transposeSemitones": 0,
+        "capoFret": 0,
+        "speed": 3,
+        "chordSize": 15,
+        "lyricSize": 18,
+        "twoColumns": false,
+        "colLeft": 50,
+        "colGap": 24,
+        "showDiagrams": false,
+        "showSections": false
+      },
+      "updatedAt": 1789543143916
     },
     "song_1788240325998": {
       "id": "song_1788240325998",

@@ -1,0 +1,546 @@
+{
+  "app": "CifraViva",
+  "version": "1.0",
+  "exportedAt": "2026-09-16T03:03:30.670416Z",
+  "songs": {
+    "song_1788230309234": {
+      "id": "song_1788230309234",
+      "title": "Amor Prohibido",
+      "artist": "Selena",
+      "content": "Amor Prohibido\nSelena\n\n*Intro*\n\n*Verso 1*\nCon unas ansias locas\nquiero verte hoy\nespero ese momento\nen que escuche tu voz\ny cuando al fin\nestemos juntos los dos\n\nqué importa que dirán\ntu padre y tu mamá\naqui solo importa\nnuestro amor, te quiero\n\n*Coro*\nAmor prohibido\nmurmuran por las calles\nporque somos\nde distintas sociedades\n\namor prohibido\nnos dice todo el mundo\n\nel dinero no importa, en ti y en mi\ny en el corazón\nooh.. baby\n\n*Puente*\n\n*Verso 2*\nAunque soy pobre\ntodo esto que te doy\nvale más que el dinero\npor que si es amor\ny cuando al fin\nestemos juntos los dos\n\nqué importa que dira\ntambién la sociedad\naqui solo importa\nnuestro amor, te quiero\n\n*Coro x2*\nAmor prohibido\nmurmuran por las calles\nporque somos\nde distintas sociedades\n\namor prohibido\nnos dice todo el mundo\n\nel dinero no importa, en ti y en mi\ny en el corazón\nooh.. baby\n",
+      "settings": {
+        "keyIdx": 7,
+        "transposeSemitones": 0,
+        "capoFret": 0,
+        "speed": 3,
+        "chordSize": 15,
+        "lyricSize": 18,
+        "twoColumns": false,
+        "colLeft": 50,
+        "colGap": 24,
+        "showDiagrams": false,
+        "showSections": true
+      },
+      "updatedAt": 1789527810586
+    },
+    "song_1788230670067": {
+      "id": "song_1788230670067",
+      "title": "Antología",
+      "artist": "Shakira",
+      "content": "Antología\nShakira\n\n*intro*\n\n*Verso 1*\nPara amarte necesito una razón\ny es difícil creer que no exista otra más que este amor\n\n*Verso 2*\nsobra tanto dentro de este corazón\nque a pesar de que dicen que los años son sabios\ntodavía se siente el dolor\n\n*Precoro*\n...porque todo el tiempo que pasé junto a ti\n...dejó tejido su hilo dentro de mi\n\n*Coro*\nY aprendí a quitarle al tiempo los segundos\ntu me hiciste ver el cielo más profundo\njunto a ti creo que aumente más de tres kilos\ncon tus tantos dulces besos repartidos\ndesarrollaste mi sentido del olfato\ny fue por ti que aprendí a querer los gatos\ndespegaste del cemento mis zapatos\npara escapar los dos volando un rato\n\n*Precoro*\npero olvidaste una final instrucción\nporque aun no se como vivir sin tu amor\n\n*Coro*\n\nY descubrí lo que significa una rosa\nme enseñaste a decir mentiras piadosas\npara poder verte a horas no adecuadas\ny a reemplazar palabras por miradas\ny fue por ti que escribí más de cien canciones\ny hasta perdoné tus equivocaciones\ny conocí más de mil formas de besar\nY fue por ti que descubrí lo que es amar.\nlo que es amar...\n",
+      "settings": {
+        "keyIdx": 0,
+        "transposeSemitones": 0,
+        "capoFret": 0,
+        "speed": 3,
+        "chordSize": 15,
+        "lyricSize": 18,
+        "twoColumns": false,
+        "colLeft": 50,
+        "colGap": 24,
+        "showDiagrams": false,
+        "showSections": true
+      },
+      "updatedAt": 1789527810587
+    },
+    "song_1788230761002": {
+      "id": "song_1788230761002",
+      "title": "Bidi bidi bom bom",
+      "artist": "Selena",
+      "content": "Bidi bidi bom bom\nSelena\n\n*Intro*\n\n*Coro*\nHey, yeah, repite ya, hey, hey, hey, yeah\nbiri-biri-bamba\nA biri biri bomba\nA biri biri biri biri biri bomba\nA biri biri biri biri\nCada vez\nCada vez que lo veo pasar\n\nMi corazón se enloquece\t(se enloquece)\n\nY me empieza a palpitar\n\n(biri biri bam bam uuu)\n\nSe emociona (se emociona)\n\nYa no razona\n\nNo lo puedo controlar\n\n(biri biri bam bam uuu)\n\nSe emociona (se emociona)\n\nYa no razona\n\nY me empieza a cantar (Canta)\n\nMe canta así, así\n\nHey yeah\nBrrripichichaman hey hey hey yeah\n\nCuando escucho esta canción, mi corazón quiere cantar así ------ ohooooo\n\nMe canta así, me canta a ti, cada vez que lo veo pasar\noh, oh, oh\n(bidi bidi bom bom)\n\nuho Mi corazón se enloquece ya\nCada vez que lo veo pasar (bidi bidi bom bom)\nY me pasa palpitar así, así\n\nOh yeah, oh yeah, oh yeah, oh yeah, oh yeah\n(bidi bidi bom bom)\n\nNo, no, no, no, no, no, yeah\n\n(bidi bidi bom bom)\n\n(Coro x2)\n\nMe canta así, me canta a ti, cada vez que lo veo pasar\noh, oh, oh\n(bidi bidi bom bom)\n\nuho Mi corazón se enloquece ya\nCada vez que lo veo pasar (bidi bidi bom bom)\nY me pasa palpitar así, así\n\nOh yeah, oh yeah, oh yeah, oh yeah, oh yeah\n(bidi bidi bom bom)\n\nNooo\n\nbidi- bidi-bum-bum!\n",
+      "settings": {
+        "keyIdx": 9,
+        "transposeSemitones": -1,
+        "capoFret": 1,
+        "speed": 3,
+        "chordSize": 15,
+        "lyricSize": 18,
+        "twoColumns": false,
+        "colLeft": 50,
+        "colGap": 24,
+        "showDiagrams": false,
+        "showSections": true
+      },
+      "updatedAt": 1789527810588
+    },
+    "song_1788234653177": {
+      "id": "song_1788234653177",
+      "title": "Chico de mi Barrio",
+      "artist": "Tormenta",
+      "content": "Chico de mi Barrio\nTormenta\n\n*Intro*\n\n*Verso 1*\nAdiós chico de mi barrio\nA dónde de prisa vas así\nPasas en bicicleta\nNo te puedo alcanzar\nSi vas por el parque\nPreguntale a mi canción\nEn qué lugar de la calle\nEl sol se escondió\n\n*[Precoro]*\nSi vienes hacia mi puerta\nDuerme entre mis brazos y descansa ya\nAprisiona mi cintura\nQue por las terrazas vamos a escapar\nVamos a bailar lalalalalalala ayy lalalaLala\n\n*Coro*\nChico de mi barrio flores en el pelo\nY los pies descalzos\nChico de mi barrio con la cara sucia\nY el cabello largo oh oh oh oh\nCuéntame qué al fin vamos a jugar\nA la libertad de poder amar\nEn algún rincón\nDe mi casa estoy esperándote\n\n*Verso 2*\nSi pasas por mi vereda\nY juegas con mi pollera así\nRegálame tu sonrisa\nY siembra en tu vientre estrellas\n\n*[Precoro]*\nSi vienes hacia mi puerta\nDuerme entre mis brazos y descansa ya\nAprisiona mi cintura\nQue por las terrazas vamos a escapar\nVamos a bailar lalalalalalala ayy lalalaLala\n\n*Coro*\nChico de mi barrio flores en el pelo\nY los pies descalzos\nChico de mi barrio con la cara sucia\nY el cabello largo oh oh oh oh\nCuéntame qué al fin vamos a jugar\nA la libertad de poder amar\nEn algún rincón\nDe mi casa estoy esperándote\n\n*Modulación*\nla la la lala\nla la la la la la\n",
+      "settings": {
+        "keyIdx": 9,
+        "transposeSemitones": 0,
+        "capoFret": 1,
+        "speed": 3,
+        "chordSize": 15,
+        "lyricSize": 18,
+        "twoColumns": false,
+        "colLeft": 50,
+        "colGap": 24,
+        "showDiagrams": false,
+        "showSections": true
+      },
+      "updatedAt": 1789527810589
+    },
+    "song_1788235394358": {
+      "id": "song_1788235394358",
+      "title": "Como la Flor",
+      "artist": "Selena",
+      "content": "Como la Flor\nSelena\n\n*intro: *\n\n*Estrofa 1*\nyo se tienes\nun nuevo amor\nsin embargo\nte deseo lo mejor\n\nsi en mi no encontraste\nfelicidad\ntalvez alguien mas\nte la dará\n\n*Coro:*\ncomo la flor(como la flor)\ntanto amor(tanto amor)\nme diste tu\nse marchito\nme marcho hoy\nyo se perder\n\npero a-a-ay como me duele\na,a,ay como me duele\n\n*intro:*\n\n*Estrofa 2*\nsi vieras como duele\nperder tu amor\ncon tu adios te llevas\nmi corazón\n\nno se si pueda\nvolver a amar\nporque te di\ntodo el amor que puede dar\n\n*coro:*\n\n*solo:*\n\n*coro:*\n",
+      "settings": {
+        "keyIdx": 9,
+        "transposeSemitones": 0,
+        "capoFret": 1,
+        "speed": 3,
+        "chordSize": 15,
+        "lyricSize": 18,
+        "twoColumns": false,
+        "colLeft": 50,
+        "colGap": 24,
+        "showDiagrams": false,
+        "showSections": true
+      },
+      "updatedAt": 1789527810590
+    },
+    "song_1788235748068": {
+      "id": "song_1788235748068",
+      "title": "El Hombre Que Yo Amo",
+      "artist": "Myriam Hernández",
+      "content": "El Hombre Que Yo Amo\nMyriam Hernández\n\n*Intro:*\n\n*Estrofa 1*\nEl hombre que yo amo tiene algo de niño\nLa sonrisa ancha, tierna la mirada\nTiene la palabra de mil hombres juntos\nY es mi loco amante, sabio, inteligente\n\n*Estrofa 2*\nEl hombre que yo amo no le teme a nada\nPero cuando ama lo estremece todo\nGuerrero incansable en busca de aventuras\nTiene manos fuertes, cálidas y puras\n\n*Coro:*\nEl hombre que yo amo sabe que lo amo\nMe toma en sus brazos y lo olvido todo\nÉl es mi motivo, es mi propio sol\nÉl me da alegrías que nadie me dio\n\nEl hombre que yo amo sabe que lo amo\nVuela siempre lejos, pero vuelve al nido\nEl hombre que yo amo sabe que lo amo\nYo lo quiero loco, pero loco mío\n\n*Estrofa 3*\nEl hombre que yo amo siempre sabe todo\nNo sabe de enojos, no entiende rencores\nÉl arregla todo con sabiduría\nCon sólo mirarme me alegra la vida\n\n*Estrofa 4*\nEl hombre que yo amo camina en mi mente\nEs mi único ídolo entre tanta gente\nÉl hace una fiesta con mi pelo suelto\nLadrón de mis sueños, duende de mi almohada\n\n*Coro:*\nEl hombre que yo amo sabe que lo amo\nMe toma en sus brazos y lo olvido todo\nÉl es mi motivo, es mi propio sol\nÉl me da alegrías que nadie me dio\n\nEl hombre que yo amo sabe que lo amo\nVuela siempre lejos, pero vuelve al nido\nEl hombre que yo amo sabe que lo amo\nYo lo quiero loco, pero loco mío\n\n*Solo (acordes coro)*\n\n*Coro con distorsión*\nEl hombre que yo amo sabe que lo amo\nMe toma en sus brazos y lo olvido todo\nÉl es mi motivo, es mi propio sol\nÉl me da alegrías que nadie me dio\n\nEl hombre que yo amo sabe que lo amo\nVuela siempre lejos, pero vuelve al nido\nEl hombre que yo amo sabe que lo amo\nYo lo quiero loco...",
+      "settings": {
+        "keyIdx": 4,
+        "transposeSemitones": 0,
+        "capoFret": 1,
+        "speed": 3,
+        "chordSize": 15,
+        "lyricSize": 18,
+        "twoColumns": false,
+        "colLeft": 50,
+        "colGap": 24,
+        "showDiagrams": false,
+        "showSections": true
+      },
+      "updatedAt": 1789527810591
+    },
+    "song_1788236086217": {
+      "id": "song_1788236086217",
+      "title": "Ella ya me olvidó",
+      "artist": "Leonardo Favio",
+      "content": "Ella ya me olvidó\nLeonardo Favio\n\n*Estrofa 1*\nElla, ella ya me olvidó\nyo, yo la recuerdo ahora\nEra, como la primavera,\nsu anochecido pelo,\nsu voz dormida, el beso,\ny junto al mar la fiebre,\nque me llevó a su entraña,\ny soñamos con hijos,\nque nos robó la playa.\n\n*Coro:*\nElla, ella ya me olvidó\nyo, yo no puedo olvidarla\nyo, yo no puedo olvidarla\n\n*Estrofa 2*\nElla, ella ya se olvidó\nde aquellas caminatas\njunto a la costanera,\ny el pibe que miraba.\n\n*Coro*\n\n*Estrofa 3*\nElla, ella ya me olvidó,\nyo, yo la recuerdo ahora,\n¿Cómo no recordarla,\nen cada primavera,\nsi llega con la brisa,\nse la lleva la arena.\n\n* Coro*\n",
+      "settings": {
+        "keyIdx": 9,
+        "transposeSemitones": 0,
+        "capoFret": 0,
+        "speed": 3,
+        "chordSize": 15,
+        "lyricSize": 18,
+        "twoColumns": false,
+        "colLeft": 50,
+        "colGap": 24,
+        "showDiagrams": false,
+        "showSections": true
+      },
+      "updatedAt": 1789527810592
+    },
+    "song_1788236343859": {
+      "id": "song_1788236343859",
+      "title": "Hacer el amor con otro",
+      "artist": "Alejandra Guzmán",
+      "content": "Hacer el amor con otro\nAlejandra Guzmán\n\n*Estrofa 1*\nAmanecer con el\nA mi costado no es igual\nEstar contigo\nNo es que este mal\nNi hablar\nPero le falta madurar\nEs casi un niño\n\n*Esotrofa 2*\nBanco como el yogurt\nSin ese toro que tu llevas\nEn el pecho\nFragilidad de flor\nNada que ver\nCon mi perverso\nFavorito\n\n*Precoro 1*\nSin tus uñas\nArañandome la espalda\nSin tus manos\nQue me estrujan\nTodo cambia\nSin tu lengua envenenando\nMi garganta\nSin tus dientes que torturan\nY endulzan yo no siento nada\n\n*Coro*\nHacer el amor con otro\nNo no no\nNo es la misma cosa\nNo hay estrellas de color rosa\nNo respiran los poros\nDel cuerpo\nAmbrosia salpicada\nDe te quieros\n\nHacer el amor con otro\nNo no no\nEs como no hacer nada\nFalta fuego en la mirada\nFalta dar el alma\nEn cada beso\nY sentir que puedes\nAlcanzar el cielo\n\n*Estrofa 3*\nQuise olvidarte con el\nQuise vengar todas\nTus infidelidades\nY me salio tan mal\nQue hasta me cuesta\nRespirar su mismo aire\n\n*Precoro 2*\nLos mechones de tu pelo\nNegro crespo\nTus caderas afiladas\nY escurridas\nEsa barba que raspa como lija\nY tu sonrisa retorcida\nSon los mejor que hay\nEn mi vida\n\n*Coro*\nHacer el amor con otro\nNo no no\nNo es la misma cosa\nNo hay estrellas de color rosa\nNo respiran los poros\nDel cuerpo\nAmbrosia salpicada\nDe te quieros\n\nHacer el amor con otro\nNo no no\nEs como no hacer nada\nFalta fuego en la mirada\nFalta dar el alma\nEn cada beso\nY sentir que puedes\nAlcanzar el cielo\n\n*Solo con acordes coro*",
+      "settings": {
+        "keyIdx": 11,
+        "transposeSemitones": 0,
+        "capoFret": 0,
+        "speed": 3,
+        "chordSize": 15,
+        "lyricSize": 18,
+        "twoColumns": false,
+        "colLeft": 50,
+        "colGap": 24,
+        "showDiagrams": false,
+        "showSections": true
+      },
+      "updatedAt": 1789527810594
+    },
+    "song_1788236777363": {
+      "id": "song_1788236777363",
+      "title": "La Playa",
+      "artist": "La Oreja de Van Gogh",
+      "content": "La Playa\nLa Oreja de Van Gogh\n\n*Intro:*\n\n*Estrofa 1*\nNo sé si aún me recuerdas\nNos conocimos al tiempo\nTu, el mar y el cielo\nY quien me trajo a ti\n\n*Estrofa 2*\nAbrazaste mis abrazos\nVigilando aquel momento\nAunque fuera el primero\nY lo guardara para mi\n\n*Precoro*\nSi pudiera volver a nacer\nTe vería cada día amanecer\nSonriendo como cada vez\nComo aquella vez\n\n*[Coro]*\nTe voy a escribir la canción más bonita del mundo\nVoy a capturar nuestra historia en tan solo un segundo\nY un día verás que este loco de poco se olvida\nPor mucho que pasen los años de largo en su vida\n\n*Intro:*\n\n*Estrofa 3*\nEl día de la despedida\nDe esta playa de mi vida\nTe hice una promesa\nVolverte a ver así\n\n*Estrofa 4*\nMás de 50 veranos\nHace hoy que no nos vemos\nNi tu ni el mar ni el cielo\nNi quien me trajo a ti\n\n*[Precoro]*\nSi pudiera volver a nacer\nTe vería cada día amanecer\nSonriendo como cada vez\nComo aquella vez\n\n*[Coro]*\nTe voy a escribir la canción más bonita del mundo\nVoy a capturar nuestra historia en tan solo un segundo\nY un día verás que este loco de poco se olvida\nPor mucho que pasen los años de largo en su vida\n\n*[Coro]*\nTe voy a escribir la canción más bonita del mundo\nVoy a capturar nuestra historia en tan solo un segundo\nY un día verás que este loco de poco se olvida\nPor mucho que pasen los años\nPor mucho que pasen los años de largo en tu vida\nTu vidaaaaa\nTu vidaaaaaa, aaaha\n\n*[Final]*\n",
+      "settings": {
+        "keyIdx": 9,
+        "transposeSemitones": 0,
+        "capoFret": 0,
+        "speed": 3,
+        "chordSize": 15,
+        "lyricSize": 18,
+        "twoColumns": false,
+        "colLeft": 50,
+        "colGap": 24,
+        "showDiagrams": false,
+        "showSections": true
+      },
+      "updatedAt": 1789527810595
+    },
+    "song_1788237347175": {
+      "id": "song_1788237347175",
+      "title": "Me Gustas",
+      "artist": "Joan Sebastian",
+      "content": "Me Gustas\nJoan Sebastian\n\n*Intro:*\n\n*Estrofa 1*\nMe gustan tus ojos, me gusta tu boca,\nme aloca, me aloca el roce de tu piel,\ntu presente tu ayer, me gusta,\nme gusta todo, todo me gusta, de ti.\n\n*Estrofa 2*\nMe gustan tus manos, cuando te saludo,\ny sudo, sudo de nervios de pensar,\nque pudiera tocar, tu alma,\nme gusta tu alma, tu alma me gusta, me gustas.\n\n*CORO:*\nMe gusta amanecer pensando que me quieres,\nsoñarte se hizo ya el mayor de mis placeres,\nme gusta todo, todo me gusta, de ti.\n\n*Intro:*\n\n*Estrofa 3*\nMe gusta tu estilo, medio despistado,\npecado, pecado fuera no soñar,\ntambién poder tocar, tu cuerpo,\nde cuerpo y alma, como me gustas, me gustas.\n\n*CORO  (x2)*\n\n*FINAL*\n",
+      "settings": {
+        "keyIdx": 5,
+        "transposeSemitones": 0,
+        "capoFret": 0,
+        "speed": 3,
+        "chordSize": 15,
+        "lyricSize": 18,
+        "twoColumns": false,
+        "colLeft": 50,
+        "colGap": 24,
+        "showDiagrams": false,
+        "showSections": true
+      },
+      "updatedAt": 1789527810596
+    },
+    "song_1788237560383": {
+      "id": "song_1788237560383",
+      "title": "Mi Historia Entre tus Dedos",
+      "artist": "Gianluca Grignani",
+      "content": "Mi Historia Entre tus Dedos\nGianluca Grignani\n\n*[Intro]*\n*[Primera Parte]*\nYo pienso que\nC7M/G\nNo son tan inútiles\nF7M/C\nLas noches que te di\nTe marchas y que\nC7M/G\nYo no intento discutírtelo\nF7M/C\nLo sabes y lo sé\n\n*[Precoro 1]*\nAl menos quédate solo esta noche\nC7M/G                   F7M/C\nPrometo no tocarte, estás segura\nHay veces que me voy sintiendo solo\nC7M/G             F7M/C\nPorque conozco esa sonrisa tan definitiva\nC7M/G\nTu sonrisa que a mí mismo\nF7M/C\nMe abrió tu paraíso\n\n*[Segunda Parte]*\nSe dice que\nC7M/G               F7M/C\nCon cada hombre hay una como tu\nPero me sitio, luego\nC7M/G\nLo ocuparas con alguno\nF7M/C\nIgual que yo, mejor, lo dudo\n\n*[Precoro 2]*\n¿Por qué esta vez agachas la mirada?\nC7M/G                     F7M/C\nMe pides que sigamos siendo amigos\nAmigos para que maldita sea\nC7M/G             F7M/C\nA un amigo lo perdono, pero a ti te amo\nC7M/G\nPueden parecer banales\nF7M/C\nMis instintos naturales\n\n*[Estribillo]*\nHay una cosa que yo no te he dicho aún\nQue mis problemas sabes que se llaman tu\nPara sentirme un poquito más seguro\n\nY si no quieres ni decir en qué he fallado\nRecuerda que también a ti te he perdonado\nY en cambio tu dices lo siento no te quiero\nY te me vas con esta historia entre tus dedos\n\n*[Tercera Parte]*\nQue vas a hacer\nC7M/G\nBusca una excusa\nF7M/C\nY luego márchate\nPorque de mi\nC7M/G\nNo debieras preocuparte\nF7M/C\nNo debes provocarme\n\n*[Precoro 3]*\n\nQue yo te escribiré un par de canciones\nC7M/G                    F7M/C\nTratando de ocultar mis emociones\nPensando, pero poco, en las palabras\nC7M/G          F7M/C\nTe hablaré de la sonrisa tan definitiva\nC7M/G\nTu sonrisa que a mí mismo\nF7M/C\nMe abrió tu paraíso\n\n*[Estribillo]*\nHay una cosa que yo no te he dicho aún\nQue mis problemas sabes que se llaman tu\nPara sentirme un poquito más seguro\n\nY si no quieres ni decir en qué he fallado\nRecuerda que también a ti te he perdonado\nY en cambio tú dices lo siento, no te quiero\nY te me vas con esta historia entre tus dedos\n\n*[Final]*\n\nNaaa nanaraaa\nC7M/G    F7M/C\nNaaa nanaraaa\nNaaa nanaraaa\nC7M/G    F7M/C\nNaaa nanaraaa\n\n*[Final instrumental]*\n",
+      "settings": {
+        "keyIdx": 2,
+        "transposeSemitones": 0,
+        "capoFret": 0,
+        "speed": 3,
+        "chordSize": 15,
+        "lyricSize": 18,
+        "twoColumns": false,
+        "colLeft": 50,
+        "colGap": 24,
+        "showDiagrams": false,
+        "showSections": true
+      },
+      "updatedAt": 1789527810638
+    },
+    "song_1788237973395": {
+      "id": "song_1788237973395",
+      "title": "Olvídame y pega la vuelta",
+      "artist": "Pimpinela",
+      "content": "Olvídame y pega la vuelta\nPimpinela\n\n*Intro*\n\n*Estrofa 1*\nHace dos años y un día que vivo sin él\nHace dos años y un día que no lo he vuelto a ver\nY aunque no he sido feliz aprendí a vivir sin su amor\nPero al ir olvidando de pronto una noche volvió.\n\n*PreCoro 1*\nQuién es ('Soy yo')\nQué vienes a buscar ('A ti')\nYa es tarde  ('Por qué')\nPorque ahora soy yo la que quiere estar sin ti.\n\n*[Coro]:*\nPor eso vete, olvida mi nombre mi cara mi casa y pega la vuelta ('Jamás te pude comprender')\nVete, olvida mis ojos, mis manos, mis labios, que no te desean ('Estás mintiendo ya lo sé')\nVete, olvida que existo, que me conociste, y no te sorprendas\nOlvida de todo que tu para eso, tienes experiencia.\n\n*[Puente]:*\n\n*Estrofa 2*\n('En busca de emociones un día marché,\nDe un mundo de sensaciones que no encontré\nY al descubrir que era todo una gran fantasía volví\nPorque entendí que quería las cosas que viven en ti')\n\n*Precoro 2*\nAdiós ('Ayúdame')\nNo hay nada más que hablar ('Piensa en mi')\nAdiós ('Por qué')\nPorque ahora soy yo la que quiere estar sin ti.\n\n*Coro*\n",
+      "settings": {
+        "keyIdx": 2,
+        "transposeSemitones": 0,
+        "capoFret": 0,
+        "speed": 3,
+        "chordSize": 15,
+        "lyricSize": 18,
+        "twoColumns": false,
+        "colLeft": 50,
+        "colGap": 24,
+        "showDiagrams": false,
+        "showSections": true
+      },
+      "updatedAt": 1789527810639
+    },
+    "song_1788238167209": {
+      "id": "song_1788238167209",
+      "title": "Porque te vas",
+      "artist": "Jeanette",
+      "content": "Porque te vas\nJeanette\n\n*Estrofa 1*\nHoy en mi ventana brilla el sol y el corazón\nSe pone triste contemplando la ciudad porque te vas\nComo cada noche desperté pensando en ti\nY en mi reloj todas las horas vi pasar porque te vas\n\n*Coro:*\nTodas las promesas de mi amor se irán contigo\nMe olvidaras, me olvidaras\nJunto en la estación hoy lloraré igual que un niño\nPorque te vas   porque te vas\nPorque te vas   porque te vaaaaas\n\n*Estrofa 2*\nBajo la penumbra de un farol se dormirán\nTodas las cosas que quedaron por decir se dormirán\nJunto a las manillas de un reloj esperaran\nTodas las horas que quedaron por vivir esperaran\n\n*Coro*\nTodas las promesas de mi amor se irán contigo\nMe olvidaras, me olvidaras\nJunto en la estación hoy lloraré igual que un niño\nPorque te vas   porque te vas\nPorque te vas   porque te vaaaaas\n\n*Puente*\n\n*Coro corto*\nTodas las promesas de mi amor se irán contigo\nMe olvidaras, me olvidaras\nJunto en la estación hoy lloraré igual que un niño\nPorque te vas   porque te vas\n\n*Coro*\nTodas las promesas de mi amor se irán contigo\nMe olvidaras, me olvidaras\nJunto en la estación hoy lloraré igual que un niño\nPorque te vas   porque te vas\nPorque te vas   porque te vaaaaas\n\n*Final*\n",
+      "settings": {
+        "keyIdx": 7,
+        "transposeSemitones": 0,
+        "capoFret": 0,
+        "speed": 3,
+        "chordSize": 15,
+        "lyricSize": 18,
+        "twoColumns": false,
+        "colLeft": 50,
+        "colGap": 24,
+        "showDiagrams": false,
+        "showSections": true
+      },
+      "updatedAt": 1789527810640
+    },
+    "song_1788238669340": {
+      "id": "song_1788238669340",
+      "title": "Será porque te amo",
+      "artist": "Ricchi E Poveri",
+      "content": "Será porque te amo\nRicchi E Poveri\n\n*[Intro]*\n\n*Estrofa 1*\nDe pronto canto, será por que te amo\nY siento el viento, que pasa por tus manos\nTodo es distinto, cuando te estoy mirando\nNo me sorprendo, será por que te amo\n\n*Estrofa 2*\nCanto a tu ritmo, en pleno mes de enero\nEs primavera, será por que te amo\nSi estamos juntos, no se ni donde estamos\nQue nos importa, será por que te amo\n\n*[Estribillo] x2*\nVuela que vuela y verás, que no es difícil volar\nVuela que vuela y veré, al mundo loco de atar\nSi canto, canto por ti, por un amor que aparece\nQue nace y que crece dentro y fuera de mi\n\n*Estrofa 3*\nDuermo y no duermo, y no estoy pensando\nTan solo canto, será por que te amo\nSi estalla el mundo, nosotros nos marchamos\nSi estalla el mundo, será por que te amo\n\n*Estrofa 4*\nSi estoy contigo, será por que te amo\nSi tengo miedo, será por que te amo\nSi soy tu amigo, será por que te amo\nPor que te amo, será por que te amo\n\n*[Intro]*\n\n*Coro*\nVuela que vuela y verás, que no es difícil volar\nVuela que vuela y veré, al mundo loco de atar\nSi canto, canto por ti, por un amor que aparece\nQue nace y que crece dentro y fuera de mi\n\nVuelo que vuelo por ti, será porque te amo\nVuela que vuela y veré, al mundo enloquecido\nSi canto, canto por ti, por un amor que surge\nQue nace y que crece será porque te amo\n\n*[Intro]*\n",
+      "settings": {
+        "keyIdx": 4,
+        "transposeSemitones": 0,
+        "capoFret": 0,
+        "speed": 3,
+        "chordSize": 15,
+        "lyricSize": 18,
+        "twoColumns": false,
+        "colLeft": 50,
+        "colGap": 24,
+        "showDiagrams": false,
+        "showSections": true
+      },
+      "updatedAt": 1789527810641
+    },
+    "song_1788238983967": {
+      "id": "song_1788238983967",
+      "title": "Si me vas a  abandonar",
+      "artist": "Buddy Richard",
+      "content": "Si me vas a  abandonar\nBuddy Richard\n\n*Intro*\nSi me vas a abandonar\nPiénsalo bien\nSi me vas a dejar\n\n*Solo 1:*\n\n*Estrofa 1*\nSi me vas a abandonar\nPiénsalo bien si me vas a dejar\nYo solo espero que tu\nNo te vayas a equivocar\n\n*Estrofa 2*\nY si no me quieres más\nPiénsalo bien si me vas a dejar\nPues muchas veces así por un error\nSe pierde un amor\n\n*Coro*\nY pensar\nQue tantas veces yo decir te oí\n¡Ay!, yo te quiero y no podría vivir\nSi tú te vas si ya no estás\n\n*Estrofa 3*\nY si tienes ya otro amor\nTanto mejor para nosotros dos\nAdiós y que seas muy feliz\n\n*Solo 2:*\n\n*Coro*\nY pensar\nQue tantas veces yo decir te oí\n¡Ay!, yo te quiero y no podría vivir\nSi tú te vas si ya no estás\n\n*Estrofa 4*\nY si tienes ya otro amor\nTanto mejor para nosotros dos\nAdiós y que seas muy feliz\n\n*Outro*\nlalala la la x2 (acordes estrofa):\n",
+      "settings": {
+        "keyIdx": 5,
+        "transposeSemitones": 0,
+        "capoFret": 0,
+        "speed": 3,
+        "chordSize": 15,
+        "lyricSize": 18,
+        "twoColumns": false,
+        "colLeft": 50,
+        "colGap": 24,
+        "showDiagrams": false,
+        "showSections": true
+      },
+      "updatedAt": 1789527810642
+    },
+    "song_1788239440604": {
+      "id": "song_1788239440604",
+      "title": "Si Una Vez",
+      "artist": "Selena",
+      "content": "Si Una Vez\nSelena\n\n*Intro:*\n\n*Estrofa 1*\nYo\nTe di todo mi amor y mas\nY tu\nNo reconoces ni lo que es amar\n\n*Estrofa 2*\nYo\nMe puse dispuesta a tus pies\nY tan solo con desprecios\nMe has pagado pero ahora ve-e-i-e-i\n\n*[Estribillo]:*\nSi una vez dije que te amaba\nHoy me arrepiento\nSi una vez dije que te amaba\nNo se lo que pensé\nEstaba loca\n\nSi una vez dije que te amaba\nY que por ti la vida daba\nSi una vez dije que te amaba\nNo lo vuelvo hacei-e-i-er\nEse error es cosa de ayer\n\n*Intro: *\n\n*Estrofa 3*\nYo\nSe que un día tu volverás\nY tu\nDe todo te arrepentirás\n\n*Estrofa 4*\nYo\nMe puse dispuesta a tus pies\nY tan solo con desprecios\nMe has pagado pero ahora ve-e-i-e-i\n\n*[Estribillo]:*\nSi una vez dije que te amaba\nHoy me arrepiento\nSi una vez dije que te amaba\nNo se lo que pensé\nEstaba loca\n\nSi una vez dije que te amaba\nY que por ti la vida daba\nSi una vez dije que te amaba\nNo lo vuelvo hacei-e-i-er\nEse error es cosa de ayer\n\n*[Solo synth]:*\n*[Estribillo B]:*\n",
+      "settings": {
+        "keyIdx": 9,
+        "transposeSemitones": 0,
+        "capoFret": 0,
+        "speed": 3,
+        "chordSize": 15,
+        "lyricSize": 18,
+        "twoColumns": false,
+        "colLeft": 50,
+        "colGap": 24,
+        "showDiagrams": false,
+        "showSections": true
+      },
+      "updatedAt": 1789527810643
+    },
+    "song_1788239729787": {
+      "id": "song_1788239729787",
+      "title": "Simplemente Amigos",
+      "artist": "Ana Gabriel",
+      "content": "Simplemente Amigos\nAna Gabriel\n\n*Intro:*\n\n*Estrofa 1*\nSiempre como ya es costumbre día a día es igual\nno hay nada que decir, ante la gente es así\namigos, simplemente amigos y nada más\n\n*Precoro*\nPero quién sabe en realidad lo que sucede entre los dos\nSi cada quién llegando la noche finge un adiós\n\n*[Estribillo]:*\nCuánto daría por gritarles nuestro amor\nDecirles que al cerrar la puerta nos amamos sin control\nQue despertamos abrazados con ganas de seguir amándonos\nPero es que en realidad no aceptan nuestro amor\n\n*Intro:*\n\n*Estrofa 2*\nSiempre con miradas siempre nos damos todo el amor\nhablamos sin hablar, todo es silencio en nuestro andar\namigos, simplemente amigos y nada más\n\n*Precoro*\nPero quién sabe en realidad lo que sucede entre los dos\nSi cada quién llegando la noche finge un adiós\n\n*[Estribillo x2]:*\nCuánto daría por gritarles nuestro amor\nDecirles que al cerrar la puerta nos amamos sin control\nQue despertamos abrazados con ganas de seguir amándonos\nPero es que en realidad no aceptan nuestro amor\n\n*Outro x7*\n",
+      "settings": {
+        "keyIdx": 5,
+        "transposeSemitones": 0,
+        "capoFret": 1,
+        "speed": 3,
+        "chordSize": 15,
+        "lyricSize": 18,
+        "twoColumns": false,
+        "colLeft": 50,
+        "colGap": 24,
+        "showDiagrams": false,
+        "showSections": true
+      },
+      "updatedAt": 1789527810645
+    },
+    "song_1788240145487": {
+      "id": "song_1788240145487",
+      "title": "Tu, Ana María",
+      "artist": "Rudy Márquez",
+      "content": "Tu, Ana María\nRudy Márquez\n\n*Estrofa 1:*\nSiempre pensé que eras conmigo feliz\nQue había sinceridad en tu forma de reír\nQue te gustaba el amor que yo sentía por ti\nY que tu mundo era yo porque mi mundo eras tú\n¿cómo podía pensar que te pudieras marchar\nCon ese estúpido que siempre me juraba su amistad?\n\n*Coro*\nMaldita tú, Ana María\nTú solamente te has burlado del amor que yo te di, maldita tú, Ana María\nSí, Ana María\nY te reías y fingías y decías ser feliz conmigo\n\n*Estrofa 2*\nQué tonto fui, no entiendo cómo no vi\nQue tú pudieras jugar con mi manera de amar\nY que tus besos de miel estaban llenos de hiel\nY que pudieras mentir de esa manera tan cruel\nY que estrujaras mi amor como si fuera un papel\nAl que has botado de costado\nPara irte así con el, maldita tú (Ana María)\n*Coro*\nSí, Ana María\nTú solamente te has burlado del amor que yo te di, maldita tú (Ana María)\nSi Ana María y te reías y fingías y decías ser feliz conmigo\n\n*Solo synth*\n\n*Estrofa 3*\nSiento rabia tan solo de recordar\nQue si me hablaban de ti era capaz de matar\nMi mujer si te era fiel, mi gran amigo era él\nY es que no hay ciego peor que aquel que no quiere ver\nYo estaba loco por ti cuando te fuiste de mí\nY aún corroe mis entrañas el dolor que yo sentí\n\n*Coro +1ST*\nMaldita tú (Anna María)\nY siempre tú (Anna María)\nTú solamente te has burlado del amor que yo te di\nMaldita tú, Ana María\nMaldita seas, Ana María\nY te reías y fingías y decías\nSer feliz conmigo tú, Ana María\n*Coro +2ST*\nY solo tú, Ana María, maldita seas Ana María\nTú solamente te has burlado del amor que yo te di, maldita tú Ana María\nY solo tú, Ana María, y siempre tú Ana María\nY te reías, y fingías, y decías ser feliz conmigo tú, Ana María\nSí, Ana María, solo tú, Ana María",
+      "settings": {
+        "keyIdx": 2,
+        "transposeSemitones": 0,
+        "capoFret": 0,
+        "speed": 3,
+        "chordSize": 15,
+        "lyricSize": 18,
+        "twoColumns": false,
+        "colLeft": 50,
+        "colGap": 24,
+        "showDiagrams": false,
+        "showSections": true
+      },
+      "updatedAt": 1789527810648
+    },
+    "song_1788240325998": {
+      "id": "song_1788240325998",
+      "title": "Ya Te Olvidé",
+      "artist": "Rocío Dúrcal",
+      "content": "Ya Te Olvidé\nRocío Dúrcal\n\n*Intro*\n\n*Estrofa 1*\nYa te olvidé, vuelvo a ser libre otra vez\nVuelvo a volar hacia mi vida que es tan lejos y prohibida para ti\n\n*Estrofa 2*\nYa te olvidé\nEstás muy lejos de mí\nTú no lograste con herirme, lastimarme y convertirme en no sé qué\n\n*Coro*\nMe atrapaste, me tuviste entre tus manos\nMe enseñaste lo inhumano y lo infeliz que puedes ser\nTe fingiste exactamente enamorado\nAunque nunca me has amado yo lo sé\n\nMe dijiste que jamás podría olvidarte\nQue después iría a rogarte y a decirte bésame\nYo luché contra el amor que te tenía y se fue\nAhora ya te olvidé\n\n*Solo Synth*\n\n*Coro*\nMe atrapaste, me tuviste entre tus manos\nMe enseñaste lo inhumano y lo infeliz que puede ser\nTe fingiste exactamente enamorado\nAunque nunca me has amado yo lo sé\n\nMe dijiste que jamás podría olvidarte\nQue después iría a rogarte y a decirte bésame\nYo luché contra el amor que te tenía y se fue\nAhora ya te olvidé\n\n*Outro*\n",
+      "settings": {
+        "keyIdx": 4,
+        "transposeSemitones": 0,
+        "capoFret": 0,
+        "speed": 3,
+        "chordSize": 15,
+        "lyricSize": 18,
+        "twoColumns": false,
+        "colLeft": 50,
+        "colGap": 24,
+        "showDiagrams": false,
+        "showSections": true
+      },
+      "updatedAt": 1789527810649
+    },
+    "song_1789523375887": {
+      "id": "song_1789523375887",
+      "title": "Lolita",
+      "artist": "Orquesta Mondragón",
+      "content": "Lolita\nOrquesta Mondragón\n\n*Intro*\n\n*Verso 1*\nLlaman al timbre salgo a mirar\ny abro la puerta y estas ahí\ndulce regalo que satanás manda para mi\nsu asignatura quiero aprobar\nexplìqueme otra vez la lección\ndeme una clase particular\nseñor profesor\n\n*Precoro :*\nLolita\nme excitas\nperversa piel de melocotón\nlolita\nmaldita\nque adolescente sin corazon\n\n*Verso 2*\nbajo la falda de colegial\ncruzas las piernas con intención\ny tu liguero me hace olvidar la lección\nhoy no haz venido y había francés\nvas a arruinar mi reputación\nsobresaliente te puse aller en pasion\n\n*Precoro :*\nLolita\nme excitas\nperversa piel de melocotón\nlolita\nmaldita\nque adolescente sin corazón\n\n*CORO x2:*\n\nNiña de fuego\ncon labios de mujer fatal\ncomo se entere de nuestros juegos tu papa\n\n*solo*\n\n*Precoro:*\nLolita\nme excitas\nperversa piel de melocotón\nlolita\nmaldita\nque adolescente sin corazón\n\n*CORO x2:*\nNiña de fuego\ncon labios de mujer fatal\ncomo se entere de nuestros juegos tu papa\n\n*Outro*",
+      "settings": {
+        "keyIdx": 9,
+        "transposeSemitones": 0,
+        "capoFret": 0,
+        "speed": 3,
+        "chordSize": 15,
+        "lyricSize": 18,
+        "twoColumns": false,
+        "colLeft": 50,
+        "colGap": 24,
+        "showDiagrams": false,
+        "showSections": true
+      },
+      "updatedAt": 1789527810651
+    },
+    "song_1789523870889": {
+      "id": "song_1789523870889",
+      "title": "Inevitable",
+      "artist": "Shakira",
+      "content": "Inevitable\nShakira\n\n*Verso 1*\nSi es cuestión de confesar\nNo se preparar café\nY no entiendo de fútbol\n\nCreo que alguna vez fui infiel\nJuego mal hasta el parques\nY jamás uso reloj\n\n*Precoro:*\nY para ser mas franca nadie\nPiensa en ti como lo hago yo\nAunque te de lo mismo\n\n*Verso 2*\nSi es cuestión de confesar\nNunca duermo antes de diez\nNi me baño los domingos\n\nLa verdad es que también\nLloro una vez al mes\nSobre todo cuando hay frió\n\n*Precoro 2*\nConmigo nada es fácil\nYa debes saber\nMe conoces bien...(y sin ti todo es tan aburrido)...\n\n*Coro*\nEl cielo esta cansado ya de ver\nLa lluvia caer\nY cada ida que pasa es uno mas\nParecido a ayer\nNo encuentro forma alguna de\nOlvidarte porque\nSeguir amándote es        inevitable\n\n*Verso 3*\n\nSiempre supe es mejor\nCuando hay que hablar de dos\nEmpezar por uno mismo\n\nYa sabrás la situación\nAquí todo esta peor\nPero al menos aun respiro\n\n*Precoro 3*\nNo tienes que decirlo\nNo vas a volver\nTe conozco bien ...(Ya buscare que hacer conmigo)...\n\n*Coro*\nEl cielo esta cansado ya de ver\nLa lluvia caer\n\nY cada ida que pasa es uno mas\nParecido a ayer\nNo encuentro forma alguna de\nOlvidarte porque\nSeguir amándote es    inevitable\n\n*Solo*\n\n*Verso 4*\nSiempre supe es mejor\nCuando hay que hablar de dos\nEmpezar por uno mismo\n\n*Outro*",
+      "settings": {
+        "keyIdx": 6,
+        "transposeSemitones": 0,
+        "capoFret": 0,
+        "speed": 3,
+        "chordSize": 15,
+        "lyricSize": 18,
+        "twoColumns": false,
+        "colLeft": 50,
+        "colGap": 24,
+        "showDiagrams": false,
+        "showSections": true
+      },
+      "updatedAt": 1789527810660
+    },
+    "song_1789524132662": {
+      "id": "song_1789524132662",
+      "title": "Como yo nadie te ha amado",
+      "artist": "Bon Jovi",
+      "content": "Como yo nadie te ha amado\nBon Jovi\n\n*Intro*\n*Estrofa 1*\nYo no vi las flores marchitar\nNi ese frío en tus ojos al mirar\nNo, no vi la realidad me ibas a dejar.\n\nDicen que la vida baby\nNo es como la ves\nPara aprender hay que caer\nPara ganar hay que perder lo di todo por ti.\n\n[Precoro]\nLlore y llore\nY jure que no iba a perderte\nTrate y trate\nDe negar este amor tantas veces baby.\n\n[Coros]\nSi mis lagrimas fueron en vano\nSi al final yo te ame demasiado\nComo yo\nComo yo nadie te ha amado.\n\n*Estrofa 2*\nCada hora una eternidad\ncada amanecer un comenzar\nilusiones nada mas\nque fácil fue soñar.\n\ntantas noches de intimidad\nparecían no acabar\nnos dejamos desafiar y hoy nada es igual.\n\n[Precoros]\nsé que en verdad el amor\nal final siempre duele.\nno lo pude salvar\ny hoy voy a pagarlo con creces baby.\n\n[Coros]\nSi mis lagrimas fueron en vano\nSi al final yo te ame demasiado\nComo yo\nComo yo nadie te ha amado.\n\nEsta vez la pasión ha ganado\nY por eso sigo esperando\nComo yo\nComo yo nadie te ha amado.\n\n[Solo]\n\n[Precoro]\nLlore y llore\nY jure que no iba a perderte\nTrate y trate\nDe negar este amor tantas veces baby.\n\n[Coros]\nSi mis lagrimas fueron en vano\nSi al final yo te ame demasiado\nComo yo\nComo yo nadie te ha amado.\n\nEsta vez la pasión ha ganado\nY por eso sigo esperando\nComo yo\nComo yo nadie te ha amado..\n\n*final*\nComo yo\nComo yo nadie te ha amado.\n\nComo yo\nComo yo nadie te ha amado.\n\nComo yo\nComo yo nadie te ha amado.\n\n*Intro*",
+      "settings": {
+        "keyIdx": 4,
+        "transposeSemitones": 0,
+        "capoFret": 0,
+        "speed": 3,
+        "chordSize": 15,
+        "lyricSize": 18,
+        "twoColumns": false,
+        "colLeft": 50,
+        "colGap": 24,
+        "showDiagrams": false,
+        "showSections": true
+      },
+      "updatedAt": 1789527810661
+    },
+    "song_1789524668611": {
+      "id": "song_1789524668611",
+      "title": "Tu Cárcel",
+      "artist": "Enanitos Verdes",
+      "content": "Tu Cárcel\nEnanitos Verdes\n\n*Intro:x2*\n\n*estrofa 1*\nTe vas amor si asi lo quieres que puedo yo hacer\ntu vanidad no te deja entender\nque en la pobreza se sabe querer\n\n*estrofa 2*\nQuiero llorar y me destroza que pienses asi\ny mas que ahora me quede sin ti\nme duele lo que tu vas a sufrir\n\n*CORO*\n\nPero recuerda nadie es perfecto y tu lo veras\nmas de mil cosas mejores tendras\npero cariño sincero jamas\n\nVete olvidando de esto que hoy dejas y que cambiaras\npor la aventura que tu ya veras\nsera tu carcel y nunca saldrás\n\n*Intro:x2*\n\n*estrofa 2*\nQuiero llorar y me destroza que pienses así\ny mas que ahora me quede sin ti\nme duele lo que tu vas a sufrir\n\n*CORO x2*\n\nPero recuerda nadie es perfecto y tu lo verás\nmas de mil cosas mejores tendrás\npero cariño sincero jamás\n\nVete olvidando de esto que hoy dejas y que cambiarás\npor la aventura que tu ya verás\nserá tu cárcel y nunca saldrás\n\n*Solo*",
+      "settings": {
+        "keyIdx": 2,
+        "transposeSemitones": 0,
+        "capoFret": 0,
+        "speed": 3,
+        "chordSize": 15,
+        "lyricSize": 18,
+        "twoColumns": false,
+        "colLeft": 50,
+        "colGap": 24,
+        "showDiagrams": false,
+        "showSections": true
+      },
+      "updatedAt": 1789527810662
+    },
+    "song_1789525076158": {
+      "id": "song_1789525076158",
+      "title": "La Cinta Rosa",
+      "artist": "Lucio Battisti",
+      "content": "La Cinta Rosa\nLucio Battisti\n\n*Intro x2:*\n\n*Verso 1*\nPersiguiendo una libélula en un prado,\nun dia que había huido del pasado,\ncuando ya creía que lo había logrado, he fallado.\n\n*Verso 2*\nUna frase tonta me ha dejado en suspenso,\nme ha abrumado, no es como yo la pienso,\nel sentimiento era demasiado intenso y  me he quedado.\n\n*Coro*\nNo sé... no sé quién eres, no sé qué serás,\nno sé qué será de nosotros, lo aprenderemos sólo viviendo.\nTemo por eso esta ternura, ahora que nuestra aventura,\nes una historia ya verdadera, deseo tanto que sea sincera.\n\n*Solo 1 x2: *\n\n*Verso 3*\nEn esta tienda que contiene tantas cosas\ny unas son negras otras verdes otras rosas,\ndebo elegir la que conviene a mi destino, no sé el camino.\n\n*Verso 4*\nHe regresado con mi compra hasta mi casa\ny tengo miedo de romper la cinta rosa,\nque no es lo mismo equivocarse en una cosa, que en una esposa.\n\n*Coro*\nNo sé... no sé quién eres, no sé qué serás,\nno sé qué será de nosotros, lo aprenderemos sólo viviendo.\nTemo por eso esta ternura, ahora que nuestra aventura,\nes una historia ya verdadera, deseo tanto que sea sincera.\n\n*Solo 2 A*\n*Solo 2 B x2*\n",
+      "settings": {
+        "keyIdx": 1,
+        "transposeSemitones": 0,
+        "capoFret": 0,
+        "speed": 3,
+        "chordSize": 15,
+        "lyricSize": 18,
+        "twoColumns": false,
+        "colLeft": 50,
+        "colGap": 24,
+        "showDiagrams": false,
+        "showSections": true
+      },
+      "updatedAt": 1789527810663
+    },
+    "song_1789525395023": {
+      "id": "song_1789525395023",
+      "title": "Mala Hierba",
+      "artist": "Alejandra Guzmán",
+      "content": "Mala Hierba\nAlejandra Guzmán\n\n*Intro x5*\n\n*Verso 1*\nPOCO A POCO CONSEGUI\nFIJAR TU ATENCION EN MI\nA QUE ESPERAS\nPOR FAVOR VEN AQUI.\n\n*Intro*\n\n*Verso 2*\nALGO NOTO, RARO ESTAS,\nDE MI TE HAN HABLADO MAL\nY ES QUE NUNCA ENTENDERAN\nA UNA MUJER DE VERDAD.\n\n*Coro*\nDICEN QUE SOY\nUN DESASTRE TOTAL.\nQUE SOY MALA HIERBA\n\nQUE TRAS DE MI\nNO DEJE\nPIEDRA SOBRE PIEDRA.\nVEN ATEVETE   OH OH.\n\n*Verso 3*\nY QUIZAS TENGAN RAZON\nQUE ME PUEDRE EL CORAZON\nSI VAS TRAS\nDE ALGO ESPECIAL\nNO TE ARREPENTIRAS.\n\n*Coro*\nDICEN QUE SOY\nUN DESASTRE TOTAL.\nQUE SOY MALA HIERBA\nQUE TRAS DE MI\nNO DEJE\nPIEDRA SOBRE PIEDRA.\nVEN ATEVETE   OH OH.\n\n*SOLO x3*\n\n*Coro x2*\nDICEN QUE SOY\nUN DESASTRE TOTAL.\nQUE SOY MALA HIERBA\nQUE TRAS DE MI\nNO DEJE\nPIEDRA SOBRE PIEDRA.\n\n*final*\nVEN ATEVETE.\n",
+      "settings": {
+        "keyIdx": 7,
+        "transposeSemitones": 0,
+        "capoFret": 0,
+        "speed": 3,
+        "chordSize": 15,
+        "lyricSize": 18,
+        "twoColumns": false,
+        "colLeft": 50,
+        "colGap": 24,
+        "showDiagrams": false,
+        "showSections": true
+      },
+      "updatedAt": 1789527810664
+    }
+  },
+  "setlists": {
+    "setlist_1788230904933": {
+      "id": "setlist_1788230904933",
+      "name": "1Tanda19Sep",
+      "songIds": [
+        "song_1788238983967",
+        "song_1788238167209",
+        "song_1788238669340",
+        "song_1788235748068",
+        "song_1788236086217",
+        "song_1788234653177",
+        "song_1788230309234",
+        "song_1788230761002",
+        "song_1789523375887",
+        "song_1788236777363",
+        "song_1789523870889",
+        "song_1789524132662"
+      ]
+    },
+    "setlist_1788906614701": {
+      "id": "setlist_1788906614701",
+      "name": "2Tanda-19sep",
+      "songIds": [
+        "song_1788235394358",
+        "song_1788240325998",
+        "song_1788237560383",
+        "song_1788236343859",
+        "song_1788237347175",
+        "song_1789524668611",
+        "song_1788230670067",
+        "song_1788237973395",
+        "song_1788239729787",
+        "song_1789525076158",
+        "song_1789525395023",
+        "song_1788240145487",
+        "song_1788239440604"
+      ]
+    }
+  }
+}

@@ -129,3 +129,9 @@ Al implementar nuevas funcionalidades en este proyecto, cualquier agente de IA d
 
 ### C. Requisitos
 - El archivo `cifrados/backup_vocalista_concierto.json` debe estar accesible desde el servidor (funciona en GitHub Pages, requiere servidor local para `file://`).
+
+### F. Botón 📥 Backup Gt
+- Ubicado en `#collapsibleActions` de `index.html`, junto a `#btnImportBackup`.
+- Clase `btn btn-ghost` para estilo consistente.
+- Ocultable con `#btnToggleOptions`.
+- Función `importBackupGuitarrista()` — idéntica a `importBackupVocalista()` pero con `fetch('cifrados/backup_guitarrista_concierto.json')`.

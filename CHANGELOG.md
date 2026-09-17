@@ -6,6 +6,17 @@ El formato está basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1
 
 ---
 
+## [1.2.4] - 2026-09-17
+
+### ✨ Añadido
+- **Botón de Importación Automática de Backup Guitarrista:**
+  - Nuevo botón 📥 **Backup Gt** junto a "Cargar Ejemplo" y "Backup Vc".
+  - Importa automáticamente `cifrados/backup_guitarrista_concierto.json` mediante `fetch`.
+  - Función `importBackupGuitarrista()` — mismo comportamiento que `importBackupVocalista()`.
+  - Botón ocultable con "🛠 Ocultar opciones".
+
+---
+
 ## [1.2.3] - 2026-09-17
 
 ### ✨ Añadido

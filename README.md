@@ -1,6 +1,6 @@
 # 🎸 CifraViva — Visor para Vivo & Gestor de Setlists
 
-![Version](https://img.shields.io/badge/version-1.2.3-ff3b30.svg)
+![Version](https://img.shields.io/badge/version-1.2.4-ff3b30.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Web%20%7C%20Mobile%20%7C%20Desktop-black.svg)
 

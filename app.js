@@ -1,3 +1,4 @@
+console.log("CifraViva app.js loaded");
 // CifraViva app.js - módulos principales
 // Módulo 1: Carga y Gestión | Módulo 2: Reproductor | Módulo 3: Responsividad/Arquitectura
 const CHROMATIC_SHARP = ['C','C#','D','D#','E','F','F#','G','G#','A','A#','B'];
@@ -1877,6 +1878,7 @@ function handleImportJSON(file) {
 }
 
 // --- Importar Backup Vocalista Automático ---
+console.log("importBackupVocalista defined");
 async function importBackupVocalista(){
   try{
     toast('Importando backup vocalista…');
@@ -1903,6 +1905,7 @@ async function importBackupVocalista(){
 }
 
 // --- Importar Backup Guitarrista Automático ---
+console.log("importBackupGuitarrista defined");
 async function importBackupGuitarrista(){
   console.log('Backup Gt clicked');
   try{
@@ -2185,6 +2188,7 @@ renderLogoDropdown();
 updateSetlistNavUI();
 
 // Exponer para debug / futura integración
+console.log("CifraViva app.js fully loaded - all functions defined");
 window.CifraViva={ DriveAdapter, transposeChord, getDiagram, StorageManager };
 
 

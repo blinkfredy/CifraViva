@@ -1904,6 +1904,7 @@ async function importBackupVocalista(){
 
 // --- Importar Backup Guitarrista Automático ---
 async function importBackupGuitarrista(){
+  console.log('Backup Gt clicked');
   try{
     toast('Importando backup guitarrista…');
     const resp = await fetch('cifrados/backup_guitarrista_concierto.json');
@@ -1923,10 +1924,11 @@ async function importBackupGuitarrista(){
     updateSetlistNavUI();
     toast('Backup guitarrista importado con éxito');
   }catch(err){
-    console.error(err);
-    toast('Error al importar backup: '+err.message);
+    console.error('Backup Gt error:', err);
+    toast('Error: '+err.message);
   }
 }
+
 
 // Event Listeners Módulo Persistencia y Setlists
 document.getElementById('btnNewSong')?.addEventListener('click', openNewSong);

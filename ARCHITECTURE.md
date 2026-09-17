@@ -109,3 +109,23 @@ Al implementar nuevas funcionalidades en este proyecto, cualquier agente de IA d
 2. **Sincronización de UI:** Cuando se modifique un cifrado o su tono/capo/fuente, invocar siempre `updateSetlistNavUI()` y `renderLogoDropdown()`.
 3. **Protección de Edición:** Mantener la confirmación obligatoria al intentar guardar cambios en una canción existente (preguntar si sobreescribir o crear nuevo ID).
 4. **Prueba de Sintaxis Obligatoria:** Ejecutar siempre `node -c app.js` después de cualquier modificación en el código JavaScript.
+
+---
+
+## 6. v1.2.3 — Importación Automática de Backup Vocalista
+
+### A. Botón 📥 Backup Vc
+- Ubicado en `#collapsibleActions` de `index.html`, junto a `#btnSample`.
+- Ocultable con el toggle `#btnToggleOptions` (colapsa `#collapsibleActions`).
+- Clase `btn btn-ghost` para estilo consistente con el toolbar.
+
+### B. Función `importBackupVocalista()`
+- Ubicada en `app.js` antes de `// Event Listeners Módulo Persistencia y Setlists`.
+- Usa `fetch('cifrados/backup_vocalista_concierto.json')` para obtener el JSON.
+- Maneja `parsed.songs` → `StorageManager.getSongs()` + `Object.assign` + `localStorage.setItem(STORAGE_KEYS.SONGS, ...)`.
+- Maneja `parsed.setlists` → mismo patrón con `STORAGE_KEYS.SETLISTS`.
+- Llama a `renderLogoDropdown()` y `updateSetlistNavUI()` tras importar.
+- `try/catch` con `toast()` para feedback al usuario.
+
+### C. Requisitos
+- El archivo `cifrados/backup_vocalista_concierto.json` debe estar accesible desde el servidor (funciona en GitHub Pages, requiere servidor local para `file://`).

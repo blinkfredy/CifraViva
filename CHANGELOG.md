@@ -6,6 +6,18 @@ El formato está basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1
 
 ---
 
+## [1.2.3] - 2026-09-17
+
+### ✨ Añadido
+- **Botón de Importación Automática de Backup Vocalista:**
+  - Nuevo botón 📥 **Backup Vc** en la toolbar, junto a "Cargar Ejemplo".
+  - Importa automáticamente `cifrados/backup_vocalista_concierto.json` mediante `fetch`.
+  - Función `importBackupVocalista()` que hace merge de `songs` y `setlists` en `localStorage`.
+  - Botón ocultable con "🛠 Ocultar opciones" al colapsar la toolbar.
+  - Toast de confirmación de éxito o error en cada intento.
+
+---
+
 ## [1.2.2] - 2026-09-17
 
 ### ✨ Añadido & Mejorado

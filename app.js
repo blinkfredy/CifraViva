@@ -1077,6 +1077,7 @@ document.getElementById('btnHeaderSaveEdit')?.addEventListener('click', saveEdit
 document.getElementById('btnSample').addEventListener('click', loadSample);
 document.getElementById('linkSample').addEventListener('click', loadSample);
 document.getElementById('btnImportBackup').addEventListener('click', importBackupVocalista);
+document.getElementById('btnImportBackupGt').addEventListener('click', importBackupGuitarrista);
 document.getElementById('editModal').addEventListener('click', e=>{ if(e.target.id==='editModal') closeEdit(); });
 
 document.getElementById('keySelect').addEventListener('change', e=>{
@@ -1895,6 +1896,32 @@ async function importBackupVocalista(){
     renderLogoDropdown();
     updateSetlistNavUI();
     toast('Backup vocalista importado con éxito');
+  }catch(err){
+    console.error(err);
+    toast('Error al importar backup: '+err.message);
+  }
+}
+
+// --- Importar Backup Guitarrista Automático ---
+async function importBackupGuitarrista(){
+  try{
+    toast('Importando backup guitarrista…');
+    const resp = await fetch('cifrados/backup_guitarrista_concierto.json');
+    if(!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const parsed = await resp.json();
+    if(parsed.songs){
+      const songs = StorageManager.getSongs();
+      Object.assign(songs, parsed.songs);
+      localStorage.setItem(STORAGE_KEYS.SONGS, JSON.stringify(songs));
+    }
+    if(parsed.setlists){
+      const setlists = StorageManager.getSetlists();
+      Object.assign(setlists, parsed.setlists);
+      localStorage.setItem(STORAGE_KEYS.SETLISTS, JSON.stringify(setlists));
+    }
+    renderLogoDropdown();
+    updateSetlistNavUI();
+    toast('Backup guitarrista importado con éxito');
   }catch(err){
     console.error(err);
     toast('Error al importar backup: '+err.message);

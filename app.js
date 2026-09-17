@@ -53,6 +53,7 @@ function transposeChord(chordStr, semitones){
 }
 
 function detectChordsInText(text){
+  CHORD_EXTRACT_RE.lastIndex = 0;
   const found=[];
   let m;
   while((m=CHORD_EXTRACT_RE.exec(text))!==null){
@@ -537,6 +538,7 @@ function renderSheet(){
     }
     div.className='line ' + (l.type==='chord'?'chord-line':'lyric-line');
     if(l.type==='chord'){
+      CHORD_EXTRACT_RE.lastIndex = 0;
       const html = l.text.replace(CHORD_EXTRACT_RE, (match)=>{
         const t = match;
         if(isChordToken(t)){
@@ -567,6 +569,7 @@ function renderSheet(){
     container.className='pair-line';
     // Encuentra acordes y sus índices en la línea de acordes
     const re = new RegExp(CHORD_EXTRACT_RE.source, 'g');
+    re.lastIndex = 0;
     const pos = [];
     let m;
     while((m=re.exec(chordText))!==null){

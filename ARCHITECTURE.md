@@ -135,3 +135,8 @@ Al implementar nuevas funcionalidades en este proyecto, cualquier agente de IA d
 - Clase `btn btn-ghost` para estilo consistente.
 - Ocultable con `#btnToggleOptions`.
 - Función `importBackupGuitarrista()` — idéntica a `importBackupVocalista()` pero con `fetch('cifrados/backup_guitarrista_concierto.json')`.
+
+### G. Bug Fixes v1.2.5
+- **Reset Handler:** `sectionPanel` y `diagramPanel` reemplazados por `document.getElementById(...)` para evitar ReferenceError al ejecutar `clearAll()`.
+- **Global Scope:** `window.importBackupGuitarrista` y `window.importBackupVocalista` asignadas explícitamente para acceso desde `onclick` del HTML.
+- **Cache Busting:** `app.js?v=1.2.5` query parameter para forzar recarga del navegador.

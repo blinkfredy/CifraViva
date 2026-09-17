@@ -6,6 +6,14 @@ El formato está basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1
 
 ---
 
+## [1.2.5] - 2026-09-17
+
+### 🐛 Corregido
+- **Error silencioso en Resetear App:** Las variables `sectionPanel` y `diagramPanel` no existían en el scope del handler de reset, causando `ReferenceError` que impedía mostrar el toast de confirmación y completaba la limpieza. Ahora usan `document.getElementById('sectionsPanel')` y `document.getElementById('diagramPanel')` directamente.
+- **Backup Gt/Vc no invocables:** `importBackupGuitarrista` y `importBackupVocalista` no eran accesibles desde el `onclick` del HTML. Se agregó asignación explícita a `window` y query parameter cache-busting en `app.js`.
+
+---
+
 ## [1.2.4] - 2026-09-17
 
 ### ✨ Añadido

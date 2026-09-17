@@ -1,7 +1,7 @@
 {
   "app": "CifraViva",
   "version": "1.0",
-  "exportedAt": "2026-09-16T07:19:31.685Z",
+  "exportedAt": "2026-09-17T07:12:20.813Z",
   "songs": {
     "song_1788230309234": {
       "id": "song_1788230309234",
@@ -51,7 +51,7 @@
       "settings": {
         "keyIdx": 7,
         "transposeSemitones": 0,
-        "capoFret": 1,
+        "capoFret": 0,
         "speed": 3,
         "chordSize": 15,
         "lyricSize": 18,
@@ -61,33 +61,13 @@
         "showDiagrams": false,
         "showSections": false
       },
-      "updatedAt": 1789536261643
+      "updatedAt": 1789627769675
     },
     "song_1788234653177": {
       "id": "song_1788234653177",
       "title": "Chico de mi Barrio",
       "artist": "Tormenta",
-      "content": "Chico de mi Barrio\nTormenta\n\n*Intro*\n\n*Verso 1*\nAdiós chico de mi barrio\nA dónde de prisa vas así\nPasas en bicicleta\nNo te puedo alcanzar\nSi vas por el parque\nPreguntale a mi canción\nEn qué lugar de la calle\nEl sol se escondió\n\n*[Precoro]*\nSi vienes hacia mi puerta\nDuerme entre mis brazos y descansa ya\nAprisiona mi cintura\nQue por las terrazas vamos a escapar\nVamos a bailar lalalalalalala ayy lalalaLala\n\n*Coro*\nChico de mi barrio flores en el pelo\nY los pies descalzos\nChico de mi barrio con la cara sucia\nY el cabello largo oh oh oh oh\nCuéntame qué al fin vamos a jugar\nA la libertad de poder amar\nEn algún rincón\nDe mi casa estoy esperándote\n\n*Verso 2*\nSi pasas por mi vereda\nY juegas con mi pollera así\nRegálame tu sonrisa\nY siembra en tu vientre estrellas\n\n*[Precoro]*\nSi vienes hacia mi puerta\nDuerme entre mis brazos y descansa ya\nAprisiona mi cintura\nQue por las terrazas vamos a escapar\nVamos a bailar lalalalalalala ayy lalalaLala\n\n*Coro*\nChico de mi barrio flores en el pelo\nY los pies descalzos\nChico de mi barrio con la cara sucia\nY el cabello largo oh oh oh oh\nCuéntame qué al fin vamos a jugar\nA la libertad de poder amar\nEn algún rincón\nDe mi casa estoy esperándote\n\nEn algún rincón\nDe mi casa estoy esperándote\n\nEn algún rincón\nDe mi casa estoy esperándote\n\n",
-      "settings": {
-        "keyIdx": 7,
-        "transposeSemitones": 0,
-        "capoFret": 1,
-        "speed": 3,
-        "chordSize": 15,
-        "lyricSize": 18,
-        "twoColumns": false,
-        "colLeft": 50,
-        "colGap": 24,
-        "showDiagrams": false,
-        "showSections": false
-      },
-      "updatedAt": 1789534517886
-    },
-    "song_1788235394358": {
-      "id": "song_1788235394358",
-      "title": "Como la Flor",
-      "artist": "Selena",
-      "content": "Como la Flor\nSelena\n*intro: *\n\n*Estrofa 1*\nyo se que tienes\nun nuevo amor\nsin embargo\nte deseo lo mejor\n\nsi en mi no encontraste\nfelicidad\ntal vez alguien mas\nte la dará\n\n*Coro:*\ncomo la flor(como la flor)\ntanto amor(tanto amor)\nme diste tu\nse marchito\nme marcho hoy\nyo se perder\n\npero a-a-ay como me duele\na,a,ay como me duele\n\n*intro:*\n\n*Estrofa 2*\nsi vieras como duele\nperder tu amor\ncon tu adios te llevas\nmi corazón\n\nno se si pueda\nvolver a amar\nporque te di\ntodo el amor que puede dar\n\n*Coro:*\ncomo la flor(como la flor)\ntanto amor(tanto amor)\nme diste tu\nse marchito\nme marcho hoy\nyo se perder\n\npero a-a-ay como me duele\na,a,ay como me duele\n\n*solo:*\n\n*Coro:*\ncomo la flor(como la flor)\ntanto amor(tanto amor)\nme diste tu\nse marchito\nme marcho hoy\nyo se perder\n\npero a-a-ay como me duele\na,a,ay como me duele\na,a,ay como me duele\n\n*outro*",
+      "content": "Chico de mi Barrio\nTormenta\n*Intro*\n\n*Verso 1*\nAdiós chico de mi barrio\nA dónde de prisa vas así\nPasas en bicicleta\nNo te puedo alcanzar\nSi vas por el parque\nPregúntale a mi canción\nEn qué lugar de la calle\nEl sol se escondió\n\n*[Precoro]*\nSi vienes hacia mi puerta\nDuerme entre mis brazos y descansa ya\nAprisiona mi cintura\nQue por las terrazas vamos a escapar\nVamos a bailar lalalalalalala ayy lalalaLala\n\n*Coro*\nChico de mi barrio flores en el pelo\nY los pies descalzos\nChico de mi barrio con la cara sucia\nY el cabello largo oh oh oh oh\n\nCuéntame qué al fin vamos a jugar\nA la libertad de poder amar\nEn algún rincón\nDe mi casa estoy esperándote\n\n*Verso 2*\nSi pasas por mi vereda\nY juegas con mi pollera así\nRegálame tu sonrisa\nY siembra en tu vientre estrellas\n\n*[Precoro]*\nSi vienes hacia mi puerta\nDuerme entre mis brazos y descansa ya\nAprisiona mi cintura\nQue por las terrazas vamos a escapar\nVamos a bailar lalalalalalala ayy lalalaLala\n\n*Coro*\nChico de mi barrio flores en el pelo\nY los pies descalzos\nChico de mi barrio con la cara sucia\nY el cabello largo oh oh oh oh\n\nCuéntame qué al fin vamos a jugar\nA la libertad de poder amar\nEn algún rincón\nDe mi casa estoy esperándote\n\n*Coro*\nChico de mi barrio flores en el pelo\nY los pies descalzos\nChico de mi barrio con la cara sucia\nY el cabello largo oh oh oh oh\n\nCuéntame qué al fin vamos a jugar\nA la libertad de poder amar\nEn algún rincón\nDe mi casa estoy esperándote\n\nEn algún rincón\nDe mi casa estoy esperándote\n\n*final*\nEn algún rincón\nDe mi casa estoy esperándote\n\n",
       "settings": {
         "keyIdx": 7,
         "transposeSemitones": 0,
@@ -101,17 +81,17 @@
         "showDiagrams": false,
         "showSections": false
       },
-      "updatedAt": 1789534389199
+      "updatedAt": 1789628823880
     },
-    "song_1788235748068": {
-      "id": "song_1788235748068",
-      "title": "El Hombre Que Yo Amo",
-      "artist": "Myriam Hernández",
-      "content": "El Hombre Que Yo Amo\nMyriam Hernández\n\n*Intro:*\n\n*Estrofa 1*\nEl hombre que yo amo tiene algo de niño\nLa sonrisa ancha, tierna la mirada\nTiene la palabra de mil hombres juntos\nY es mi loco amante, sabio, inteligente\n\n*Estrofa 2*\nEl hombre que yo amo no le teme a nada\nPero cuando ama lo estremece todo\nGuerrero incansable en busca de aventuras\nTiene manos fuertes, cálidas y puras\n\n*Coro:*\nEl hombre que yo amo sabe que lo amo\nMe toma en sus brazos y lo olvido todo\nÉl es mi motivo, es mi propio sol\nÉl me da alegrías que nadie me dio\n\nEl hombre que yo amo sabe que lo amo\nVuela siempre lejos, pero vuelve al nido\nEl hombre que yo amo sabe que lo amo\nYo lo quiero loco, pero loco mío\n\n*Estrofa 3*\nEl hombre que yo amo siempre sabe todo\nNo sabe de enojos, no entiende rencores\nÉl arregla todo con sabiduría\nCon sólo mirarme me alegra la vida\n\n*Estrofa 4*\nEl hombre que yo amo camina en mi mente\nEs mi único ídolo entre tanta gente\nÉl hace una fiesta con mi pelo suelto\nLadrón de mis sueños, duende de mi almohada\n\n*Coro:*\nEl hombre que yo amo sabe que lo amo\nMe toma en sus brazos y lo olvido todo\nÉl es mi motivo, es mi propio sol\nÉl me da alegrías que nadie me dio\n\nEl hombre que yo amo sabe que lo amo\nVuela siempre lejos, pero vuelve al nido\nEl hombre que yo amo sabe que lo amo\nYo lo quiero loco, pero loco mío\n\n*Solo (acordes coro)*\n\n*Coro con distorsión*\nEl hombre que yo amo sabe que lo amo\nMe toma en sus brazos y lo olvido todo\nÉl es mi motivo, es mi propio sol\nÉl me da alegrías que nadie me dio\n\nEl hombre que yo amo sabe que lo amo\nVuela siempre lejos, pero vuelve al nido\nEl hombre que yo amo sabe que lo amo\nYo lo quiero loco...",
+    "song_1788235394358": {
+      "id": "song_1788235394358",
+      "title": "Como la Flor",
+      "artist": "Selena",
+      "content": "Como la Flor\nSelena\n*intro: *\n\n*Estrofa 1*\nyo se que tienes\nun nuevo amor\nsin embargo\nte deseo lo mejor\n\nsi en mi no encontraste\nfelicidad\ntal vez alguien mas\nte la dará\n\n*Coro:*\ncomo la flor(como la flor)\ntanto amor(tanto amor)\nme diste tu\nse marchito\nme marcho hoy\nyo se perder\n\npero a-a-ay como me duele\na,a,ay como me duele\n\n*intro:*\n\n*Estrofa 2*\nsi vieras como duele\nperder tu amor\ncon tu adios te llevas\nmi corazón\n\nno se si pueda\nvolver a amar\nporque te di\ntodo el amor que puede dar\n\n*Coro:*\ncomo la flor(como la flor)\ntanto amor(tanto amor)\nme diste tu\nse marchito\nme marcho hoy\nyo se perder\n\npero a-a-ay como me duele\na,a,ay como me duele\n\n*solo:*\n\n*Coro x2:*\ncomo la flor(como la flor)\ntanto amor(tanto amor)\nme diste tu\nse marchito\nme marcho hoy\nyo se perder\n\npero a-a-ay como me duele\na,a,ay como me duele\na,a,ay como me duele\n\n*outro*",
       "settings": {
-        "keyIdx": 4,
+        "keyIdx": 7,
         "transposeSemitones": 0,
-        "capoFret": 1,
+        "capoFret": 0,
         "speed": 3,
         "chordSize": 15,
         "lyricSize": 18,
@@ -121,7 +101,27 @@
         "showDiagrams": false,
         "showSections": false
       },
-      "updatedAt": 1789527810591
+      "updatedAt": 1789627812428
+    },
+    "song_1788235748068": {
+      "id": "song_1788235748068",
+      "title": "El Hombre Que Yo Amo",
+      "artist": "Myriam Hernández",
+      "content": "El Hombre Que Yo Amo\nMyriam Hernández\n\n*Intro:*\n\n*Estrofa 1*\nEl hombre que yo amo tiene algo de niño\nLa sonrisa ancha, tierna la mirada\nTiene la palabra de mil hombres juntos\nY es mi loco amante, sabio, inteligente\n\n*Estrofa 2*\nEl hombre que yo amo no le teme a nada\nPero cuando ama lo estremece todo\nGuerrero incansable en busca de aventuras\nTiene manos fuertes, cálidas y puras\n\n*Coro:*\nEl hombre que yo amo sabe que lo amo\nMe toma en sus brazos y lo olvido todo\nÉl es mi motivo, es mi propio sol\nÉl me da alegrías que nadie me dio\n\nEl hombre que yo amo sabe que lo amo\nVuela siempre lejos, pero vuelve al nido\nEl hombre que yo amo sabe que lo amo\nYo lo quiero loco, pero loco mío\n\n*Estrofa 3*\nEl hombre que yo amo siempre sabe todo\nNo sabe de enojos, no entiende rencores\nÉl arregla todo con sabiduría\nCon sólo mirarme me alegra la vida\n\n*Estrofa 4*\nEl hombre que yo amo camina en mi mente\nEs mi único ídolo entre tanta gente\nÉl hace una fiesta con mi pelo suelto\nLadrón de mis sueños, duende de mi almohada\n\n*Coro:*\nEl hombre que yo amo sabe que lo amo\nMe toma en sus brazos y lo olvido todo\nÉl es mi motivo, es mi propio sol\nÉl me da alegrías que nadie me dio\n\nEl hombre que yo amo sabe que lo amo\nVuela siempre lejos, pero vuelve al nido\nEl hombre que yo amo sabe que lo amo\nYo lo quiero loco, pero loco mío\n\n*Solo (acordes coro)*\n\n*Coro con distorsión*\nEl hombre que yo amo sabe que lo amo\nMe toma en sus brazos y lo olvido todo\nÉl es mi motivo, es mi propio sol\nÉl me da alegrías que nadie me dio\n\nEl hombre que yo amo sabe que lo amo\nVuela siempre lejos, pero vuelve al nido\nEl hombre que yo amo sabe que lo amo\nYo lo quiero loco...",
+      "settings": {
+        "keyIdx": 4,
+        "transposeSemitones": 0,
+        "capoFret": 0,
+        "speed": 3,
+        "chordSize": 15,
+        "lyricSize": 18,
+        "twoColumns": false,
+        "colLeft": 50,
+        "colGap": 24,
+        "showDiagrams": false,
+        "showSections": false
+      },
+      "updatedAt": 1789627639534
     },
     "song_1788236086217": {
       "id": "song_1788236086217",
@@ -147,9 +147,9 @@
       "id": "song_1788236343859",
       "title": "Hacer el amor con otro",
       "artist": "Alejandra Guzmán",
-      "content": "Hacer el amor con otro\nAlejandra Guzmán\n\n*Estrofa 1*\nAmanecer con el\nA mi costado no es igual\nEstar contigo\nNo es que este mal\nNi hablar\nPero le falta madurar\nEs casi un niño\n\n*Esotrofa 2*\nBanco como el yogurt\nSin ese toro que tu llevas\nEn el pecho\nFragilidad de flor\nNada que ver\nCon mi perverso\nFavorito\n\n*Precoro 1*\nSin tus uñas\nArañandome la espalda\nSin tus manos\nQue me estrujan\nTodo cambia\nSin tu lengua envenenando\nMi garganta\nSin tus dientes que torturan\nY endulzan yo no siento nada\n\n*Coro*\nHacer el amor con otro\nNo no no\nNo es la misma cosa\nNo hay estrellas de color rosa\nNo respiran los poros\nDel cuerpo\nAmbrosia salpicada\nDe te quieros\n\nHacer el amor con otro\nNo no no\nEs como no hacer nada\nFalta fuego en la mirada\nFalta dar el alma\nEn cada beso\nY sentir que puedes\nAlcanzar el cielo\n\n*Estrofa 3*\nQuise olvidarte con el\nQuise vengar todas\nTus infidelidades\nY me salio tan mal\nQue hasta me cuesta\nRespirar su mismo aire\n\n*Precoro 2*\nLos mechones de tu pelo\nNegro crespo\nTus caderas afiladas\nY escurridas\nEsa barba que raspa como lija\nY tu sonrisa retorcida\nSon los mejor que hay\nEn mi vida\n\n*Coro*\nHacer el amor con otro\nNo no no\nNo es la misma cosa\nNo hay estrellas de color rosa\nNo respiran los poros\nDel cuerpo\nAmbrosia salpicada\nDe te quieros\n\nHacer el amor con otro\nNo no no\nEs como no hacer nada\nFalta fuego en la mirada\nFalta dar el alma\nEn cada beso\nY sentir que puedes\nAlcanzar el cielo\n\n*Solo con acordes coro*",
+      "content": "Hacer el amor con otro\nAlejandra Guzmán\n*Intro*\n*Estrofa 1*\nAmanecer con el\nA mi costado no es igual\nEstar contigo\nNo es que este mal\nNi hablar\nPero le falta madurar\nEs casi un niño\n\n*Esotrofa 2*\nBlanco como el yogurt\nSin ese toro que tu llevas\nEn el pecho\nFragilidad de flor\nNada que ver\nCon mi perverso\nFavorito\n\n*Precoro 1*\nSin tus uñas\nArañándome la espalda\nSin tus manos\nQue me estrujan\nTodo cambia\nSin tu lengua envenenando\nMi garganta\nSin tus dientes que torturan\nY endulzan yo no siento nada\n\n*Coro*\nHacer el amor con otro\nNo no no\nNo es la misma cosa\nNo hay estrellas de color rosa\nNo respiran los poros\nDel cuerpo\nAmbrosía salpicada\nDe te quieros\n\nHacer el amor con otro\nNo no no\nEs como no hacer nada\nFalta fuego en la mirada\nFalta dar el alma\nEn cada beso\nY sentir que puedes\nAlcanzar el cielo\n\n*Estrofa 3*\nQuise olvidarte con él\nQuise vengar todas\nTus infidelidades\nY me salió tan mal\nQue hasta me cuesta\nRespirar su mismo aire\n\n*Precoro 2*\nLos mechones de tu pelo\nNegro crespo\nTus caderas afiladas\nY escurridas\nEsa barba que raspaba como lija\nY tu sonrisa retorcida\nSon los mejor que hay\nEn mi vida\n\n*Coro*\nHacer el amor con otro\nNo no no\nNo es la misma cosa\nNo hay estrellas de color rosa\nNo respiran los poros\nDel cuerpo\nAmbrosía salpicada\nDe te quieros\n\nHacer el amor con otro\nNo no no\nEs como no hacer nada\nFalta fuego en la mirada\nFalta dar el alma\nEn cada beso\nY sentir que puedes\nAlcanzar el cielo\n\n*Solo con acordes coro*",
       "settings": {
-        "keyIdx": 11,
+        "keyIdx": 7,
         "transposeSemitones": 0,
         "capoFret": 0,
         "speed": 3,
@@ -161,7 +161,7 @@
         "showDiagrams": false,
         "showSections": false
       },
-      "updatedAt": 1789527810594
+      "updatedAt": 1789627977653
     },
     "song_1788236777363": {
       "id": "song_1788236777363",
@@ -227,7 +227,7 @@
       "id": "song_1788237973395",
       "title": "Olvídame y pega la vuelta",
       "artist": "Pimpinela",
-      "content": "Olvídame y pega la vuelta\nPimpinela\n\n*Intro*\n\n*Estrofa 1*\nHace dos años y un día que vivo sin él\nHace dos años y un día que no lo he vuelto a ver\nY aunque no he sido feliz aprendí a vivir sin su amor\nPero al ir olvidando de pronto una noche volvió.\n\n*PreCoro 1*\nQuién es ('Soy yo')\nQué vienes a buscar ('A ti')\nYa es tarde  ('Por qué')\nPorque ahora soy yo la que quiere estar sin ti.\n\n*[Coro]:*\nPor eso vete, olvida mi nombre mi cara mi casa y pega la vuelta ('Jamás te pude comprender')\nVete, olvida mis ojos, mis manos, mis labios, que no te desean ('Estás mintiendo ya lo sé')\nVete, olvida que existo, que me conociste, y no te sorprendas\nOlvida de todo que tu para eso, tienes experiencia.\n\n*[Puente]:*\n\n*Estrofa 2*\n('En busca de emociones un día marché,\nDe un mundo de sensaciones que no encontré\nY al descubrir que era todo una gran fantasía volví\nPorque entendí que quería las cosas que viven en ti')\n\n*Precoro 2*\nAdiós ('Ayúdame')\nNo hay nada más que hablar ('Piensa en mi')\nAdiós ('Por qué')\nPorque ahora soy yo la que quiere estar sin ti.\n\n*Coro*\n\n*Coro modulado x2*",
+      "content": "Olvídame y pega la vuelta\nPimpinela\n\n*Intro*\n\n*Estrofa 1*\nHace dos años y un día que vivo sin él\nHace dos años y un día que no lo he vuelto a ver\nY aunque no he sido feliz aprendí a vivir sin su amor\nPero al ir olvidando de pronto una noche volvió.\n\n*PreCoro 1*\nQuién es ('Soy yo')\nQué vienes a buscar ('A ti')\nYa es tarde  ('Por qué')\nPorque ahora soy yo la que quiere estar sin ti.\n\n*[Coro]:*\nPor eso vete, olvida mi nombre mi cara mi casa y pega la vuelta ('Jamás te pude comprender')\nVete, olvida mis ojos, mis manos, mis labios, que no te desean ('Estás mintiendo ya lo sé')\nVete, olvida que existo, que me conociste, y no te sorprendas\nOlvida de todo que tu para eso, tienes experiencia.\n\n*[Puente]:*\n\n*Estrofa 2*\n('En busca de emociones un día marché,\nDe un mundo de sensaciones que no encontré\nY al descubrir que era todo una gran fantasía volví\nPorque entendí que quería las cosas que viven en ti')\n\n*Precoro 2*\nAdiós ('Ayúdame')\nNo hay nada más que hablar ('Piensa en mi')\nAdiós ('Por qué')\nPorque ahora soy yo la que quiere estar sin ti.\n\n*[Coro]:*\nPor eso vete, olvida mi nombre mi cara mi casa y pega la vuelta ('Jamás te pude comprender')\nVete, olvida mis ojos, mis manos, mis labios, que no te desean ('Estás mintiendo ya lo sé')\nVete, olvida que existo, que me conociste, y no te sorprendas\nOlvida de todo que tu para eso, tienes experiencia.\n\n*Coro modulado*\nPor eso vete, olvida mi nombre mi cara mi casa y pega la vuelta ('Jamás te pude comprender')\nVete, olvida mis ojos, mis manos, mis labios, que no te desean\n\n*Coro modulado*\nPor eso vete, olvida mi nombre mi cara mi casa y pega la vuelta ('Estás mintiendo ya lo sé')\nVete, olvida mis ojos, mis manos, mis labios, que no te desean.",
       "settings": {
         "keyIdx": 7,
         "transposeSemitones": 0,
@@ -241,7 +241,7 @@
         "showDiagrams": false,
         "showSections": false
       },
-      "updatedAt": 1789539351059
+      "updatedAt": 1789628126962
     },
     "song_1788238167209": {
       "id": "song_1788238167209",
@@ -267,9 +267,9 @@
       "id": "song_1788238669340",
       "title": "Será porque te amo",
       "artist": "Ricchi E Poveri",
-      "content": "Será porque te amo\nRicchi E Poveri\n\n*[Intro]*\n\n*Estrofa 1*\nDe pronto canto, será por que te amo\nY siento el viento, que pasa por tus manos\nTodo es distinto, cuando te estoy mirando\nNo me sorprendo, será por que te amo\n\n*Estrofa 2*\nCanto a tu ritmo, en pleno mes de enero\nEs primavera, será por que te amo\nSi estamos juntos, no se ni donde estamos\nQue nos importa, será por que te amo\n\n*[Estribillo] x2*\nVuela que vuela y verás, que no es difícil volar\nVuela que vuela y veré, al mundo loco de atar\nSi canto, canto por ti, por un amor que aparece\nQue nace y que crece dentro y fuera de mi\n\n*Estrofa 3*\nDuermo y no duermo, y no estoy pensando\nTan solo canto, será por que te amo\nSi estalla el mundo, nosotros nos marchamos\nSi estalla el mundo, será por que te amo\n\n*Estrofa 4*\nSi estoy contigo, será por que te amo\nSi tengo miedo, será por que te amo\nSi soy tu amigo, será por que te amo\nPor que te amo, será por que te amo\n\n*[Intro]*\n\n*Coro*\nVuela que vuela y verás, que no es difícil volar\nVuela que vuela y veré, al mundo loco de atar\nSi canto, canto por ti, por un amor que aparece\nQue nace y que crece dentro y fuera de mi\n\nVuelo que vuelo por ti, será porque te amo\nVuela que vuela y veré, al mundo enloquecido\nSi canto, canto por ti, por un amor que surge\nQue nace y que crece será porque te amo\n\n*[Intro]*\n",
+      "content": "Será porque te amo\nRicchi E Poveri\n\n*[Intro]*\n\n*Estrofa 1 (mujer)*\nDe pronto canto, será por que te amo\nY siento el viento, que pasa por tus manos\nTodo es distinto, cuando te estoy mirando\nNo me sorprendo, será por que te amo\n\n*Estrofa 2 (hombre)*\nCanto a tu ritmo, en pleno mes de enero\nEs primavera, será por que te amo\nSi estamos juntos, no sé ni donde estamos\nQue nos importa, será por que te amo\n\n*[Coro] x2*\nVuela que vuela y verás, que no es difícil volar\nVuela que vuela y veré, al mundo loco de atar\nSi canto, canto por ti, por un amor que aparece\nQue nace y que crece dentro y fuera de mi\n\n*Estrofa 3 (mujer)*\nDuermo y no duermo, y no estoy pensando\nTan solo canto, será por que te amo\nSi estalla el mundo, nosotros nos marchamos\nSi estalla el mundo, será por que te amo\n\n*Estrofa 4 (hombre)*\nSi estoy contigo, será por que te amo\nSi tengo miedo, será por que te amo\nSi soy tu amigo, será por que te amo\nPor que te amo, será por que te amo\n\n*[Intro]*\n\n*Coro*\nVuela que vuela y verás, que no es difícil volar\nVuela que vuela y veré, al mundo loco de atar\nSi canto, canto por ti, por un amor que aparece\nQue nace y que crece dentro y fuera de mi\n\nVuelo que vuelo por ti, será porque te amo\nVuela que vuela y veré, al mundo enloquecido\nSi canto, canto por ti, por un amor que surge\nQue nace y que crece será porque te amo\n\n*[Intro]*\n",
       "settings": {
-        "keyIdx": 4,
+        "keyIdx": 7,
         "transposeSemitones": 0,
         "capoFret": 0,
         "speed": 3,
@@ -281,27 +281,27 @@
         "showDiagrams": false,
         "showSections": false
       },
-      "updatedAt": 1789527810641
+      "updatedAt": 1789628671473
     },
     "song_1788238983967": {
       "id": "song_1788238983967",
       "title": "Si me vas a  abandonar",
       "artist": "Buddy Richard",
-      "content": "Si me vas a  abandonar\nBuddy Richard\n\n*Intro*\nSi me vas a abandonar\nPiénsalo bien\nSi me vas a dejar\n\n*Solo 1:*\n\n*Estrofa 1*\nSi me vas a abandonar\nPiénsalo bien si me vas a dejar\nYo solo espero que tu\nNo te vayas a equivocar\n\n*Estrofa 2*\nY si no me quieres más\nPiénsalo bien si me vas a dejar\nPues muchas veces así por un error\nSe pierde un amor\n\n*Coro*\nY pensar\nQue tantas veces yo decir te oí\n¡Ay!, yo te quiero y no podría vivir\nSi tú te vas si ya no estás\n\n*Estrofa 3*\nY si tienes ya otro amor\nTanto mejor para nosotros dos\nAdiós y que seas muy feliz\n\n*Solo 2:*\n\n*Coro*\nY pensar\nQue tantas veces yo decir te oí\n¡Ay!, yo te quiero y no podría vivir\nSi tú te vas si ya no estás\n\n*Estrofa 4*\nY si tienes ya otro amor\nTanto mejor para nosotros dos\nAdiós y que seas muy feliz\n\n*Outro*\nlalala la la x2 (acordes estrofa):\n",
+      "content": "Si me vas a  abandonar\nBuddy Richard\n\n*Intro*\nSi me vas a abandonar\nPiénsalo bien\nSi me vas a dejar\n\n*Solo 1:*\n\n*Estrofa 1*\nSi me vas a abandonar\nPiénsalo bien si me vas a dejar\nYo solo espero que tu\nNo te vayas a equivocar\n\n*Estrofa 2*\nY si no me quieres más\nPiénsalo bien si me vas a dejar\nPues muchas veces así por un error\nSe pierde un amor\n\n*Coro*\nY pensar\nQue tantas veces yo decir te oí\n¡Ay!, yo te quiero y no podría vivir\nSi tú te vas si ya no estás\n\n*Estrofa 3*\nY si tienes ya otro amor\nTanto mejor para nosotros dos\nSolo me resta decir\nAdiós y que seas muy feliz\n\n*Solo 2:*\n\n*Coro*\nY pensar\nQue tantas veces yo decir te oí\n¡Ay!, yo te quiero y no podría vivir\nSi tú te vas si ya no estás\n\n*Estrofa 4*\nY si tienes ya otro amor\nTanto mejor para nosotros dos\nSolo me resta decir\nAdiós y que seas muy feliz\n\n*Outro*\nlalala la la x2 (acordes estrofa):\n",
       "settings": {
-        "keyIdx": 5,
+        "keyIdx": 7,
         "transposeSemitones": 0,
         "capoFret": 0,
         "speed": 3,
         "chordSize": 15,
-        "lyricSize": 18,
+        "lyricSize": 15,
         "twoColumns": false,
         "colLeft": 50,
         "colGap": 24,
         "showDiagrams": false,
         "showSections": false
       },
-      "updatedAt": 1789527810642
+      "updatedAt": 1789628516001
     },
     "song_1788239440604": {
       "id": "song_1788239440604",
@@ -407,9 +407,9 @@
       "id": "song_1789523870889",
       "title": "Inevitable",
       "artist": "Shakira",
-      "content": "Inevitable\nShakira\n\n*Verso 1*\nSi es cuestión de confesar\nNo se preparar café\nY no entiendo de fútbol\n\nCreo que alguna vez fui infiel\nJuego mal hasta el parques\nY jamás uso reloj\n\n*Precoro:*\nY para ser mas franca nadie\nPiensa en ti como lo hago yo\nAunque te de lo mismo\n\n*Verso 2*\nSi es cuestión de confesar\nNunca duermo antes de diez\nNi me baño los domingos\n\nLa verdad es que también\nLloro una vez al mes\nSobre todo cuando hay frió\n\n*Precoro 2*\nConmigo nada es fácil\nYa debes saber\nMe conoces bien...(y sin ti todo es tan aburrido)...\n\n*Coro*\nEl cielo esta cansado ya de ver\nLa lluvia caer\nY cada ida que pasa es uno mas\nParecido a ayer\nNo encuentro forma alguna de\nOlvidarte porque\nSeguir amándote es        inevitable\n\n*Verso 3*\n\nSiempre supe es mejor\nCuando hay que hablar de dos\nEmpezar por uno mismo\n\nYa sabrás la situación\nAquí todo esta peor\nPero al menos aun respiro\n\n*Precoro 3*\nNo tienes que decirlo\nNo vas a volver\nTe conozco bien ...(Ya buscare que hacer conmigo)...\n\n*Coro*\nEl cielo esta cansado ya de ver\nLa lluvia caer\n\nY cada ida que pasa es uno mas\nParecido a ayer\nNo encuentro forma alguna de\nOlvidarte porque\nSeguir amándote es    inevitable\n\n*Solo*\n\n*Verso 4*\nSiempre supe es mejor\nCuando hay que hablar de dos\nEmpezar por uno mismo\n\n*Outro*",
+      "content": "Inevitable\nShakira\n\n*Verso 1*\nSi es cuestión de confesar\nNo sé preparar café\nY no entiendo de fútbol\n\nCreo que alguna vez fui infiel\nJuego mal hasta el parqués\nY jamás uso reloj\n\n*Precoro:*\nY para ser más franca \nnadie piensa en ti\ncomo lo hago yo\nAunque te dé lo mismo\n\n*Verso 2*\nSi es cuestión de confesar\nNunca duermo antes de diez\nNi me baño los domingos\n\nLa verdad es que también\nLloro una vez al mes\nSobre todo cuando hay frío\n\n*Precoro 2*\nConmigo nada es fácil\nYa debes saber\nMe conoces bien...(y sin ti todo es tan aburrido)\n\n*Coro*\nEl cielo esta cansado ya de ver\nLa lluvia caer\nY cada ida que pasa es uno mas\nParecido a ayer\nNo encuentro forma alguna de\nOlvidarte porque\nSeguir amándote es, inevitable\n\n*Verso 3*\nSiempre supe que es mejor\nCuando hay que hablar de dos\nEmpezar por uno mismo\n\nYa sabrás la situación\nAquí todo esta peor\nPero al menos aún respiro\n\n*Precoro 3*\nNo tienes que decirlo\nNo vas a volver\nTe conozco bien ...(Ya buscaré que hacer conmigo)...\n\n*Coro*\nEl cielo está cansado ya de ver\nLa lluvia caer\n\nY cada día que pasa es uno mas\nParecido a ayer\nNo encuentro forma alguna de\nOlvidarte porque\nSeguir amándote es, inevitable\n\n*Solo*\n\n*Verso 4*\nSiempre supe que es mejor\nCuando hay que hablar de dos\nEmpezar por uno mismo\n\n*Outro*",
       "settings": {
-        "keyIdx": 6,
+        "keyIdx": 7,
         "transposeSemitones": 0,
         "capoFret": 0,
         "speed": 3,
@@ -421,7 +421,7 @@
         "showDiagrams": false,
         "showSections": false
       },
-      "updatedAt": 1789527810660
+      "updatedAt": 1789629100096
     },
     "song_1789524132662": {
       "id": "song_1789524132662",
@@ -487,7 +487,7 @@
       "id": "song_1789525395023",
       "title": "Mala Hierba",
       "artist": "Alejandra Guzmán",
-      "content": "Mala Hierba\nAlejandra Guzmán\n\n*Intro x5*\n\n*Verso 1*\nPOCO A POCO CONSEGUI\nFIJAR TU ATENCION EN MI\nA QUE ESPERAS\nPOR FAVOR VEN AQUI.\n\n*Intro*\n\n*Verso 2*\nALGO NOTO, RARO ESTAS,\nDE MI TE HAN HABLADO MAL\nY ES QUE NUNCA ENTENDERAN\nA UNA MUJER DE VERDAD.\n\n*Coro*\nDICEN QUE SOY\nUN DESASTRE TOTAL.\nQUE SOY MALA HIERBA\n\nQUE TRAS DE MI\nNO DEJE\nPIEDRA SOBRE PIEDRA.\nVEN ATEVETE   OH OH.\n\n*Verso 3*\nY QUIZAS TENGAN RAZON\nQUE ME PUEDRE EL CORAZON\nSI VAS TRAS\nDE ALGO ESPECIAL\nNO TE ARREPENTIRAS.\n\n*Coro*\nDICEN QUE SOY\nUN DESASTRE TOTAL.\nQUE SOY MALA HIERBA\nQUE TRAS DE MI\nNO DEJE\nPIEDRA SOBRE PIEDRA.\nVEN ATEVETE   OH OH.\n\n*SOLO x3*\n\n*Coro x2*\nDICEN QUE SOY\nUN DESASTRE TOTAL.\nQUE SOY MALA HIERBA\nQUE TRAS DE MI\nNO DEJE\nPIEDRA SOBRE PIEDRA.\n\n*final*\nVEN ATEVETE.\n",
+      "content": "Mala Hierba\nAlejandra Guzmán\n\n*Intro x5*\n\n*Verso 1*\nPoco a poco conseguí\nFijar tu atención en mí\nA qué esperas\nPor favor ven aquí.\n\n*Intro*\n\n*Verso 2*\nAlgo noto, raro estás,\nDe mí te han hablado mal\nY es que nunca entenderán\nA una mujer de verdad.\n\n*Coro*\nDicen que soy\nUn desastre total.\nQue soy mala hierba,\n\nQue tras de mí\nNo dejé piedra sobre piedra.\nVen atrévete oh oh.\n\n*Verso 3*\nY quizás tengan razón\nQue me pudre el corazón\nSi vas tras de algo especial\nNo te arrepentirás.\n\n*Coro*\nDicen que soy\nUn desastre total.\nQue soy mala hierba,\n\nQue tras de mí\nNo dejé piedra sobre piedra.\n\n*Coro*\nDicen que soy\nUn desastre total.\nQue soy mala hierba,\n\nQue tras de mí\nNo dejé piedra sobre piedra.\n\nVen atrévete!!!\n\n*SOLO x3*\n\n*Coro*\nDicen que soy\nUn desastre total.\nQue soy mala hierba,\n\nQue tras de mí\nNo dejé piedra sobre piedra.\n\n*Coro*\nDicen que soy\nUn desastre total.\nQue soy mala hierba,\n\nQue tras de mí\nNo dejé piedra sobre piedra.\n\nVen atrévete!!!\n",
       "settings": {
         "keyIdx": 7,
         "transposeSemitones": 0,
@@ -501,7 +501,27 @@
         "showDiagrams": false,
         "showSections": false
       },
-      "updatedAt": 1789527810664
+      "updatedAt": 1789628446181
+    },
+    "song_1789627499697": {
+      "id": "song_1789627499697",
+      "title": "Si me vas a abandonar",
+      "artist": "Buddy Richard",
+      "content": "Si me vas a abandonar\nBuddy Richard\n\n*Intro*\nSi me vas a abandonar\nPiénsalo bien\nSi me vas a dejar\n\n*Solo 1:*\n\n*Estrofa 1*\nSi me vas a abandonar\nPiénsalo bien si me vas a dejar\nYo solo espero que tu\nNo te vayas a equivocar\n\n*Estrofa 2*\nY si no me quieres más\nPiénsalo bien si me vas a dejar\nPues muchas veces así por un error\nSe pierde un amor\n\n*Coro*\nY pensar\nQue tantas veces yo decir te oí\n¡Ay!, yo te quiero y no podría vivir\nSi tú te vas si ya no estás\n\n*Estrofa 3*\nY si tienes ya otro amor\nTanto mejor para nosotros dos\nSolo me resta decir\nAdiós y que seas muy feliz\n\n*Solo 2:*\n\n*Coro*\nY pensar\nQue tantas veces yo decir te oí\n¡Ay!, yo te quiero y no podría vivir\nSi tú te vas si ya no estás\n\n*Estrofa 4*\nY si tienes ya otro amor\nTanto mejor para nosotros dos\nSolo me resta decir\nAdiós y que seas muy feliz\n\n*Outro*\nlalala la la x2 (acordes estrofa):\n",
+      "settings": {
+        "keyIdx": 7,
+        "transposeSemitones": 0,
+        "capoFret": 0,
+        "speed": 3,
+        "chordSize": 15,
+        "lyricSize": 15,
+        "twoColumns": false,
+        "colLeft": 50,
+        "colGap": 24,
+        "showDiagrams": true,
+        "showSections": true
+      },
+      "updatedAt": 1789627542228
     }
   },
   "setlists": {

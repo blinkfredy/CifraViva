@@ -2188,6 +2188,8 @@ renderLogoDropdown();
 updateSetlistNavUI();
 
 // Exponer para debug / futura integración
+window.importBackupGuitarrista = importBackupGuitarrista;
+window.importBackupVocalista = importBackupVocalista;
 console.log("CifraViva app.js fully loaded - all functions defined");
 window.CifraViva={ DriveAdapter, transposeChord, getDiagram, StorageManager };
 

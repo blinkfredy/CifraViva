@@ -100,8 +100,8 @@ function extractMetadata(fullText){
 }
 
 function loadDocument(fullText){
-  rawText = fullText;
-  const meta = extractMetadata(fullText);
+  rawText = (fullText || '').replace(/	+/g, ' ');
+  const meta = extractMetadata(rawText);
   songTitle = meta.title;
   songArtist = meta.artist;
   // si no hay título/artista, body es todo el texto (compatibilidad)

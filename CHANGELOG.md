@@ -15,8 +15,12 @@ El formato está basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1
 - **Diseño Responsivo Fluido sin Scroll Horizontal:**
   - Las líneas de letra y texto extenso ahora aplican `white-space: pre-wrap; word-break: break-word; overflow-wrap: anywhere;` adaptándose al 100% del ancho de la pantalla móvil.
   - Se eliminó el scroll horizontal no deseado, incluso cuando el usuario incrementa el tamaño de la letra al máximo.
+- **Centrado Perfecto de la Botonera Flotante en Pantalla Completa:**
+  - Se corrigió la alineación horizontal de la barra flotante de controles usando `left: 50%; transform: translateX(-50%)` con `max-width: calc(100vw - 24px)`, resolviendo el problema donde los botones del setlist (`⏮` `⏭`) quedaban desfasados o cortados a la derecha de la pantalla.
 - **Controles Flotantes Compactos de Solo Iconos:**
   - Se eliminaron las etiquetas de texto redundantes en la barra flotante de pantalla completa (`§`, `▶`/`⏸`, `⤒`, `⏮`, `⏭`), ahorrando espacio visual en pantallas de teléfonos y facilitando el uso a una mano.
+- **Normalización de Tabulaciones y Márgenes para iPhone 8 Plus / Pantallas Compactas:**
+  - Se normalizaron caracteres de tabulación (`\t`) y se forzó `overflow-x: hidden; width: 100%; box-sizing: border-box;` en todos los contenedores y líneas del visor, erradicando el scroll horizontal en dispositivos con pantallas más angostas.
 
 ---
 

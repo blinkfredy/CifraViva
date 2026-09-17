@@ -6,6 +6,20 @@ El formato está basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1
 
 ---
 
+## [1.2.1] - 2026-09-16
+
+### 🛠️ Corregido & Mejorado (Móviles & PWA)
+- **Posicionamiento del Botón Salir en Pantalla Completa:**
+  - Se reubicó `#btnExitFullscreen` respetando los safe areas superiores (`calc(env(safe-area-inset-top) + 14px)`), evitando que quede superpuesto sobre el indicador de batería, notch o Dynamic Island en iPhone/iPad.
+  - Mayor contraste, blur de fondo y área táctil optimizada para pulsar fácilmente en vivo.
+- **Diseño Responsivo Fluido sin Scroll Horizontal:**
+  - Las líneas de letra y texto extenso ahora aplican `white-space: pre-wrap; word-break: break-word; overflow-wrap: anywhere;` adaptándose al 100% del ancho de la pantalla móvil.
+  - Se eliminó el scroll horizontal no deseado, incluso cuando el usuario incrementa el tamaño de la letra al máximo.
+- **Controles Flotantes Compactos de Solo Iconos:**
+  - Se eliminaron las etiquetas de texto redundantes en la barra flotante de pantalla completa (`§`, `▶`/`⏸`, `⤒`, `⏮`, `⏭`), ahorrando espacio visual en pantallas de teléfonos y facilitando el uso a una mano.
+
+---
+
 ## [1.2.0] - 2026-09-14
 
 ### 🛠️ Corregido

@@ -266,7 +266,10 @@
   <div class="modal-box">
     <div class="modal-head">
       <h3>Editar cifrado</h3>
-      <button id="btnCloseEdit" class="btn btn-mini">✕</button>
+      <div style="display:flex;gap:6px;align-items:center">
+        <button id="btnHeaderCancelEdit" class="btn btn-mini btn-ghost" title="Cancelar edición">✕</button>
+        <button id="btnHeaderSaveEdit" class="btn btn-mini btn-primary" style="background:var(--accent);border-color:var(--accent)" title="Guardar cambios">💾</button>
+      </div>
     </div>
     <p class="hint">Las dos primeras líneas del documento son título y artista — se guardan como campos independientes y se muestran con estilo destacado. El resto es el cifrado.</p>
     <div class="edit-fields">

@@ -1066,9 +1066,11 @@ function loadSample(){
 // --- Eventos ---
 document.getElementById('pdfInput').addEventListener('change', e=> handlePDF(e.target.files[0]));
 document.getElementById('btnEdit').addEventListener('click', openEdit);
-document.getElementById('btnCloseEdit').addEventListener('click', closeEdit);
-document.getElementById('btnCancelEdit').addEventListener('click', closeEdit);
-document.getElementById('btnSaveEdit').addEventListener('click', saveEdit);
+document.getElementById('btnCloseEdit')?.addEventListener('click', closeEdit);
+document.getElementById('btnCancelEdit')?.addEventListener('click', closeEdit);
+document.getElementById('btnSaveEdit')?.addEventListener('click', saveEdit);
+document.getElementById('btnHeaderCancelEdit')?.addEventListener('click', closeEdit);
+document.getElementById('btnHeaderSaveEdit')?.addEventListener('click', saveEdit);
 document.getElementById('btnSample').addEventListener('click', loadSample);
 document.getElementById('linkSample').addEventListener('click', loadSample);
 document.getElementById('editModal').addEventListener('click', e=>{ if(e.target.id==='editModal') closeEdit(); });

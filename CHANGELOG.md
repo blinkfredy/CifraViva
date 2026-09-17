@@ -6,6 +6,18 @@ El formato está basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1
 
 ---
 
+## [1.2.2] - 2026-09-17
+
+### ✨ Añadido & Mejorado
+- **Botones Rápidos en Cabecera del Editor Flotante:**
+  - Se agregaron los iconos de acción rápida `✕` (Cancelar) y `💾` (Guardar) en la cabecera superior del modal de edición (`.modal-head`).
+  - Permite guardar o cancelar ediciones inmediatamente en celulares y pantallas compactas sin necesidad de desplazarse hasta el fondo del modal.
+- **Notificaciones Toast Reubicadas en la Parte Superior:**
+  - Los mensajes emergentes informativos (ej: *Cargado: "Amor Prohibido"*, *Copia JSON descargada*, etc.) ahora se presentan centrados en el margen superior (`top`).
+  - Evita interferir o superponerse con la barra flotante de controles (`#fullscreenControls`) en modo pantalla completa.
+
+---
+
 ## [1.2.1] - 2026-09-16
 
 ### 🛠️ Corregido & Mejorado (Móviles & PWA)

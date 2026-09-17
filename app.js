@@ -1967,8 +1967,10 @@ document.getElementById('btnResetApp')?.addEventListener('click', () => {
   if(sheetEl) { sheetEl.innerHTML = ''; sheetEl.classList.add('hidden'); }
   if(songHeader) songHeader.classList.add('hidden');
   if(emptyState) emptyState.classList.remove('hidden');
-  if(diagramPanel) diagramPanel.innerHTML = '';
-  if(sectionPanel) sectionPanel.innerHTML = '';
+  const diagramPanelEl = document.getElementById('diagramPanel');
+  if(diagramPanelEl) diagramPanelEl.innerHTML = '';
+  const sectionsPanelEl = document.getElementById('sectionsPanel');
+  if(sectionsPanelEl) sectionsPanelEl.innerHTML = '';
 
   renderLogoDropdown();
   updateSetlistNavUI();

@@ -1602,6 +1602,9 @@ function renderLogoDropdown() {
   if(songsListEl) {
     songsListEl.innerHTML = '';
     const currentList = getSongsInCurrentSetlist();
+    // Safety: if currentSongId doesn't match any song in current list, reset it
+    const songExists = currentList.some(s => s.id === currentSongId);
+    if(currentSongId !== null && !songExists) { currentSongId = null; }
     const countSpan = document.getElementById('setlistSongsCount');
     if(countSpan) countSpan.textContent = currentList.length;
 
@@ -1613,6 +1616,7 @@ function renderLogoDropdown() {
     currentList.forEach((song, idx) => {
       const item = document.createElement('div');
       item.className = 'dropdown-song-item' + (song.id === currentSongId ? ' active' : '');
+      item.dataset.songId = song.id;
       
       const info = document.createElement('div');
       info.className = 'song-item-info';
@@ -1895,6 +1899,8 @@ async function importBackupVocalista(){
       Object.assign(setlists, parsed.setlists);
       localStorage.setItem(STORAGE_KEYS.SETLISTS, JSON.stringify(setlists));
     }
+    currentSongId = null;
+    currentSetlistId = 'all';
     renderLogoDropdown();
     updateSetlistNavUI();
     toast('Backup vocalista importado con éxito');
@@ -1923,6 +1929,8 @@ async function importBackupGuitarrista(){
       Object.assign(setlists, parsed.setlists);
       localStorage.setItem(STORAGE_KEYS.SETLISTS, JSON.stringify(setlists));
     }
+    currentSongId = null;
+    currentSetlistId = 'all';
     renderLogoDropdown();
     updateSetlistNavUI();
     toast('Backup guitarrista importado con éxito');

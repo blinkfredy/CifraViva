@@ -1,7 +1,7 @@
 {
   "app": "CifraViva",
   "version": "1.0",
-  "exportedAt": "2026-09-17T22:23:26.114Z",
+  "exportedAt": "2026-09-19T07:03:19.448Z",
   "songs": {
     "song_1788230309234": {
       "id": "song_1788230309234",
@@ -21,7 +21,7 @@
         "showDiagrams": false,
         "showSections": false
       },
-      "updatedAt": 1789184192352
+      "updatedAt": 1789801390681
     },
     "song_1788230670067": {
       "id": "song_1788230670067",
@@ -59,9 +59,9 @@
         "colLeft": 50,
         "colGap": 24,
         "showDiagrams": false,
-        "showSections": true
+        "showSections": false
       },
-      "updatedAt": 1789536708874
+      "updatedAt": 1789798330709
     },
     "song_1788234653177": {
       "id": "song_1788234653177",
@@ -79,9 +79,9 @@
         "colLeft": 50,
         "colGap": 24,
         "showDiagrams": false,
-        "showSections": true
+        "showSections": false
       },
-      "updatedAt": 1789681408601
+      "updatedAt": 1789798341993
     },
     "song_1788235394358": {
       "id": "song_1788235394358",
@@ -107,7 +107,7 @@
       "id": "song_1788235748068",
       "title": "El Hombre Que Yo Amo",
       "artist": "Myriam Hernández",
-      "content": "El Hombre Que Yo Amo\nMyriam Hernández\n*Intro:* \nEm\n\n*Estrofa 1*\n              Am                D\nEl hombre que yo amo tiene algo de niño\n           G                  Em\nLa sonrisa ancha, tierna la mirada\n           Am                   B\nTiene la palabra de mil hombres juntos\n              Em\nY es mi loco amante, sabio, inteligente\n\n*Estrofa 2* \n                 Am               D\nEl hombre que yo amo no le teme a nada\n            G                Em\nPero cuando ama lo estremece todo\n              F#7                    Am\nGuerrero incansable en busca de aventuras\n            B                  B7\nTiene manos fuertes, cálidas y puras\n\n*Coro:*\n                 Am       D\nEl hombre que yo amo sabe que lo amo\n               G                  Em\nMe toma en sus brazos y lo olvido todo\n         Am                   B\nÉl es mi motivo, es mi propio sol\n            Em\nÉl me da alegrías que nadie me dio\n\n                 Am        D\nEl hombre que yo amo sabe que lo amo\n                G                    Em\nVuela siempre lejos, pero vuelve al nido\n                 Am        B7\nEl hombre que yo amo sabe que lo amo\n               Em             Em/\nYo lo quiero loco, pero loco mío\n\n*Estrofa 3*\n                  Am               D\nEl hombre que yo amo siempre sabe todo\n              G                  Em\nNo sabe de enojos, no entiende rencores\n      Am                B\nÉl arregla todo con sabiduría\n            Em\nCon sólo mirarme me alegra la vida\n\n*Estrofa 4*\n                  Am                D\nEl hombre que yo amo camina en mi mente\n               G               Em\nEs mi único ídolo entre tanta gente\n              F#7                 Am\nÉl hace una fiesta con mi pelo suelto\n                B                  B7\nLadrón de mis sueños, duende de mi almohada\n\n*Coro:*\n                 Am       D\nEl hombre que yo amo sabe que lo amo\n               G                  Em\nMe toma en sus brazos y lo olvido todo\n         Am                   B\nÉl es mi motivo, es mi propio sol\n            Em\nÉl me da alegrías que nadie me dio\n\n                 Am        D\nEl hombre que yo amo sabe que lo amo\n                G                    Em\nVuela siempre lejos, pero vuelve al nido\n                 Am        B7\nEl hombre que yo amo sabe que lo amo\n               Em             Em\nYo lo quiero loco, pero loco mío\n\n*Solo (acordes coro)*\nAm - D - G - Em\nAm - B - Em\nAm - D - G - Em\nAm - B7 - Em - Em\n\n*Coro con distorsión*\n                 Am       D\nEl hombre que yo amo sabe que lo amo\n               G                  Em\nMe toma en sus brazos y lo olvido todo\n         Am                   B\nÉl es mi motivo, es mi propio sol\n            Em\nÉl me da alegrías que nadie me dio\n\n                 Am        D\nEl hombre que yo amo sabe que lo amo\n                G                    Em\nVuela siempre lejos, pero vuelve al nido\n                 Am        B7\nEl hombre que yo amo sabe que lo amo\n               Em             Em\nYo lo quiero loco...",
+      "content": "El Hombre Que Yo Amo\nMyriam Hernández\n*Intro:* \nEm\n\n*Estrofa 1*\n              Am                D\nEl hombre que yo amo tiene algo de niño\n           G                  Em\nLa sonrisa ancha, tierna la mirada\n           Am                   B\nTiene la palabra de mil hombres juntos\n              Em\nY es mi loco amante, sabio, inteligente\n\n*Estrofa 2* \n                 Am               D\nEl hombre que yo amo no le teme a nada\n            G                Em\nPero cuando ama lo estremece todo\n              F#7                    Am\nGuerrero incansable en busca de aventuras\n            B                  B7\nTiene manos fuertes, cálidas y puras\n\n*Coro:*\n                 Am       D\nEl hombre que yo amo sabe que lo amo\n               G                  Em\nMe toma en sus brazos y lo olvido todo\n         Am                   B\nÉl es mi motivo, es mi propio sol\n            Em\nÉl me da alegrías que nadie me dio\n\n                 Am        D\nEl hombre que yo amo sabe que lo amo\n                G                    Em\nVuela siempre lejos, pero vuelve al nido\n                 Am        B7\nEl hombre que yo amo sabe que lo amo\n               Em             Em/\nYo lo quiero loco, pero loco mío\n\n*Estrofa 3*\n                  Am               D\nEl hombre que yo amo siempre sabe todo\n              G                  Em\nNo sabe de enojos, no entiende rencores\n      Am                B\nÉl arregla todo con sabiduría\n            Em\nCon sólo mirarme me alegra la vida\n\n*Estrofa 4*\n                  Am                D\nEl hombre que yo amo camina en mi mente\n               G               Em\nEs mi único ídolo entre tanta gente\n              F#7                 Am\nÉl hace una fiesta con mi pelo suelto\n                B                  B7\nLadrón de mis sueños, duende de mi almohada\n\n*Coro:*\n                 Am       D\nEl hombre que yo amo sabe que lo amo\n               G                  Em\nMe toma en sus brazos y lo olvido todo\n         Am                   B\nÉl es mi motivo, es mi propio sol\n            Em\nÉl me da alegrías que nadie me dio\n\n                 Am        D\nEl hombre que yo amo sabe que lo amo\n                G                    Em\nVuela siempre lejos, pero vuelve al nido\n                 Am        B7\nEl hombre que yo amo sabe que lo amo\n               Em             Em\nYo lo quiero loco, pero loco mío\n\n*Solo (acordes coro)*\n\"va en pentatónica de: \" \nFm\n\nAm - D - G - Em\nAm - B - Em\nAm - D - G - Em\nAm - B7 - Em - Em\n\n*Coro con distorsión*\n                 Am       D\nEl hombre que yo amo sabe que lo amo\n               G                  Em\nMe toma en sus brazos y lo olvido todo\n         Am                   B\nÉl es mi motivo, es mi propio sol\n            Em\nÉl me da alegrías que nadie me dio\n\n                 Am        D\nEl hombre que yo amo sabe que lo amo\n                G                    Em\nVuela siempre lejos, pero vuelve al nido\n                 Am        B7\nEl hombre que yo amo sabe que lo amo\n               Em             Em\nYo lo quiero loco...",
       "settings": {
         "keyIdx": 4,
         "transposeSemitones": 0,
@@ -119,15 +119,15 @@
         "colLeft": 50,
         "colGap": 24,
         "showDiagrams": false,
-        "showSections": true
+        "showSections": false
       },
-      "updatedAt": 1789185844114
+      "updatedAt": 1789798503697
     },
     "song_1788236086217": {
       "id": "song_1788236086217",
       "title": "Ella ya me olvidó",
       "artist": "Leonardo Favio",
-      "content": "Ella ya me olvidó\nLeonardo Favio\n*Estrofa 1*\nAm                             Dm\n           Ella, ella ya me olvidó\n                              Am\n          yo, yo la recuerdo ahora\n          E                 Am\n          Era, como la primavera,\n                         Dm\n          su anochecido pelo,\n                              Am\n          su voz dormida, el beso,\n                             E\n          y junto al mar la fiebre,\n                              Am\n          que me llevó a su entraña,\n                        E\n          y soñamos con hijos,\n                            Am   A7\n          que nos robó la playa.\n\n*Coro:*\n           Dm     E             Am\n           Ella, ella ya me olvidó\n          Dm   E               Am   Dm   Am\n          yo, yo no puedo olvidarla\n          E                      Am\n          yo, yo no puedo olvidarla\n\n*Estrofa 2*\n           Am               Dm\n           Ella, ella ya se olvidó\n                         Am\n          de aquellas caminatas\n                          E\n          junto a la costanera,\n                           Am  A7\n          y el pibe que miraba.\n\n     *Coro* \n           Dm     E             Am\n           Ella, ella ya me olvidó\n          Dm   E               Am\n          yo, yo no puedo olvidarla\n\n*Solo*\nDm - Am - E - Am\n\nDm - Am - E -                   Am\n          yo, no no puedo olvidarla\n\n*Estrofa 3*\n           Am                   Dm\n           Ella, ella ya me olvidó,\n                              Am\n          yo, yo la recuerdo ahora,\n                        E\n          ¿Cómo no recordarla,\n                       Am\n          en cada primavera,\n                            E\n          si llega con la brisa,\n                             Am - A7\n          se la lleva la arena.\n\n*Coro:*\n           Dm     E             Am\n           Ella, ella ya me olvidó\n          Dm   E               Am   Dm   Am\n          yo, yo no puedo olvidarla\n          E                      Am\n          yo, yo no puedo olvidarla\nDm - Am - E -                   Am\n          yo, no no puedo olvidarla\n\n   * Solo*\n Dm - Am - E - Am\n Dm - Am - E -                   Am\n          yo, no no puedo olvidarla\n\n",
+      "content": "Ella ya me olvidó\nLeonardo Favio\n*Estrofa 1*\nAm                             Dm\n           Ella, ella ya me olvidó\n                              Am\n          yo, yo la recuerdo ahora\n          E                 Am\n          Era, como la primavera,\n                         Dm\n          su anochecido pelo,\n                              Am\n          su voz dormida, el beso,\n                             E\n          y junto al mar la fiebre,\n                              Am\n          que me llevó a su entraña,\n                        E\n          y soñamos con hijos,\n                            Am   A7\n          que nos robó la playa.   \n\n*Coro:*\n           Dm     E             Am\n           Ella, ella ya me olvidó\n          Dm   E               Am   Dm   Am\n          yo, yo no puedo olvidarla.       \n          E                      Am\n          yo, yo no puedo olvidarla\n\n*Estrofa 2*\n           Am               Dm\n           Ella, ella ya se olvidó\n                         Am\n          de aquellas caminatas\n                          E\n          junto a la costanera,\n                           Am  A7\n          y el pibe que miraba.  \n\n     *Coro* \n           Dm     E             Am\n           Ella, ella ya me olvidó\n          Dm   E               Am\n          yo, yo no puedo olvidarla\n\n*Solo*\nDm - Am - E - Am\n\nDm - Am - E -                   Am\n          yo, no no puedo olvidarla\n\n*Estrofa 3*\n           Am                   Dm\n           Ella, ella ya me olvidó,\n                              Am\n          yo, yo la recuerdo ahora,\n                        E\n          ¿Cómo no recordarla,\n                       Am\n          en cada primavera,\n                            E\n          si llega con la brisa,\n                             Am  A7\n          se la lleva la arena.     \n\n*Coro:*\n           Dm     E             Am\n           Ella, ella ya me olvidó\n          Dm   E               Am   Dm   Am\n          yo, yo no puedo olvidarla.       \n          E                      Am\n          yo, yo no puedo olvidarla\nDm - Am - E -                   Am\n          yo, no no puedo olvidarla\n\n   * Solo*\n Dm - Am - E - Am\n Dm - Am - E -                   Am\n          yo, no no puedo olvidarla\n\n",
       "settings": {
         "keyIdx": 9,
         "transposeSemitones": 0,
@@ -139,9 +139,9 @@
         "colLeft": 50,
         "colGap": 24,
         "showDiagrams": false,
-        "showSections": true
+        "showSections": false
       },
-      "updatedAt": 1789681258408
+      "updatedAt": 1789798720475
     },
     "song_1788236343859": {
       "id": "song_1788236343859",
@@ -159,15 +159,15 @@
         "colLeft": 50,
         "colGap": 24,
         "showDiagrams": false,
-        "showSections": true
+        "showSections": false
       },
-      "updatedAt": 1789683637807
+      "updatedAt": 1789798727659
     },
     "song_1788236777363": {
       "id": "song_1788236777363",
       "title": "La Playa",
       "artist": "La Oreja de Van Gogh",
-      "content": "La Playa\nLa Oreja de Van Gogh\n*Intro:*  \nA - E - F#m - D - A - E - A\nPunteo: 57-47-44\n\n*Estrofa 1*\nA                E\nNo sé si aún me recuerdas\nF#m               D\nNos conocimos al tiempo\n                  A\nTu, el mar y el cielo\n     E                        A\nY quien me trajo a ti\n\n*Estrofa 2* \nA                E\nAbrazaste mis abrazos\nF#m               D\nVigilando aquel momento\n                  A\nAunque fuera el primero\n     E\nY lo guardara para mi\n\n*Precoro*\nD      A     C#      F#m\nSi pudiera volver a nacer\nD      E       A      C#\nTe vería cada día amanecer\nD     Dm         A   E\nSonriendo como cada vez\nD      E      A    A7\nComo aquella vez\n\n*[Coro]*\nD                                           A\nTe voy a escribir la canción más bonita del mundo\nC#                                               F#m\nVoy a capturar nuestra historia en tan solo un segundo\nD                   A                     E\nY un día verás que este loco de poco se olvida\n     D               A                     E\nPor mucho que pasen los años de largo en su vida\n\n*Intro:*  \nA - E - F#m - D - A - E - A\nPunteo: 57-47-44\n\n*Estrofa 3*\nA                E\nEl día de la despedida\nF#m               D\nDe esta playa de mi vida\n              A\nTe hice una promesa\n     E\nVolverte a ver así\n\n*Estrofa 4*\nA            E\nMás de 50 veranos\nF#m                 D\nHace hoy que no nos vemos\n                       A\nNi tu ni el mar ni el cielo\n     E\nNi quien me trajo a ti\n\n*[Precoro]*\nD      A     C#      F#m\nSi pudiera volver a nacer\nD      E       A      C#\nTe vería cada día amanecer\nD     Dm         A   E\nSonriendo como cada vez\nD      E      A    A7\nComo aquella vez\n\n*[Coro]*\nD                                           A\nTe voy a escribir la canción más bonita del mundo\nC#                                               F#m\nVoy a capturar nuestra historia en tan solo un segundo\nD                   A                     E\nY un día verás que este loco de poco se olvida\n     D               A                     E\nPor mucho que pasen los años de largo en su vida\n\n*[Coro]*\n         D                                                         A\nTe voy a escribir la canción más bonita del mundo\n         C#                                                           F#m\nVoy a capturar nuestra historia en tan solo un segundo\n        D                              A                  E\nY un día verás que este loco de poco se olvida\n        D                             A\nPor mucho que pasen los años\n    E                                                                     D     A\nPor mucho que pasen los años de largo en tu vida\nE\nTu vidaaaaa\n     D  A    E\nTu vidaaaaaa, aaaha\n\n*[Final]* \nG        B         E\n",
+      "content": "La Playa\nLa Oreja de Van Gogh\n*Intro:*  \nA - E - F#m - D - \nA - E - A\nPunteo: 57-47-44\n\n*Estrofa 1*\nA                E\nNo sé si aún me recuerdas\nF#m               D\nNos conocimos al tiempo\n                  A\nTu, el mar y el cielo\n     E                        A\nY quien me trajo a ti\n\n*Estrofa 2* \nA                E\nAbrazaste mis abrazos\nF#m               D\nVigilando aquel momento\n                  A\nAunque fuera el primero\n     E\nY lo guardara para mi\n\n*Precoro*\nD      A     C#      F#m\nSi pudiera volver a nacer\nD      E       A      C#\nTe vería cada día amanecer\nD     Dm         A   E\nSonriendo como cada vez\nD      E      A    A7\nComo aquella vez\n\n*[Coro]*\nD                                           A\nTe voy a escribir la canción más bonita del mundo\nC#                                               F#m\nVoy a capturar nuestra historia en tan solo un segundo\nD                   A                     E\nY un día verás que este loco de poco se olvida\n     D               A                     E\nPor mucho que pasen los años de largo en su vida\n\n*Intro:*  \nA - E - F#m - D - \nA - E - A\nPunteo: 57-47-44\n\n*Estrofa 3*\nA                E\nEl día de la despedida\nF#m               D\nDe esta playa de mi vida\n              A\nTe hice una promesa\n     E\nVolverte a ver así\n\n*Estrofa 4*\nA            E\nMás de 50 veranos\nF#m                 D\nHace hoy que no nos vemos\n                       A\nNi tu ni el mar ni el cielo\n     E\nNi quien me trajo a ti\n\n*[Precoro]*\nD      A     C#      F#m\nSi pudiera volver a nacer\nD      E       A      C#\nTe vería cada día amanecer\nD     Dm         A   E\nSonriendo como cada vez\nD      E      A    A7\nComo aquella vez\n\n*[Coro]*\nD                                           A\nTe voy a escribir la canción más bonita del mundo\nC#                                               F#m\nVoy a capturar nuestra historia en tan solo un segundo\nD                   A                     E\nY un día verás que este loco de poco se olvida\n     D               A                     E\nPor mucho que pasen los años de largo en su vida\n\n*[Coro]*\n         D                                   A\nTe voy a escribir la canción más bonita del mundo\n         C#                                     F#m\nVoy a capturar nuestra historia en tan solo un segundo\n     D                   A               E\nY un día verás que este loco de poco se olvida\n        D                 A\nPor mucho que pasen los años\n    E                                       D   A\nPor mucho que pasen los años de largo en tu vida\nE\nTu vidaaaaa\n     D  A    E\nTu vidaaaaaa, aaaha\n\n*[Final]* \nG        B/         E\n",
       "settings": {
         "keyIdx": 9,
         "transposeSemitones": 0,
@@ -179,15 +179,15 @@
         "colLeft": 50,
         "colGap": 24,
         "showDiagrams": false,
-        "showSections": true
+        "showSections": false
       },
-      "updatedAt": 1788237177971
+      "updatedAt": 1789798769112
     },
     "song_1788237347175": {
       "id": "song_1788237347175",
       "title": "Me Gustas",
       "artist": "Joan Sebastian",
-      "content": "Me Gustas\nJoan Sebastian\n*Intro:*\nRiff 1\nC-Bb-F\n\n*Estrofa 1*\nF                                 C\n  Me gustan tus ojos, me gusta tu boca,\n     Bb\nme aloca, me aloca el roce de tu piel,\n                          F\ntu presente tu ayer, me gusta,\n           C             Bb       F\nme gusta todo, todo me gusta, de ti.\n\n*Estrofa 2*\nF                                   C\n  Me gustan tus manos, cuando te saludo,\n  Bb\ny sudo, sudo de nervios de pensar,\n                       F\nque pudiera tocar, tu alma,\n             C               Bb         F\nme gusta tu alma, tu alma me gusta, me gustas.\n\n*CORO:*\n     C                Bb             F\nMe gusta amanecer pensando que me quieres,\n   C                    Bb             F\nsoñarte se hizo ya el mayor de mis placeres,\n          C             Bb        F\nme gusta todo, todo me gusta, de ti.\n\n*Intro:*\nRiff 1 \nC-Bb-F\n\n*Estrofa 3*\nF                                 C\n  Me gusta tu estilo, medio despistado,\n  Bb\npecado, pecado fuera no soñar,\n                           F\ntambién poder tocar, tu cuerpo,\n            C              Bb         F\nde cuerpo y alma, como me gustas, me gustas.\n\n*CORO  (x2)*\n     C                Bb             F\nMe gusta amanecer pensando que me quieres,\n   C                    Bb             F\nsoñarte se hizo ya el mayor de mis placeres,\n          C             Bb        F\nme gusta todo, todo me gusta, de ti.\n*FINAL*\n   F\n",
+      "content": "Me Gustas\nJoan Sebastian\n*Intro:*\nRiff 1\nC-Bb-F\n\n*Estrofa 1*\nF                                 C\n  Me gustan tus ojos, me gusta tu boca,\n     Bb\nme aloca, me aloca el roce de tu piel,\n                          F\ntu presente tu ayer, me gusta,\n           C             Bb       F\nme gusta todo, todo me gusta, de ti.  \n\n*Estrofa 2*\nF                                   C\n  Me gustan tus manos, cuando te saludo,\n  Bb\ny sudo, sudo de nervios de pensar,\n                       F\nque pudiera tocar, tu alma,\n             C               Bb         F\nme gusta tu alma, tu alma me gusta, me gustas.\n\n*CORO:*\n     C                Bb             F\nMe gusta amanecer pensando que me quieres,\n   C                    Bb             F\nsoñarte se hizo ya el mayor de mis placeres,\n          C             Bb        F\nme gusta todo, todo me gusta, de ti.\n\n*Intro:*\nRiff 1 \nC-Bb-F\n\n*Estrofa 3*\nF                                 C\n  Me gusta tu estilo, medio despistado,\n  Bb\npecado, pecado fuera no soñar,\n                           F\ntambién poder tocar, tu cuerpo,\n            C              Bb         F\nde cuerpo y alma, como me gustas, me gustas.\n\n*CORO  (x2)*\n     C                Bb             F\nMe gusta amanecer pensando que me quieres,\n   C                    Bb             F\nsoñarte se hizo ya el mayor de mis placeres,\n          C             Bb        F\nme gusta todo, todo me gusta, de ti.\n*FINAL*\n   F\n",
       "settings": {
         "keyIdx": 0,
         "transposeSemitones": 0,
@@ -199,9 +199,9 @@
         "colLeft": 50,
         "colGap": 24,
         "showDiagrams": false,
-        "showSections": true
+        "showSections": false
       },
-      "updatedAt": 1789679516906
+      "updatedAt": 1789799113912
     },
     "song_1788237560383": {
       "id": "song_1788237560383",
@@ -219,9 +219,9 @@
         "colLeft": 50,
         "colGap": 24,
         "showDiagrams": false,
-        "showSections": true
+        "showSections": false
       },
-      "updatedAt": 1789681815850
+      "updatedAt": 1789800323548
     },
     "song_1788237973395": {
       "id": "song_1788237973395",
@@ -239,15 +239,15 @@
         "colLeft": 50,
         "colGap": 24,
         "showDiagrams": false,
-        "showSections": true
+        "showSections": false
       },
-      "updatedAt": 1789539146953
+      "updatedAt": 1789800315964
     },
     "song_1788238167209": {
       "id": "song_1788238167209",
       "title": "Porque te vas",
       "artist": "Jeanette",
-      "content": "Porque te vas\nJeanette\n*Estrofa 1* \nGm                           Cm           Gm\nHoy en mi ventana brilla el sol y el corazón\n          Cm                       Gm  D7        Gm\nSe pone triste contemplando la ciudad porque te vas\nGm                     Cm             Gm\nComo cada noche desperté pensando en ti\n           Cm                       Gm  D7        Gm\nY en mi reloj todas las horas vi pasar porque te vas\n\n*Coro:*\n    D#                                  Gm\nTodas las promesas de mi amor se irán contigo\n          A#              Gm\nMe olvidaras, me olvidaras\n D#                                            Gm\nJunto en la estación hoy lloraré igual que un niño\n           A#   D7          Gm  -   D7\nPorque te vas   porque te vas\n           Gm   D7/         Gm\nPorque te vas   porque te vaaaaas\n\n*Estrofa 2*\n Gm                       Cm          Gm\nBajo la penumbra de un farol se dormirán\n           Cm                       Gm D7        Gm\nTodas las cosas que quedaron por decir se dormirán\n Gm                           Cm       Gm\nJunto a las manillas de un reloj esperaran\n           Cm                       Gm D7      Gm\nTodas las horas que quedaron por vivir esperaran\n\n\n*Coro*\n    D#                                  Gm\nTodas las promesas de mi amor se irán contigo\n          A#              Gm\nMe olvidaras, me olvidaras\n D#                                            Gm\nJunto en la estación hoy lloraré igual que un niño\n           A#   D7          Gm  - D7\nPorque te vas   porque te vas\n           Gm   D7 /         Gm\nPorque te vas   porque te vaaaaas\n\n*Puente*\nGm\n\n*Coro corto*\n    D#                                  Gm\nTodas las promesas de mi amor se irán contigo\n          A#              Gm\nMe olvidaras, me olvidaras\n D#                                            Gm\nJunto en la estación hoy lloraré igual que un niño\n           A#   D7          Gm\nPorque te vas   porque te vas\n\n*Coro*\n    D#                                  Gm\nTodas las promesas de mi amor se irán contigo\n          A#              Gm\nMe olvidaras, me olvidaras\n D#                                            Gm\nJunto en la estación hoy lloraré igual que un niño\n           A#   D7          Gm \nPorque te vas   porque te vas\n           Gm            Gm\nPorque te vas   porque te vaaaaas\n\n*Final*\nGm\n",
+      "content": "Porque te vas\nJeanette\n*Estrofa 1* \nGm                           Cm           Gm\nHoy en mi ventana brilla el sol y el corazón\n          Cm                       Gm  D7        Gm\nSe pone triste contemplando la ciudad porque te vas\nGm                     Cm             Gm\nComo cada noche desperté pensando en ti\n           Cm                       Gm  D7        Gm\nY en mi reloj todas las horas vi pasar porque te vas\n\n*Coro:*\n    D#                                  Gm\nTodas las promesas de mi amor se irán contigo\n          A#              Gm\nMe olvidaras, me olvidaras\n D#                                            Gm\nJunto en la estación hoy lloraré igual que un niño\n           A#   D7          Gm  D7\nPorque te vas   porque te vas.     \n           Gm   D7 /       Gm\nPorque te vas   porque te vaaaaas\n\n*Estrofa 2*\n Gm                       Cm          Gm\nBajo la penumbra de un farol se dormirán\n           Cm                       Gm D7        Gm\nTodas las cosas que quedaron por decir se dormirán\n Gm                           Cm       Gm\nJunto a las manillas de un reloj esperaran\n           Cm                       Gm D7      Gm\nTodas las horas que quedaron por vivir esperaran\n\n\n*Coro*\n    D#                                  Gm\nTodas las promesas de mi amor se irán contigo\n          A#              Gm\nMe olvidaras, me olvidaras\n D#                                            Gm\nJunto en la estación hoy lloraré igual que un niño\n           A#   D7          Gm  - D7\nPorque te vas   porque te vas.      \n           Gm   D7 /         Gm\nPorque te vas   porque te vaaaaas\n\n*Puente*\nGm\n\n*Coro corto*\n    D#                                  Gm\nTodas las promesas de mi amor se irán contigo\n          A#              Gm\nMe olvidaras, me olvidaras\n D#                                            Gm\nJunto en la estación hoy lloraré igual que un niño\n           A#   D7          Gm\nPorque te vas   porque te vas\n\n*Coro*\n    D#                                  Gm\nTodas las promesas de mi amor se irán contigo\n          A#              Gm\nMe olvidaras, me olvidaras\n D#                                            Gm\nJunto en la estación hoy lloraré igual que un niño\n           A#   D7          Gm \nPorque te vas   porque te vas\n           Gm            Gm\nPorque te vas   porque te vaaaaas\n\n*Final*\nGm\n",
       "settings": {
         "keyIdx": 7,
         "transposeSemitones": 0,
@@ -259,9 +259,9 @@
         "colLeft": 50,
         "colGap": 24,
         "showDiagrams": false,
-        "showSections": true
+        "showSections": false
       },
-      "updatedAt": 1788238456746
+      "updatedAt": 1789800308396
     },
     "song_1788238669340": {
       "id": "song_1788238669340",
@@ -279,9 +279,9 @@
         "colLeft": 50,
         "colGap": 24,
         "showDiagrams": false,
-        "showSections": true
+        "showSections": false
       },
-      "updatedAt": 1789679934838
+      "updatedAt": 1789800301863
     },
     "song_1788238983967": {
       "id": "song_1788238983967",
@@ -299,9 +299,9 @@
         "colLeft": 50,
         "colGap": 24,
         "showDiagrams": false,
-        "showSections": true
+        "showSections": false
       },
-      "updatedAt": 1789522929479
+      "updatedAt": 1789800295879
     },
     "song_1788239440604": {
       "id": "song_1788239440604",
@@ -319,9 +319,9 @@
         "colLeft": 50,
         "colGap": 24,
         "showDiagrams": false,
-        "showSections": true
+        "showSections": false
       },
-      "updatedAt": 1789679802550
+      "updatedAt": 1789800347165
     },
     "song_1788239729787": {
       "id": "song_1788239729787",
@@ -339,9 +339,9 @@
         "colLeft": 50,
         "colGap": 24,
         "showDiagrams": false,
-        "showSections": true
+        "showSections": false
       },
-      "updatedAt": 1789539775073
+      "updatedAt": 1789800370015
     },
     "song_1788240145487": {
       "id": "song_1788240145487",
@@ -359,20 +359,20 @@
         "colLeft": 50,
         "colGap": 24,
         "showDiagrams": false,
-        "showSections": true
+        "showSections": false
       },
-      "updatedAt": 1789542211437
+      "updatedAt": 1789800382851
     },
     "song_1788240325998": {
       "id": "song_1788240325998",
       "title": "Ya Te Olvidé",
       "artist": "Rocío Dúrcal",
-      "content": "Ya Te Olvidé\nRocío Dúrcal\n\n*Intro*\nE\tB\tCdim   C#m     A   Bsus4 B\t\nA\tG#\tC#m \nA\tB\tE\tG#sus4\tG#\n\n*Estrofa 1*\n   C#m      A B\t          C#m.            A B\nYa te olvidé, vuelvo a ser libre otra vez\n         C#m.                            G#m                    A\nVuelvo a volar hacia mi vida que es tan lejos y prohibida para ti\nB                    A B\t\n\n*Estrofa 2*\n          C#m      A B\nYa te olvidé\n          C#m\t      A B\nEstás muy lejos de mí\n          C#m\t                 G#m.                          A  B\nTú no lograste con herirme, lastimarme y convertirme en no sé qué\n\n*Coro*\n        E\t                    B\nMe atrapaste, me tuviste entre tus manos\n        Cdim       C#m\t          A\t          B\nMe enseñaste lo inhumano y lo infeliz que puedes ser\n       A        G#        C#m\nTe fingiste exactamente enamorado\n         A           F#m        B\nAunque nunca me has amado yo lo sé\n\n        E                        B\nMe dijiste que jamás podría olvidarte\n            Cdim.  C#m\t          A\t   B\nQue después iría a rogarte y a decirte bésame\n       A.          G#            C#m\nYo luché contra el amor que te tenía y se fue\n  A. B\t         E\nAhora ya te olvidé\n\n*Solo Synth*\n  E B Cdim C#m A Bsus4 B \n  A G# C#m \n  A F#m Bsus4 B \n\n*Coro*\n       E                             B\nMe atrapaste, me tuviste entre tus manos\n              Cdim C#m\t           A\t         B\nMe enseñaste lo inhumano y lo infeliz que puede ser\n       A.       G#.          C#m\nTe fingiste exactamente enamorado\n         A.        F#.           B\nAunque nunca me has amado yo lo sé\n\n      E\t                        B\nMe dijiste que jamás podría olvidarte\n             Cdim C#m\t          A.      B\nQue después iría a rogarte y a decirte bésame\n       A.          G#.           C#m\nYo luché contra el amor que te tenía y se fue\n  A  B\t          E       \nAhora ya te olvidé\n\n*Outro*\n A B E E/\n",
+      "content": "Ya Te Olvidé\nRocío Dúrcal\n\n*Intro*\nE B Cdim   C#m     A   Bsus4 B \nA G# C#m \nA B E G#sus4 G#\n\n*Estrofa 1*\n   C#m      A B           C#m.            A B\nYa te olvidé, vuelvo a ser libre otra vez\n         C#m.                            G#m                    A\nVuelvo a volar hacia mi vida que es tan lejos y prohibida para ti\nB                    A B \n\n*Estrofa 2*\n          C#m      A B\nYa te olvidé\n          C#m       A B\nEstás muy lejos de mí\n          C#m                  G#m.                          A  B\nTú no lograste con herirme, lastimarme y convertirme en no sé qué\n\n*Coro*\n        E                     B\nMe atrapaste, me tuviste entre tus manos\n        Cdim       C#m           A           B\nMe enseñaste lo inhumano y lo infeliz que puedes ser\n       A        G#        C#m\nTe fingiste exactamente enamorado\n         A           F#m        B\nAunque nunca me has amado yo lo sé\n\n        E                        B\nMe dijiste que jamás podría olvidarte\n            Cdim.  C#m           A    B\nQue después iría a rogarte y a decirte bésame\n       A.          G#            C#m\nYo luché contra el amor que te tenía y se fue\n  A. B          E\nAhora ya te olvidé\n\n*Solo Synth*\n  E B Cdim C#m A Bsus4 B \n  A G# C#m \n  A F#m Bsus4 B \n\n*Coro*\n       E                             B\nMe atrapaste, me tuviste entre tus manos\n              Cdim C#m            A          B\nMe enseñaste lo inhumano y lo infeliz que puede ser\n       A.       G#.          C#m\nTe fingiste exactamente enamorado\n         A.        F#.           B\nAunque nunca me has amado yo lo sé\n\n      E                         B\nMe dijiste que jamás podría olvidarte\n             Cdim C#m           A.      B\nQue después iría a rogarte y a decirte bésame\n       A.          G#.           C#m\nYo luché contra el amor que te tenía y se fue\n  A  B           E       \nAhora ya te olvidé\n\n*Outro*\n A B E E/\n",
       "settings": {
         "keyIdx": 4,
         "transposeSemitones": 0,
         "capoFret": 0,
-        "speed": 3,
+        "speed": 2,
         "chordSize": 15,
         "lyricSize": 15,
         "twoColumns": false,
@@ -381,7 +381,7 @@
         "showDiagrams": false,
         "showSections": false
       },
-      "updatedAt": 1789180554248
+      "updatedAt": 1789801372963
     },
     "song_1789523375887": {
       "id": "song_1789523375887",
@@ -399,9 +399,9 @@
         "colLeft": 50,
         "colGap": 24,
         "showDiagrams": false,
-        "showSections": true
+        "showSections": false
       },
-      "updatedAt": 1789523676410
+      "updatedAt": 1789798779461
     },
     "song_1789523870889": {
       "id": "song_1789523870889",
@@ -419,9 +419,9 @@
         "colLeft": 50,
         "colGap": 24,
         "showDiagrams": false,
-        "showSections": true
+        "showSections": false
       },
-      "updatedAt": 1789683800582
+      "updatedAt": 1789798744977
     },
     "song_1789524132662": {
       "id": "song_1789524132662",
@@ -439,9 +439,9 @@
         "colLeft": 50,
         "colGap": 24,
         "showDiagrams": false,
-        "showSections": true
+        "showSections": false
       },
-      "updatedAt": 1789524495136
+      "updatedAt": 1789798349127
     },
     "song_1789524668611": {
       "id": "song_1789524668611",
@@ -459,9 +459,9 @@
         "colLeft": 50,
         "colGap": 24,
         "showDiagrams": false,
-        "showSections": true
+        "showSections": false
       },
-      "updatedAt": 1789524917183
+      "updatedAt": 1789800376484
     },
     "song_1789525076158": {
       "id": "song_1789525076158",
@@ -499,9 +499,9 @@
         "colLeft": 50,
         "colGap": 24,
         "showDiagrams": false,
-        "showSections": true
+        "showSections": false
       },
-      "updatedAt": 1789541771253
+      "updatedAt": 1789798786361
     }
   },
   "setlists": {
